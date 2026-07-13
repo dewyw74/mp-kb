@@ -36,3 +36,4 @@ Arrangement structure documented in `knowledge_base/production/arrangement/build
 - `knowledge_base/music_theory/rhythm/swing_and_quantization_feel.md` — the quantized-instrumental/expressive-vocal contrast pattern
 - `knowledge_base/production/arrangement/build_and_drop_structure.md`, `knowledge_base/production/arrangement/breakdown_design.md` — the arrangement shape that should generally precede detailed topline writing
 - `knowledge_base/midi/patterns/melody_and_arpeggio_pattern_programming.md` — MIDI-level implementation of minimal, space-leaving instrumental loops
+- `knowledge_base/production/songwriting/lyric_writing_and_thematic_content.md` — the lyric-content craft (thematic fit, verse/chorus density contrast, intelligibility) that fills in the topline's actual words once this entry's arrangement sequencing is in place

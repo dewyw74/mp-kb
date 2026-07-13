@@ -42,4 +42,5 @@ Several pop-adjacent genre files frame the hook's power as coming from contrast 
 - `knowledge_base/genres/hiphop/trap.md`, `knowledge_base/genres/hiphop/drill.md`, `knowledge_base/genres/hiphop/boom_bap.md` — minimal repeated-loop hooks
 - `knowledge_base/genres/jazz/modal_jazz.md`, `knowledge_base/genres/jazz/swing.md` — motivic development and call-and-response
 - `knowledge_base/genres/cinematic/film_score.md`, `knowledge_base/genres/classical/neoclassical.md` — leitmotif and thematic transformation
+- `knowledge_base/production/songwriting/title_as_hook_and_song_titling.md` — the lyric-content mechanic of building a hook around the song's title, a specific case of hook-writing at the word level
 - `knowledge_base/music_theory/rhythm/swing_and_quantization_feel.md` — the complementary rhythmic-contrast principle

@@ -1,5 +1,5 @@
 ---
-plugin_name: "Serum"
+plugin_name: "Serum 1 (Classic)"
 developer: "Xfer Records"
 category: "synth"
 type: "wavetable synth"
@@ -25,7 +25,7 @@ weaknesses:
 alternatives:
   - "Vital"
   - "Massive"
-  - "Serum 2"
+  - "Serum 2 (successor, see `xfer_serum_2.md`)"
 recommended_settings:
   - "Modern EDM bass: 2 oscillators with unison 4-8 voices, heavy wavetable position modulation via an envelope for movement, distortion pre-filter for grit, and the built-in compressor on the master chain for glue."
   - "Supersaw-style leads: single sawtooth wavetable, unison voices 8-16, wide unison detune, and a slow filter envelope for evolving brightness."
@@ -37,7 +37,9 @@ common_uses:
 tags: ["serum", "xfer", "wavetable-synth", "edm", "bass-design", "lead-design"]
 ---
 
-# Serum
+# Serum 1 (Classic)
+
+This entry covers the original Serum (referred to here as "Serum 1" to distinguish it from its 2024 successor Serum 2, documented separately in `knowledge_base/vst_database/xfer_serum_2.md`). Xfer continues to sell and support Serum 1 alongside Serum 2 as of this writing, and its smaller CPU footprint and simpler, well-understood interface still make it the right choice for many producers and sessions — it has not been discontinued or made obsolete by the newer version.
 
 Serum is a wavetable synthesizer built around a visual, hands-on approach to wavetable editing — its waveform display doubles as an editing surface, letting a producer draw, warp, and import wavetables directly rather than relying only on preset table selection. This directness is why it became the default modern-EDM sound-design tool across a wide swath of the genres documented in this knowledge base: dubstep and riddim growls, future bass leads, trance supersaws, and hardstyle screeches are all built on the same core workflow of modulating wavetable position and filter cutoff against a strong envelope or LFO.
 
@@ -58,3 +60,4 @@ Leaving unison voice count and warp settings at preset defaults instead of adjus
 - `knowledge_base/sound_design/synthesis/wavetable_synthesis.md` — general wavetable synthesis technique, of which Serum is the primary example instrument
 - `knowledge_base/sound_design/presets/supersaw_lead_design.md`, `knowledge_base/sound_design/presets/edm_bass_design.md` — genre-specific patch recipes built on Serum
 - `knowledge_base/genres/edm/dubstep.md`, `knowledge_base/genres/edm/trance.md`, `knowledge_base/genres/edm/hardstyle.md` — genre files citing Serum as a primary sound-design tool
+- `knowledge_base/vst_database/xfer_serum_2.md` — the newer, actively-developed successor; see that entry for what's changed and when to prefer it over Serum 1

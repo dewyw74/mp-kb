@@ -42,3 +42,4 @@ Sample chopping — cutting a source recording into small segments and rearrangi
 - `knowledge_base/genres/hiphop/phonk.md`, `knowledge_base/genres/hiphop/cloud_rap.md` — the chopped-and-screwed slowed/pitched-down technique family
 - `knowledge_base/midi/patterns/drum_pattern_programming.md` — the related but distinct breakbeat-chopping technique for rhythmic (rather than melodic) source material
 - `knowledge_base/sound_design/synthesis/granular_synthesis.md` — a related but distinct sample-manipulation approach (granular re-synthesis rather than discrete chop-and-rearrange)
+- `knowledge_base/sound_design/sampling/granular_resynthesis_vs_discrete_chopping.md` — a direct comparison and decision framework for choosing between this entry's technique and granular synthesis

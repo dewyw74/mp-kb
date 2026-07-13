@@ -82,3 +82,6 @@ Outside of these documented cases, treat granular synthesis in EDM as a texture/
 - `knowledge_base/genres/electronic/future_funk.md` — granular resampling/synthesis for hybrid textures from static samples.
 
 Note: `knowledge_base/genres/edm/dub_techno.md` was checked and contains no mention of granular synthesis — its atmosphere is built from dub-style delay/reverb chains rather than grain manipulation, and no connection is asserted here.
+
+- `knowledge_base/sound_design/sampling/chopping_flipping_and_time_stretching.md` — the discrete-segment chopping technique this file's grain-cloud approach contrasts against.
+- `knowledge_base/sound_design/sampling/granular_resynthesis_vs_discrete_chopping.md` — a direct comparison and decision framework for choosing between granular synthesis and discrete chopping.

@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-music-producer-encyclopedia/schemas/genre_schema.json",
+  "title": "Genre Profile",
+  "description": "Frontmatter contract for a genre/subgenre entry under knowledge_base/genres/**. The markdown body below the frontmatter follows the section headings in this schema's property order (History, Music Theory, Arrangement, Instruments, Sound Design, MIDI Programming, Mixing, Mastering, Reference Artists, Production Notes).",
+  "type": "object",
+  "required": ["genre_name", "parent_genre", "tempo_range", "common_keys", "tags"],
+  "properties": {
+    "genre_name": { "type": "string" },
+    "parent_genre": { "type": "string" },
+    "subgenre_of": { "type": "string" },
+    "origin": {
+      "type": "object",
+      "properties": {
+        "era": { "type": "string", "description": "e.g. \"1982-1989\" or \"early 2010s-present\"" },
+        "geographic_origin": { "type": "string" }
+      }
+    },
+    "influences": { "type": "array", "items": { "type": "string" } },
+    "related_genres": { "type": "array", "items": { "type": "string" } },
+    "musical_characteristics": {
+      "type": "object",
+      "properties": {
+        "tempo_range": { "type": "string", "description": "e.g. \"80-120 BPM\"" },
+        "time_signatures": { "type": "array", "items": { "type": "string" } },
+        "common_keys": { "type": "array", "items": { "type": "string" } },
+        "common_scales": { "type": "array", "items": { "type": "string" } },
+        "chord_progressions": { "type": "array", "items": { "type": "string" } },
+        "melodic_characteristics": { "type": "string" }
+      }
+    },
+    "tempo_range": { "type": "string", "description": "Duplicated at top level for quick filtering/search." },
+    "common_keys": { "type": "array", "items": { "type": "string" } },
+    "arrangement": {
+      "type": "object",
+      "properties": {
+        "song_structure": { "type": "array", "items": { "type": "string" }, "description": "Ordered section names, e.g. [\"intro\", \"verse\", \"build\", \"drop\", \"bridge\", \"outro\"]" },
+        "intro": { "type": "string" },
+        "verse": { "type": "string" },
+        "build": { "type": "string" },
+        "drop_chorus": { "type": "string" },
+        "bridge": { "type": "string" },
+        "outro": { "type": "string" }
+      }
+    },
+    "instruments": {
+      "type": "object",
+      "properties": {
+        "drums": { "type": "string" },
+        "bass": { "type": "string" },
+        "synths": { "type": "string" },
+        "guitars": { "type": "string" },
+        "keys": { "type": "string" },
+        "orchestration": { "type": "string" }
+      }
+    },
+    "sound_design": {
+      "type": "object",
+      "properties": {
+        "synth_types": { "type": "array", "items": { "type": "string" } },
+        "oscillators": { "type": "array", "items": { "type": "string" } },
+        "filters": { "type": "array", "items": { "type": "string" } },
+        "modulation": { "type": "array", "items": { "type": "string" } },
+        "effects": { "type": "array", "items": { "type": "string" } },
+        "processing": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "midi_programming": {
+      "type": "object",
+      "properties": {
+        "bass_patterns": { "type": "string" },
+        "drum_patterns": { "type": "string" },
+        "melody_patterns": { "type": "string" },
+        "velocity": { "type": "string" },
+        "humanization": { "type": "string" }
+      }
+    },
+    "mixing": {
+      "type": "object",
+      "properties": {
+        "eq_approach": { "type": "string" },
+        "compression": { "type": "string" },
+        "reverb": { "type": "string" },
+        "delay": { "type": "string" },
+        "stereo_imaging": { "type": "string" },
+        "automation": { "type": "string" }
+      }
+    },
+    "mastering": {
+      "type": "object",
+      "properties": {
+        "target_loudness": { "type": "string", "description": "e.g. \"-9 to -7 LUFS integrated\"" },
+        "dynamics": { "type": "string" },
+        "frequency_balance": { "type": "string" }
+      }
+    },
+    "reference_artists": {
+      "type": "object",
+      "properties": {
+        "important_artists": { "type": "array", "items": { "type": "string" } },
+        "reference_tracks": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "production_notes": {
+      "type": "object",
+      "properties": {
+        "professional_tips": { "type": "array", "items": { "type": "string" } },
+        "common_mistakes": { "type": "array", "items": { "type": "string" } },
+        "modern_production_techniques": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" }, "description": "Free-form search tags, e.g. [\"analog\", \"retro\", \"cinematic\"]" }
+  }
+}

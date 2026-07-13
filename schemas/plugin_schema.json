@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-music-producer-encyclopedia/schemas/plugin_schema.json",
+  "title": "VST/Plugin Entry",
+  "description": "Frontmatter contract for a plugin entry under knowledge_base/vst_database/.",
+  "type": "object",
+  "required": ["plugin_name", "developer", "category", "type"],
+  "properties": {
+    "plugin_name": { "type": "string" },
+    "developer": { "type": "string" },
+    "category": {
+      "type": "string",
+      "description": "e.g. \"synth\", \"eq\", \"compressor\", \"reverb\", \"delay\", \"saturation\", \"limiter\", \"utility\""
+    },
+    "type": {
+      "type": "string",
+      "description": "e.g. \"subtractive synth\", \"wavetable synth\", \"dynamic EQ\", \"tape emulation\""
+    },
+    "cpu_usage": { "type": "string", "enum": ["low", "medium", "high"] },
+    "best_genres": { "type": "array", "items": { "type": "string" } },
+    "strengths": { "type": "array", "items": { "type": "string" } },
+    "weaknesses": { "type": "array", "items": { "type": "string" } },
+    "alternatives": { "type": "array", "items": { "type": "string" } },
+    "recommended_settings": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Short setting recipes, e.g. \"Attack 10ms / Release 80ms / Ratio 4:1 for glue compression\""
+    },
+    "common_uses": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-music-producer-encyclopedia/schemas/workflow_schema.json",
+  "title": "DAW/Production Workflow Entry",
+  "description": "Frontmatter contract for a workflow entry under knowledge_base/daw/**, knowledge_base/production/workflow/, or automation/workflows/.",
+  "type": "object",
+  "required": ["workflow_name", "daw", "category", "goal"],
+  "properties": {
+    "workflow_name": { "type": "string" },
+    "daw": { "type": "string", "enum": ["ableton", "fl_studio", "generic"] },
+    "category": {
+      "type": "string",
+      "description": "e.g. \"routing\", \"automation\", \"templates\", \"effects_chain\", \"max_for_live\", \"patcher\", \"playlist\", \"mixer\""
+    },
+    "goal": { "type": "string" },
+    "steps": { "type": "array", "items": { "type": "string" } },
+    "related_plugins": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}

@@ -1,0 +1,5664 @@
+{
+  "generated_by": "tools/generate_index.py",
+  "entry_count": 174,
+  "entries": [
+    {
+      "id": "drum_rack_pad_controller_workflow",
+      "title": "Ableton Drum Rack Pad Controller Workflow",
+      "path": "knowledge_base/daw/ableton/drum_rack_pad_controller_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "drum-rack",
+        "pads",
+        "finger-drumming",
+        "mpc-workflow",
+        "sample-chopping"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Drum Rack Pad Controller Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "external_hardware_sync_and_recording",
+      "title": "Ableton External Hardware Sync and Recording",
+      "path": "knowledge_base/daw/ableton/external_hardware_sync_and_recording.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "external-hardware",
+        "midi-clock",
+        "sync",
+        "recording",
+        "groovebox",
+        "mc-303"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton External Hardware Sync and Recording",
+      "daw": "ableton"
+    },
+    {
+      "id": "midi_controller_mapping_workflow",
+      "title": "Ableton MIDI Controller Mapping Workflow",
+      "path": "knowledge_base/daw/ableton/midi_controller_mapping_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "midi-mapping",
+        "controller",
+        "automation",
+        "macros",
+        "performance"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton MIDI Controller Mapping Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "racks_macros_and_performance_controls",
+      "title": "Ableton Racks, Macros, and Performance Controls",
+      "path": "knowledge_base/daw/ableton/racks_macros_and_performance_controls.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "racks",
+        "macros",
+        "drum-rack",
+        "instrument-rack",
+        "automation",
+        "performance"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Racks, Macros, and Performance Controls",
+      "daw": "ableton"
+    },
+    {
+      "id": "routing_resampling_and_freezing",
+      "title": "Ableton Routing, Resampling, Freezing, and Flattening",
+      "path": "knowledge_base/daw/ableton/routing_resampling_and_freezing.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "routing",
+        "resampling",
+        "freeze",
+        "flatten",
+        "cpu",
+        "audio-workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Routing, Resampling, Freezing, and Flattening",
+      "daw": "ableton"
+    },
+    {
+      "id": "session_to_arrangement_workflow",
+      "title": "Ableton Session View to Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/session_to_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "session-view",
+        "arrangement-view",
+        "clip-launching",
+        "workflow",
+        "edm",
+        "song-structure"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Session View to Arrangement Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "2_step",
+      "title": "2-Step",
+      "path": "knowledge_base/genres/edm/2_step.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "2-step",
+        "broken beat",
+        "UK garage",
+        "syncopated",
+        "vocal chops",
+        "London"
+      ],
+      "schema_type": "genre",
+      "genre_name": "2-Step",
+      "parent_genre": "EDM",
+      "subgenre_of": "UK Garage",
+      "tempo_range": "130-140 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "C major",
+        "D minor"
+      ],
+      "related_genres": [
+        "UK Garage",
+        "Speed Garage",
+        "Bassline",
+        "Dubstep",
+        "Grime",
+        "Future Garage"
+      ]
+    },
+    {
+      "id": "acid_house",
+      "title": "Acid House",
+      "path": "knowledge_base/genres/edm/acid_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "psychedelic",
+        "303",
+        "squelch",
+        "minimal",
+        "hypnotic",
+        "classic-chicago"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Acid House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "120-130 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "E minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "House",
+        "Chicago House",
+        "Acid Techno",
+        "Techno",
+        "Minimal Techno",
+        "Detroit Techno"
+      ]
+    },
+    {
+      "id": "acid_techno",
+      "title": "Acid Techno",
+      "path": "knowledge_base/genres/edm/acid_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "303",
+        "rave",
+        "aggressive",
+        "free-party",
+        "hard",
+        "squelch"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Acid Techno",
+      "parent_genre": "EDM",
+      "subgenre_of": "Techno",
+      "tempo_range": "140-150 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "E minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Techno",
+        "Acid House",
+        "Hard Techno",
+        "Industrial Techno",
+        "Minimal Techno",
+        "Detroit Techno"
+      ]
+    },
+    {
+      "id": "afro_house",
+      "title": "Afro House",
+      "path": "knowledge_base/genres/edm/afro_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "percussion",
+        "polyrhythm",
+        "organic",
+        "tribal",
+        "groove",
+        "spacious"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Afro House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "112-124 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "G minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Deep House",
+        "Melodic House",
+        "Tribal House",
+        "Amapiano",
+        "Organic House",
+        "Tech House"
+      ]
+    },
+    {
+      "id": "baile_funk",
+      "title": "Baile Funk",
+      "path": "knowledge_base/genres/edm/baile_funk.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "tamborzão",
+        "Rio de Janeiro",
+        "favela funk",
+        "call and response",
+        "party music",
+        "sound system"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Baile Funk",
+      "parent_genre": "EDM",
+      "subgenre_of": "Miami Bass / Funk Carioca",
+      "tempo_range": "125-135 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "atonal/percussion-led"
+      ],
+      "related_genres": [
+        "Moombahton",
+        "Miami Bass",
+        "Dancehall",
+        "Trap (EDM)",
+        "Reggaeton",
+        "Favela funk / Funk 150 (BPM)"
+      ]
+    },
+    {
+      "id": "bass_house",
+      "title": "Bass House",
+      "path": "knowledge_base/genres/edm/bass_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "growl-bass",
+        "club",
+        "aggressive",
+        "syncopated",
+        "uk-garage-influenced",
+        "dj-tool"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Bass House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "124-128 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "C minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "House",
+        "Future House",
+        "Tech House",
+        "UK Garage",
+        "Dubstep",
+        "Speed Garage",
+        "G-House"
+      ]
+    },
+    {
+      "id": "bassline",
+      "title": "Bassline",
+      "path": "knowledge_base/genres/edm/bassline.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "bassline",
+        "UK",
+        "Sheffield",
+        "wobble",
+        "vocal-driven",
+        "club"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Bassline",
+      "parent_genre": "EDM",
+      "subgenre_of": "Speed Garage/UK Garage",
+      "tempo_range": "130-140 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "UK Garage",
+        "Speed Garage",
+        "2-Step",
+        "Dubstep",
+        "House",
+        "Grime"
+      ]
+    },
+    {
+      "id": "big_room_house",
+      "title": "Big Room House",
+      "path": "knowledge_base/genres/edm/big_room_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "festival",
+        "mainstage",
+        "buildup",
+        "simple riff",
+        "massive kick",
+        "EDM"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Big Room House",
+      "parent_genre": "EDM",
+      "subgenre_of": "Electro House",
+      "tempo_range": "126-132 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Electro House",
+        "Complextro",
+        "Progressive House",
+        "Trance",
+        "Hardstyle",
+        "Festival Trap"
+      ]
+    },
+    {
+      "id": "brostep",
+      "title": "Brostep",
+      "path": "knowledge_base/genres/edm/brostep.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "aggressive",
+        "distorted-bass",
+        "maximalist",
+        "festival",
+        "us-dubstep",
+        "screech-bass"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Brostep",
+      "parent_genre": "EDM",
+      "subgenre_of": "Dubstep",
+      "tempo_range": "135-145 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "C minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "Dubstep",
+        "Riddim",
+        "EDM Trap",
+        "Future Bass",
+        "Drum and Bass"
+      ]
+    },
+    {
+      "id": "chicago_house",
+      "title": "Chicago House",
+      "path": "knowledge_base/genres/edm/chicago_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "raw",
+        "jack-track",
+        "foundational",
+        "drum-machine",
+        "sample-based",
+        "dj-tool"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Chicago House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "118-126 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "House",
+        "Acid House",
+        "Deep House",
+        "Disco House",
+        "Techno",
+        "Garage"
+      ]
+    },
+    {
+      "id": "complextro",
+      "title": "Complextro",
+      "path": "knowledge_base/genres/edm/complextro.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "electro house",
+        "syncopated bass",
+        "glitch editing",
+        "complex arrangement",
+        "high energy",
+        "2010s EDM"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Complextro",
+      "parent_genre": "EDM",
+      "subgenre_of": "Electro House",
+      "tempo_range": "126-132 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Electro House",
+        "Big Room House",
+        "Dubstep",
+        "Brostep",
+        "Glitch Hop",
+        "Future Bass"
+      ]
+    },
+    {
+      "id": "deep_house",
+      "title": "Deep House",
+      "path": "knowledge_base/genres/edm/deep_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "soulful",
+        "jazzy",
+        "atmospheric",
+        "warm",
+        "rhodes",
+        "groove"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Deep House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "118-124 BPM",
+      "common_keys": [
+        "F minor",
+        "C minor",
+        "A minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "House",
+        "Tech House",
+        "Chicago House",
+        "Progressive House",
+        "Nu Disco",
+        "Garage"
+      ]
+    },
+    {
+      "id": "detroit_techno",
+      "title": "Detroit Techno",
+      "path": "knowledge_base/genres/edm/detroit_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "founding",
+        "warm",
+        "soulful",
+        "funk-influenced",
+        "hypnotic",
+        "analog"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Detroit Techno",
+      "parent_genre": "EDM",
+      "tempo_range": "120-135 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "D minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Techno",
+        "Minimal Techno",
+        "House",
+        "Electro",
+        "Dub Techno",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "disco_house",
+      "title": "Disco House",
+      "path": "knowledge_base/genres/edm/disco_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "sample-based",
+        "filter-house",
+        "groovy",
+        "funky",
+        "club",
+        "retro"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Disco House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "118-126 BPM",
+      "common_keys": [
+        "F minor",
+        "A minor",
+        "C minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "House",
+        "Chicago House",
+        "French House",
+        "Deep House",
+        "Nu-Disco",
+        "Funk"
+      ]
+    },
+    {
+      "id": "drum_and_bass",
+      "title": "Drum and Bass",
+      "path": "knowledge_base/genres/edm/drum_and_bass.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "breakbeat",
+        "sub-bass",
+        "160bpm",
+        "uk",
+        "club",
+        "soundsystem"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Drum and Bass",
+      "parent_genre": "EDM",
+      "tempo_range": "160-176 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "F minor",
+        "C minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Jungle",
+        "Liquid DnB",
+        "Neurofunk",
+        "Dubstep",
+        "UK Garage",
+        "Breakbeat"
+      ]
+    },
+    {
+      "id": "dub_techno",
+      "title": "Dub Techno",
+      "path": "knowledge_base/genres/edm/dub_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "dub",
+        "atmospheric",
+        "minimal",
+        "spacious",
+        "delay-driven",
+        "basic-channel-lineage"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Dub Techno",
+      "parent_genre": "EDM",
+      "subgenre_of": "Techno",
+      "tempo_range": "115-130 BPM",
+      "common_keys": [
+        "C minor",
+        "D minor",
+        "A minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Techno",
+        "Minimal Techno",
+        "Detroit Techno",
+        "Ambient",
+        "Dub",
+        "Melodic Techno"
+      ]
+    },
+    {
+      "id": "dubstep",
+      "title": "Dubstep",
+      "path": "knowledge_base/genres/edm/dubstep.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "half-time",
+        "wobble-bass",
+        "sub-bass",
+        "dark",
+        "soundsystem",
+        "atmospheric"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Dubstep",
+      "parent_genre": "EDM",
+      "tempo_range": "135-145 BPM",
+      "common_keys": [
+        "D minor",
+        "F minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Brostep",
+        "Riddim",
+        "UK Garage",
+        "Drum and Bass",
+        "Grime",
+        "Future Bass"
+      ]
+    },
+    {
+      "id": "edm_trap",
+      "title": "EDM Trap",
+      "path": "knowledge_base/genres/edm/edm_trap.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "808",
+        "trap",
+        "cinematic",
+        "half-time",
+        "hi-hat-rolls",
+        "festival"
+      ],
+      "schema_type": "genre",
+      "genre_name": "EDM Trap",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trap",
+      "tempo_range": "130-170 BPM (half-time feel)",
+      "common_keys": [
+        "F minor",
+        "C minor",
+        "G minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "Trap",
+        "Future Bass",
+        "Dubstep",
+        "Riddim",
+        "Hip-Hop"
+      ]
+    },
+    {
+      "id": "electro_house",
+      "title": "Electro House",
+      "path": "knowledge_base/genres/edm/electro_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "aggressive",
+        "riff-driven",
+        "distorted",
+        "festival",
+        "high-impact",
+        "big-room-adjacent"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Electro House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "126-132 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "House",
+        "Progressive House",
+        "Big Room",
+        "Dutch House",
+        "Complextro",
+        "Techno"
+      ]
+    },
+    {
+      "id": "electro_swing",
+      "title": "Electro Swing",
+      "path": "knowledge_base/genres/edm/electro_swing.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "vintage sampling",
+        "swing jazz",
+        "retro-futurist",
+        "nu jazz",
+        "big band",
+        "house fusion"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Electro Swing",
+      "parent_genre": "EDM",
+      "subgenre_of": "Nu Jazz / House Fusion",
+      "tempo_range": "100-130 BPM",
+      "common_keys": [
+        "C major",
+        "F major",
+        "G major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Nu Disco",
+        "House",
+        "Nu Jazz",
+        "Big Room House",
+        "Downtempo",
+        "Vintage/retro electronic hybrids"
+      ]
+    },
+    {
+      "id": "french_house",
+      "title": "French House",
+      "path": "knowledge_base/genres/edm/french_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "filtered",
+        "disco",
+        "sample-based",
+        "groove",
+        "vintage",
+        "sidechain"
+      ],
+      "schema_type": "genre",
+      "genre_name": "French House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "118-128 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "House",
+        "Disco House",
+        "Melodic House",
+        "Nu-Disco",
+        "Electro",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "future_bass",
+      "title": "Future Bass",
+      "path": "knowledge_base/genres/edm/future_bass.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "chord-stabs",
+        "pitch-bend",
+        "melodic",
+        "half-time",
+        "glossy",
+        "vocal-forward"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Future Bass",
+      "parent_genre": "EDM",
+      "tempo_range": "140-160 BPM (commonly ~150 BPM)",
+      "common_keys": [
+        "C major",
+        "G major",
+        "A minor",
+        "E minor",
+        "F major"
+      ],
+      "related_genres": [
+        "Trap",
+        "EDM Trap",
+        "Dubstep",
+        "Riddim",
+        "Electro House"
+      ]
+    },
+    {
+      "id": "future_house",
+      "title": "Future House",
+      "path": "knowledge_base/genres/edm/future_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "bouncy",
+        "bass-hook",
+        "club",
+        "festival",
+        "pluck-synth",
+        "vocal-chop"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Future House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "122-128 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "House",
+        "Bass House",
+        "Deep House",
+        "Electro House",
+        "Tech House",
+        "Tropical House",
+        "Disco House"
+      ]
+    },
+    {
+      "id": "gabber",
+      "title": "Gabber",
+      "path": "knowledge_base/genres/edm/gabber.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "hardcore",
+        "distorted kick",
+        "Rotterdam",
+        "aggressive",
+        "rave",
+        "underground"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Gabber",
+      "parent_genre": "EDM",
+      "subgenre_of": "Hardcore Techno",
+      "tempo_range": "150-190 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "Speedcore",
+        "Happy Hardcore",
+        "UK Hardcore",
+        "Hardstyle",
+        "Frenchcore",
+        "Industrial techno"
+      ]
+    },
+    {
+      "id": "goa_trance",
+      "title": "Goa Trance",
+      "path": "knowledge_base/genres/edm/goa_trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "psychedelic",
+        "acid",
+        "spiritual",
+        "hypnotic",
+        "analog",
+        "vintage"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Goa Trance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "130-145 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Psytrance",
+        "Trance",
+        "Progressive Trance",
+        "Ambient"
+      ]
+    },
+    {
+      "id": "happy_hardcore",
+      "title": "Happy Hardcore",
+      "path": "knowledge_base/genres/edm/happy_hardcore.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "euphoric",
+        "piano rave",
+        "uplifting",
+        "hardcore",
+        "pitched vocals",
+        "UK rave"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Happy Hardcore",
+      "parent_genre": "EDM",
+      "subgenre_of": "Gabber/Hardcore",
+      "tempo_range": "160-180 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "A minor",
+        "F major"
+      ],
+      "related_genres": [
+        "Gabber",
+        "UK Hardcore",
+        "Hardstyle",
+        "Trance",
+        "Speedcore",
+        "Bouncy techno"
+      ]
+    },
+    {
+      "id": "hard_techno",
+      "title": "Hard Techno",
+      "path": "knowledge_base/genres/edm/hard_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "distorted",
+        "rolling",
+        "fast",
+        "relentless",
+        "club",
+        "peak-time"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Hard Techno",
+      "parent_genre": "EDM",
+      "subgenre_of": "Techno",
+      "tempo_range": "150-175 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Techno",
+        "Industrial Techno",
+        "Acid Techno",
+        "Schranz",
+        "Berlin Techno",
+        "Minimal Techno"
+      ]
+    },
+    {
+      "id": "hard_trance",
+      "title": "Hard Trance",
+      "path": "knowledge_base/genres/edm/hard_trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "aggressive",
+        "hoover",
+        "acid",
+        "peak-time",
+        "four-on-the-floor",
+        "rave"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Hard Trance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "140-150 BPM",
+      "common_keys": [
+        "A minor",
+        "F# minor",
+        "C minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "Trance",
+        "Tech Trance",
+        "Hardstyle",
+        "Techno",
+        "Acid Trance",
+        "Hard Dance"
+      ]
+    },
+    {
+      "id": "hardstyle",
+      "title": "Hardstyle",
+      "path": "knowledge_base/genres/edm/hardstyle.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "distorted-kick",
+        "euphoric",
+        "reverse-bass",
+        "peak-time",
+        "festival",
+        "hard-dance"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Hardstyle",
+      "parent_genre": "EDM",
+      "tempo_range": "150-160 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "F minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Hard Trance",
+        "Trance",
+        "Techno",
+        "Hardcore",
+        "Rawstyle"
+      ]
+    },
+    {
+      "id": "house",
+      "title": "House",
+      "path": "knowledge_base/genres/edm/house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "club",
+        "groove",
+        "four-on-the-floor",
+        "sample-based",
+        "soulful",
+        "dj-tool"
+      ],
+      "schema_type": "genre",
+      "genre_name": "House",
+      "parent_genre": "EDM",
+      "tempo_range": "118-128 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "F minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Chicago House",
+        "Deep House",
+        "Tech House",
+        "Progressive House",
+        "Disco House",
+        "Acid House",
+        "Garage",
+        "Techno"
+      ]
+    },
+    {
+      "id": "industrial_techno",
+      "title": "Industrial Techno",
+      "path": "knowledge_base/genres/edm/industrial_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "harsh",
+        "distorted",
+        "mechanical",
+        "berlin",
+        "aggressive",
+        "noise-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Industrial Techno",
+      "parent_genre": "EDM",
+      "subgenre_of": "Techno",
+      "tempo_range": "135-150 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "atonal"
+      ],
+      "related_genres": [
+        "Techno",
+        "Hard Techno",
+        "Berlin Techno",
+        "EBM",
+        "Minimal Techno",
+        "Acid Techno"
+      ]
+    },
+    {
+      "id": "jump_up",
+      "title": "Jump Up",
+      "path": "knowledge_base/genres/edm/jump_up.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "bass-heavy",
+        "breakbeat",
+        "distorted-bass",
+        "dancefloor",
+        "aggressive",
+        "sub-bass"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Jump Up",
+      "parent_genre": "EDM",
+      "subgenre_of": "Jungle",
+      "tempo_range": "160-175 BPM",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "C minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "Jungle",
+        "Drum and Bass",
+        "Dubstep",
+        "Hardcore",
+        "Neurofunk"
+      ]
+    },
+    {
+      "id": "jungle",
+      "title": "Jungle",
+      "path": "knowledge_base/genres/edm/jungle.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "breakbeat",
+        "ragga",
+        "sampling",
+        "soundsystem",
+        "rave",
+        "sub-bass"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Jungle",
+      "parent_genre": "EDM",
+      "tempo_range": "160-175 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "F minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Jump Up",
+        "Drum and Bass",
+        "Dubstep",
+        "UK Garage",
+        "Breakbeat Hardcore",
+        "Ragga Jungle"
+      ]
+    },
+    {
+      "id": "liquid_dnb",
+      "title": "Liquid DnB",
+      "path": "knowledge_base/genres/edm/liquid_dnb.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "jazzy",
+        "soulful",
+        "melodic",
+        "warm",
+        "vocal",
+        "breakbeat"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Liquid DnB",
+      "parent_genre": "EDM",
+      "subgenre_of": "Drum and Bass",
+      "tempo_range": "168-176 BPM",
+      "common_keys": [
+        "D minor",
+        "A minor",
+        "F major",
+        "C major",
+        "G minor"
+      ],
+      "related_genres": [
+        "Drum and Bass",
+        "Neurofunk",
+        "Jungle",
+        "Downtempo",
+        "Soul"
+      ]
+    },
+    {
+      "id": "melodic_house",
+      "title": "Melodic House",
+      "path": "knowledge_base/genres/edm/melodic_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "emotive",
+        "atmospheric",
+        "arpeggiated",
+        "cinematic",
+        "breakdown",
+        "reverb"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Melodic House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "118-124 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "C minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Melodic Techno",
+        "Progressive House",
+        "Deep House",
+        "Afro House",
+        "Organic House",
+        "Trance"
+      ]
+    },
+    {
+      "id": "melodic_techno",
+      "title": "Melodic Techno",
+      "path": "knowledge_base/genres/edm/melodic_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "emotive",
+        "cinematic",
+        "melodic",
+        "hypnotic",
+        "festival-crossover",
+        "progressive-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Melodic Techno",
+      "parent_genre": "EDM",
+      "subgenre_of": "Techno",
+      "tempo_range": "120-125 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "D minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Techno",
+        "Progressive House",
+        "Melodic House",
+        "Trance",
+        "Minimal Techno",
+        "Progressive Trance"
+      ]
+    },
+    {
+      "id": "minimal_techno",
+      "title": "Minimal Techno",
+      "path": "knowledge_base/genres/edm/minimal_techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "sparse",
+        "hypnotic",
+        "restraint",
+        "precision",
+        "loop-based",
+        "underground"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Minimal Techno",
+      "parent_genre": "EDM",
+      "subgenre_of": "Techno",
+      "tempo_range": "125-135 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Techno",
+        "Detroit Techno",
+        "Dub Techno",
+        "Microhouse",
+        "Tech House",
+        "Deep House"
+      ]
+    },
+    {
+      "id": "moombahton",
+      "title": "Moombahton",
+      "path": "knowledge_base/genres/edm/moombahton.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "dembow",
+        "Latin bass",
+        "Dutch house fusion",
+        "reggaeton",
+        "moderate tempo",
+        "club"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Moombahton",
+      "parent_genre": "EDM",
+      "subgenre_of": "Dutch House / Reggaeton Fusion",
+      "tempo_range": "108-115 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "G minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Baile Funk",
+        "Reggaeton",
+        "Dutch House",
+        "Electro House",
+        "Dancehall",
+        "Trap (EDM)"
+      ]
+    },
+    {
+      "id": "neurofunk",
+      "title": "Neurofunk",
+      "path": "knowledge_base/genres/edm/neurofunk.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "dark",
+        "aggressive",
+        "growl-bass",
+        "techstep",
+        "mechanical",
+        "sound-design-focused"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Neurofunk",
+      "parent_genre": "EDM",
+      "subgenre_of": "Drum and Bass",
+      "tempo_range": "170-176 BPM",
+      "common_keys": [
+        "D minor",
+        "F minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Drum and Bass",
+        "Liquid DnB",
+        "Techstep",
+        "Dubstep",
+        "Techno"
+      ]
+    },
+    {
+      "id": "nu_disco",
+      "title": "Nu Disco",
+      "path": "knowledge_base/genres/edm/nu_disco.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "disco revival",
+        "funk",
+        "groove",
+        "retro-warm",
+        "vintage",
+        "club"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Nu Disco",
+      "parent_genre": "EDM",
+      "subgenre_of": "Disco / House",
+      "tempo_range": "110-125 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "F major",
+        "C major"
+      ],
+      "related_genres": [
+        "Disco",
+        "French House",
+        "Deep House",
+        "Electro Swing",
+        "Funk",
+        "Balearic"
+      ]
+    },
+    {
+      "id": "progressive_house",
+      "title": "Progressive House",
+      "path": "knowledge_base/genres/edm/progressive_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "melodic",
+        "emotional",
+        "long-form",
+        "atmospheric",
+        "evolving",
+        "dj-set"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Progressive House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "124-130 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "G minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "House",
+        "Trance",
+        "Deep House",
+        "Melodic House and Techno",
+        "Techno"
+      ]
+    },
+    {
+      "id": "progressive_trance",
+      "title": "Progressive Trance",
+      "path": "knowledge_base/genres/edm/progressive_trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "hypnotic",
+        "groove-driven",
+        "textural",
+        "dj-journey",
+        "atmospheric",
+        "understated"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Progressive Trance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "128-134 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "G minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Trance",
+        "Progressive House",
+        "Tech Trance",
+        "Uplifting Trance",
+        "Deep House",
+        "Techno"
+      ]
+    },
+    {
+      "id": "psytrance",
+      "title": "Psytrance",
+      "path": "knowledge_base/genres/edm/psytrance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "psychedelic",
+        "hypnotic",
+        "rolling-bassline",
+        "festival",
+        "tribal",
+        "acid"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Psytrance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "140-150 BPM",
+      "common_keys": [
+        "A minor",
+        "F# minor",
+        "D minor",
+        "C# minor"
+      ],
+      "related_genres": [
+        "Goa Trance",
+        "Trance",
+        "Uplifting Trance",
+        "Techno",
+        "Progressive Trance"
+      ]
+    },
+    {
+      "id": "riddim",
+      "title": "Riddim",
+      "path": "knowledge_base/genres/edm/riddim.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "half-time",
+        "wobble",
+        "bass-focused",
+        "repetitive",
+        "heavy",
+        "dubstep"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Riddim",
+      "parent_genre": "EDM",
+      "subgenre_of": "Dubstep",
+      "tempo_range": "140-150 BPM (half-time feel, ~70-75 BPM felt tempo)",
+      "common_keys": [
+        "F minor",
+        "G minor",
+        "C minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Dubstep",
+        "Brostep",
+        "Trap",
+        "EDM Trap",
+        "Future Bass"
+      ]
+    },
+    {
+      "id": "speed_garage",
+      "title": "Speed Garage",
+      "path": "knowledge_base/genres/edm/speed_garage.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "speed garage",
+        "Reese bass",
+        "UK garage",
+        "sub bass",
+        "London",
+        "jungle-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Speed Garage",
+      "parent_genre": "EDM",
+      "subgenre_of": "UK Garage",
+      "tempo_range": "130-138 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "G minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "UK Garage",
+        "2-Step",
+        "Bassline",
+        "Jungle",
+        "Drum and Bass",
+        "House"
+      ]
+    },
+    {
+      "id": "speedcore",
+      "title": "Speedcore",
+      "path": "knowledge_base/genres/edm/speedcore.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "extreme",
+        "distorted",
+        "high-tempo",
+        "aggressive",
+        "hardcore",
+        "underground"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Speedcore",
+      "parent_genre": "EDM",
+      "subgenre_of": "Gabber/Hardcore",
+      "tempo_range": "180-300+ BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "atonal/noise-based"
+      ],
+      "related_genres": [
+        "Gabber",
+        "Hardcore",
+        "Breakcore",
+        "Terrorcore",
+        "Frenchcore",
+        "Industrial"
+      ]
+    },
+    {
+      "id": "tech_house",
+      "title": "Tech House",
+      "path": "knowledge_base/genres/edm/tech_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "groove-heavy",
+        "percussive",
+        "peak-time",
+        "rolling-bassline",
+        "minimal-harmony",
+        "club"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Tech House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "122-128 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "G minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "House",
+        "Deep House",
+        "Techno",
+        "Minimal",
+        "Bass House",
+        "Progressive House"
+      ]
+    },
+    {
+      "id": "tech_trance",
+      "title": "Tech Trance",
+      "path": "knowledge_base/genres/edm/tech_trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "hypnotic",
+        "groove-driven",
+        "percussive",
+        "four-on-the-floor",
+        "club",
+        "techno-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Tech Trance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "136-145 BPM",
+      "common_keys": [
+        "A minor",
+        "G minor",
+        "C minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Trance",
+        "Hard Trance",
+        "Techno",
+        "Progressive House",
+        "Psytrance"
+      ]
+    },
+    {
+      "id": "techno",
+      "title": "Techno",
+      "path": "knowledge_base/genres/edm/techno.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "hypnotic",
+        "repetitive",
+        "club",
+        "driving",
+        "loop-based",
+        "machine-funk"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Techno",
+      "parent_genre": "EDM",
+      "tempo_range": "120-150 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "F minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Detroit Techno",
+        "Minimal Techno",
+        "Acid Techno",
+        "Industrial Techno",
+        "Hard Techno",
+        "Melodic Techno",
+        "Dub Techno",
+        "House"
+      ]
+    },
+    {
+      "id": "trance",
+      "title": "Trance",
+      "path": "knowledge_base/genres/edm/trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "euphoric",
+        "four-on-the-floor",
+        "breakdown",
+        "supersaw",
+        "club",
+        "festival"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Trance",
+      "parent_genre": "EDM",
+      "tempo_range": "130-145 BPM",
+      "common_keys": [
+        "A minor",
+        "F# minor",
+        "C minor",
+        "G minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "Progressive Trance",
+        "Psytrance",
+        "Goa Trance",
+        "Uplifting Trance",
+        "Vocal Trance",
+        "Hard Trance",
+        "Tech Trance",
+        "Techno",
+        "House",
+        "Progressive House"
+      ]
+    },
+    {
+      "id": "tropical_house",
+      "title": "Tropical House",
+      "path": "knowledge_base/genres/edm/tropical_house.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "summery",
+        "melodic",
+        "chill",
+        "vocal-driven",
+        "radio-friendly",
+        "acoustic-electronic-hybrid"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Tropical House",
+      "parent_genre": "EDM",
+      "subgenre_of": "House",
+      "tempo_range": "100-116 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "D major",
+        "A minor"
+      ],
+      "related_genres": [
+        "House",
+        "Deep House",
+        "Future House",
+        "Chillout",
+        "Balearic",
+        "Afro House"
+      ]
+    },
+    {
+      "id": "uk_garage",
+      "title": "UK Garage",
+      "path": "knowledge_base/genres/edm/uk_garage.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "UK garage",
+        "shuffle",
+        "vocal chops",
+        "swing",
+        "London",
+        "soulful"
+      ],
+      "schema_type": "genre",
+      "genre_name": "UK Garage",
+      "parent_genre": "EDM",
+      "subgenre_of": "Garage House",
+      "tempo_range": "130-140 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "C major",
+        "G minor"
+      ],
+      "related_genres": [
+        "2-Step",
+        "Speed Garage",
+        "Bassline",
+        "Grime",
+        "Dubstep",
+        "House"
+      ]
+    },
+    {
+      "id": "uk_hardcore",
+      "title": "UK Hardcore",
+      "path": "knowledge_base/genres/edm/uk_hardcore.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "hard trance crossover",
+        "hardcore",
+        "UK rave",
+        "driving",
+        "distorted kick",
+        "high energy"
+      ],
+      "schema_type": "genre",
+      "genre_name": "UK Hardcore",
+      "parent_genre": "EDM",
+      "subgenre_of": "Happy Hardcore",
+      "tempo_range": "170-180 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "E minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Happy Hardcore",
+        "Gabber",
+        "Hardstyle",
+        "Speedcore",
+        "Trance",
+        "Frenchcore"
+      ]
+    },
+    {
+      "id": "uplifting_trance",
+      "title": "Uplifting Trance",
+      "path": "knowledge_base/genres/edm/uplifting_trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "euphoric",
+        "anthemic",
+        "festival",
+        "supersaw",
+        "trance-roof",
+        "melodic"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Uplifting Trance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "136-140 BPM",
+      "common_keys": [
+        "A minor",
+        "F# minor",
+        "C minor",
+        "E minor",
+        "B minor"
+      ],
+      "related_genres": [
+        "Trance",
+        "Vocal Trance",
+        "Hard Trance",
+        "Tech Trance",
+        "Progressive Trance"
+      ]
+    },
+    {
+      "id": "vocal_trance",
+      "title": "Vocal Trance",
+      "path": "knowledge_base/genres/edm/vocal_trance.md",
+      "category": "genres",
+      "subcategory": "edm",
+      "tags": [
+        "vocal",
+        "melodic",
+        "song-form",
+        "euphoric",
+        "emotional",
+        "crossover"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Vocal Trance",
+      "parent_genre": "EDM",
+      "subgenre_of": "Trance",
+      "tempo_range": "130-138 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "E minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Trance",
+        "Uplifting Trance",
+        "Progressive Trance",
+        "Vocal House",
+        "Pop"
+      ]
+    },
+    {
+      "id": "ambient",
+      "title": "Ambient",
+      "path": "knowledge_base/genres/electronic/ambient.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "ambient",
+        "atmospheric",
+        "textural",
+        "generative",
+        "drone-adjacent",
+        "cinematic",
+        "beatless"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Ambient",
+      "parent_genre": "Electronic",
+      "subgenre_of": "",
+      "tempo_range": "No fixed tempo; when a pulse exists, 50-90 BPM",
+      "common_keys": [
+        "D minor",
+        "C major",
+        "A minor",
+        "modal/no fixed tonal center"
+      ],
+      "related_genres": [
+        "Dark Ambient",
+        "Drone",
+        "Space Ambient",
+        "Downtempo",
+        "New Age",
+        "IDM",
+        "Berlin School",
+        "Post-Rock"
+      ]
+    },
+    {
+      "id": "big_beat",
+      "title": "Big Beat",
+      "path": "knowledge_base/genres/electronic/big_beat.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "big-beat",
+        "breakbeat",
+        "distorted-bass",
+        "acid",
+        "1990s",
+        "UK",
+        "rock-crossover",
+        "maximalist",
+        "sampling"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Big Beat",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Breakbeat",
+      "tempo_range": "120-140 BPM",
+      "common_keys": [
+        "A minor",
+        "E minor",
+        "C minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Breakbeat",
+        "Nu Skool Breaks",
+        "Acid House",
+        "Electro",
+        "Rock/Alternative crossover electronica"
+      ]
+    },
+    {
+      "id": "breakbeat",
+      "title": "Breakbeat",
+      "path": "knowledge_base/genres/electronic/breakbeat.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "breakbeat",
+        "sampling",
+        "amen-break",
+        "rave",
+        "funk-influenced",
+        "UK",
+        "1990s",
+        "club",
+        "syncopated"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Breakbeat",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Hip Hop / Funk (breakbeat sampling tradition)",
+      "tempo_range": "120-140 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "E minor",
+        "F minor"
+      ],
+      "related_genres": [
+        "Big Beat",
+        "Nu Skool Breaks",
+        "Drum and Bass",
+        "Jungle",
+        "Electro",
+        "Acid House"
+      ]
+    },
+    {
+      "id": "chillwave",
+      "title": "Chillwave",
+      "path": "knowledge_base/genres/electronic/chillwave.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "dreamy",
+        "nostalgic",
+        "lo-fi",
+        "summer",
+        "hazy",
+        "indie",
+        "bedroom production"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Chillwave",
+      "parent_genre": "Electronic",
+      "tempo_range": "85-120 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "A minor",
+        "D major"
+      ],
+      "related_genres": [
+        "Vaporwave",
+        "Synthwave",
+        "Dream pop",
+        "Ambient pop",
+        "Lo-fi hip-hop",
+        "Hypnagogic pop"
+      ]
+    },
+    {
+      "id": "coldwave",
+      "title": "Coldwave",
+      "path": "knowledge_base/genres/electronic/coldwave.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "coldwave",
+        "post-punk",
+        "analog",
+        "minor-key",
+        "deadpan-vocals",
+        "drum-machine",
+        "1980s",
+        "french-underground",
+        "retro"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Coldwave",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Darkwave",
+      "tempo_range": "100-135 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "E minor",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Minimal Synth",
+        "Darkwave",
+        "New Wave",
+        "Post-Punk",
+        "Synth Pop",
+        "Industrial"
+      ]
+    },
+    {
+      "id": "dark_ambient",
+      "title": "Dark Ambient",
+      "path": "knowledge_base/genres/electronic/dark_ambient.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "dark ambient",
+        "atmospheric",
+        "horror",
+        "drone",
+        "isolationist",
+        "ritual",
+        "cinematic",
+        "industrial"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Dark Ambient",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Ambient",
+      "tempo_range": "No fixed tempo; freeform, occasionally 40-70 BPM when a pulse exists",
+      "common_keys": [
+        "no fixed tonal center",
+        "microtonal/atonal clusters",
+        "D minor when tonal"
+      ],
+      "related_genres": [
+        "Ambient",
+        "Drone",
+        "Space Ambient",
+        "Industrial",
+        "Noise",
+        "Ritual Ambient",
+        "Death Industrial"
+      ]
+    },
+    {
+      "id": "darksynth",
+      "title": "Darksynth",
+      "path": "knowledge_base/genres/electronic/darksynth.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "retro",
+        "80s",
+        "horror",
+        "aggressive",
+        "industrial",
+        "cinematic",
+        "dark"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Darksynth",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Synthwave",
+      "tempo_range": "80-140 BPM",
+      "common_keys": [
+        "D minor",
+        "E minor",
+        "F minor",
+        "C# minor"
+      ],
+      "related_genres": [
+        "Synthwave",
+        "Outrun",
+        "Industrial",
+        "EBM",
+        "Cyberpunk / dark electro",
+        "Metal"
+      ]
+    },
+    {
+      "id": "darkwave",
+      "title": "Darkwave",
+      "path": "knowledge_base/genres/electronic/darkwave.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "gothic",
+        "atmospheric",
+        "melancholic",
+        "post-punk",
+        "reverb-heavy",
+        "minor-key",
+        "ethereal",
+        "moody"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Darkwave",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Post-Punk / Gothic Rock (electronic-adjacent branch)",
+      "tempo_range": "70-115 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "E minor",
+        "F minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Coldwave",
+        "Gothic Rock",
+        "EBM",
+        "Synth-pop",
+        "Ethereal Wave / Dream Pop",
+        "Industrial"
+      ]
+    },
+    {
+      "id": "downtempo",
+      "title": "Downtempo",
+      "path": "knowledge_base/genres/electronic/downtempo.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "downtempo",
+        "chillout",
+        "trip hop adjacent",
+        "breakbeat",
+        "lounge",
+        "sample-based",
+        "dub-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Downtempo",
+      "parent_genre": "Electronic",
+      "subgenre_of": "",
+      "tempo_range": "70-110 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "F major",
+        "E minor"
+      ],
+      "related_genres": [
+        "Trip Hop",
+        "Ambient",
+        "Chillout",
+        "Nu Jazz",
+        "Lo-fi Hip Hop",
+        "IDM",
+        "Dub"
+      ]
+    },
+    {
+      "id": "drone",
+      "title": "Drone",
+      "path": "knowledge_base/genres/electronic/drone.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "drone",
+        "minimalism",
+        "sustained",
+        "just intonation",
+        "meditative",
+        "beatless",
+        "long-form"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Drone",
+      "parent_genre": "Electronic",
+      "subgenre_of": "",
+      "tempo_range": "No tempo; static/timeless",
+      "common_keys": [
+        "\"single sustained fundamental",
+        "often no conventional key\"",
+        "\"E",
+        "D",
+        "or A as common drone fundamentals\""
+      ],
+      "related_genres": [
+        "Ambient",
+        "Dark Ambient",
+        "Space Ambient",
+        "Noise",
+        "Minimalism",
+        "Doom Metal"
+      ]
+    },
+    {
+      "id": "ebm",
+      "title": "EBM",
+      "path": "knowledge_base/genres/electronic/ebm.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "body-music",
+        "sequenced-bass",
+        "dark",
+        "militant",
+        "dancefloor",
+        "analog",
+        "aggressive",
+        "gothic-industrial"
+      ],
+      "schema_type": "genre",
+      "genre_name": "EBM",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Industrial",
+      "tempo_range": "120-135 BPM",
+      "common_keys": [
+        "A minor",
+        "E minor",
+        "D minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Industrial",
+        "Electroclash",
+        "Darkwave",
+        "Techno",
+        "Synth-pop",
+        "Aggrotech/Futurepop"
+      ]
+    },
+    {
+      "id": "electro",
+      "title": "Electro",
+      "path": "knowledge_base/genres/electronic/electro.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "electro-funk",
+        "vocoder",
+        "808",
+        "robotic",
+        "old-school",
+        "analog",
+        "breakdance",
+        "retro-futurist"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Electro",
+      "parent_genre": "Electronic",
+      "subgenre_of": "",
+      "tempo_range": "108-130 BPM",
+      "common_keys": [
+        "A minor",
+        "C minor",
+        "F minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "Electroclash",
+        "EBM",
+        "Detroit Techno",
+        "Miami Bass",
+        "Hip-Hop (old-school)",
+        "Synth-pop"
+      ]
+    },
+    {
+      "id": "electroclash",
+      "title": "Electroclash",
+      "path": "knowledge_base/genres/electronic/electroclash.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "new-wave-revival",
+        "deadpan-vocals",
+        "lo-fi-synth",
+        "punk-attitude",
+        "indie-sleaze",
+        "analog",
+        "minimal",
+        "camp"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Electroclash",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Electro / Synth-pop (crossover with punk/new wave attitude)",
+      "tempo_range": "118-135 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "E minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Electro",
+        "EBM",
+        "Synth-pop",
+        "Indie Sleaze",
+        "Nu-Disco",
+        "Darkwave"
+      ]
+    },
+    {
+      "id": "future_funk",
+      "title": "Future Funk",
+      "path": "knowledge_base/genres/electronic/future_funk.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "sample-based",
+        "disco",
+        "funk",
+        "retro",
+        "vaporwave-adjacent",
+        "filtered",
+        "groove",
+        "chopped-vocals"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Future Funk",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Vaporwave / Nu-Disco (hybrid lineage)",
+      "tempo_range": "100-118 BPM",
+      "common_keys": [
+        "F major",
+        "G major",
+        "C major",
+        "A minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Vaporwave",
+        "City Pop",
+        "French House",
+        "Nu-Disco",
+        "Electro",
+        "Filter House"
+      ]
+    },
+    {
+      "id": "glitch",
+      "title": "Glitch",
+      "path": "knowledge_base/genres/electronic/glitch.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "experimental",
+        "digital artifacts",
+        "granular",
+        "IDM-adjacent",
+        "abstract",
+        "non-4/4"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Glitch",
+      "parent_genre": "Electronic",
+      "tempo_range": "0-160 BPM (often rubato/beatless; broken-beat sections 70-140 BPM)",
+      "common_keys": [
+        "Atonal / no fixed key",
+        "A minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "IDM",
+        "Glitch Hop",
+        "Microhouse",
+        "Ambient",
+        "Industrial",
+        "Vaporwave"
+      ]
+    },
+    {
+      "id": "glitch_hop",
+      "title": "Glitch Hop",
+      "path": "knowledge_base/genres/electronic/glitch_hop.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "hip-hop fusion",
+        "breakbeat",
+        "bass music",
+        "sample-based",
+        "club",
+        "swung groove"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Glitch Hop",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Glitch",
+      "tempo_range": "85-115 BPM",
+      "common_keys": [
+        "A minor",
+        "F minor",
+        "C minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Glitch",
+        "IDM",
+        "Dubstep",
+        "Trip-Hop",
+        "Wonky",
+        "Future Bass"
+      ]
+    },
+    {
+      "id": "idm",
+      "title": "IDM",
+      "path": "knowledge_base/genres/electronic/idm.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "idm",
+        "intelligent dance music",
+        "braindance",
+        "glitch",
+        "experimental",
+        "warp records",
+        "complex rhythm",
+        "electronic art music"
+      ],
+      "schema_type": "genre",
+      "genre_name": "IDM",
+      "parent_genre": "Electronic",
+      "subgenre_of": "",
+      "tempo_range": "70-180 BPM (highly variable, including polyrhythmic/mixed-tempo passages)",
+      "common_keys": [
+        "\"no fixed convention; atonal",
+        "modal",
+        "and traditional minor/major all used\""
+      ],
+      "related_genres": [
+        "Ambient",
+        "Glitch",
+        "Braindance",
+        "Breakcore",
+        "Techno",
+        "Drum and Bass",
+        "Downtempo"
+      ]
+    },
+    {
+      "id": "industrial",
+      "title": "Industrial",
+      "path": "knowledge_base/genres/electronic/industrial.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "noise",
+        "harsh",
+        "mechanical",
+        "dystopian",
+        "avant-garde",
+        "distortion",
+        "found-sound",
+        "aggressive"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Industrial",
+      "parent_genre": "Electronic",
+      "subgenre_of": "",
+      "tempo_range": "60-140 BPM",
+      "common_keys": [
+        "Atonal/no fixed key",
+        "E minor",
+        "D minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "EBM",
+        "Power Electronics",
+        "Noise",
+        "Industrial Metal",
+        "Darkwave",
+        "Techno (Detroit/Chicago EBM crossover)"
+      ]
+    },
+    {
+      "id": "minimal_synth",
+      "title": "Minimal Synth",
+      "path": "knowledge_base/genres/electronic/minimal_synth.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "minimal-synth",
+        "DIY",
+        "lo-fi",
+        "coldwave",
+        "analog",
+        "1980s",
+        "underground",
+        "sparse",
+        "monosynth"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Minimal Synth",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Coldwave",
+      "tempo_range": "90-130 BPM",
+      "common_keys": [
+        "A minor",
+        "E minor",
+        "C minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Coldwave",
+        "Darkwave",
+        "New Wave",
+        "Synth Pop",
+        "Industrial"
+      ]
+    },
+    {
+      "id": "new_wave",
+      "title": "New Wave",
+      "path": "knowledge_base/genres/electronic/new_wave.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "new-wave",
+        "80s",
+        "guitar-synth-hybrid",
+        "post-punk",
+        "pop",
+        "energetic",
+        "retro",
+        "analog"
+      ],
+      "schema_type": "genre",
+      "genre_name": "New Wave",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Post-Punk",
+      "tempo_range": "110-160 BPM",
+      "common_keys": [
+        "A major",
+        "E minor",
+        "G major",
+        "D major",
+        "C major"
+      ],
+      "related_genres": [
+        "Synth Pop",
+        "Post-Punk",
+        "Coldwave",
+        "Minimal Synth",
+        "Power Pop",
+        "Ska"
+      ]
+    },
+    {
+      "id": "nu_skool_breaks",
+      "title": "Nu Skool Breaks",
+      "path": "knowledge_base/genres/electronic/nu_skool_breaks.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "nu-skool-breaks",
+        "breakbeat",
+        "electro",
+        "bass-design",
+        "club",
+        "2000s",
+        "UK",
+        "progressive",
+        "DJ-friendly"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Nu Skool Breaks",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Breakbeat",
+      "tempo_range": "128-140 BPM",
+      "common_keys": [
+        "A minor",
+        "F# minor",
+        "C minor",
+        "G minor"
+      ],
+      "related_genres": [
+        "Breakbeat",
+        "Big Beat",
+        "Progressive House",
+        "Electro",
+        "Drum and Bass"
+      ]
+    },
+    {
+      "id": "outrun",
+      "title": "Outrun",
+      "path": "knowledge_base/genres/electronic/outrun.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "retro",
+        "80s",
+        "driving",
+        "arcade",
+        "high-energy",
+        "arpeggiated"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Outrun",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Synthwave",
+      "tempo_range": "100-128 BPM",
+      "common_keys": [
+        "A minor",
+        "E minor",
+        "C major",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Synthwave",
+        "Darksynth",
+        "Electro",
+        "Italo disco",
+        "Vaporwave"
+      ]
+    },
+    {
+      "id": "power_electronics",
+      "title": "Power Electronics",
+      "path": "knowledge_base/genres/electronic/power_electronics.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "harsh-noise",
+        "extreme",
+        "confrontational",
+        "atonal",
+        "feedback",
+        "transgressive",
+        "beatless",
+        "DIY"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Power Electronics",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Industrial",
+      "tempo_range": "No fixed tempo (largely arrhythmic)",
+      "common_keys": [
+        "Atonal/no fixed key"
+      ],
+      "related_genres": [
+        "Industrial",
+        "Harsh Noise",
+        "Death Industrial",
+        "Noise",
+        "Dark Ambient"
+      ]
+    },
+    {
+      "id": "space_ambient",
+      "title": "Space Ambient",
+      "path": "knowledge_base/genres/electronic/space_ambient.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "space ambient",
+        "berlin school",
+        "cosmic",
+        "sequencer",
+        "atmospheric",
+        "cinematic",
+        "kosmische"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Space Ambient",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Ambient",
+      "tempo_range": "No fixed tempo; when sequenced, 60-100 BPM",
+      "common_keys": [
+        "D major",
+        "E minor",
+        "A major",
+        "C Lydian"
+      ],
+      "related_genres": [
+        "Ambient",
+        "Drone",
+        "Dark Ambient",
+        "Berlin School",
+        "Downtempo",
+        "New Age",
+        "IDM"
+      ]
+    },
+    {
+      "id": "synth_pop",
+      "title": "Synth Pop",
+      "path": "knowledge_base/genres/electronic/synth_pop.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "synth-pop",
+        "80s",
+        "analog-synth",
+        "sequenced-bass",
+        "hook-driven",
+        "new-wave",
+        "danceable",
+        "retro",
+        "pop"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Synth Pop",
+      "parent_genre": "Electronic",
+      "subgenre_of": "New Wave",
+      "tempo_range": "100-130 BPM",
+      "common_keys": [
+        "C minor",
+        "A minor",
+        "G major",
+        "F major",
+        "D minor"
+      ],
+      "related_genres": [
+        "New Wave",
+        "Minimal Synth",
+        "Coldwave",
+        "Italo Disco",
+        "Electropop",
+        "Synthwave"
+      ]
+    },
+    {
+      "id": "synthwave",
+      "title": "Synthwave",
+      "path": "knowledge_base/genres/electronic/synthwave.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "retro",
+        "80s",
+        "analog",
+        "cinematic",
+        "nostalgia",
+        "arpeggiated"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Synthwave",
+      "parent_genre": "Electronic",
+      "tempo_range": "80-120 BPM",
+      "common_keys": [
+        "A minor",
+        "E minor",
+        "D minor",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Outrun",
+        "Darksynth",
+        "Vaporwave",
+        "Chillwave",
+        "Electro",
+        "Retrowave"
+      ]
+    },
+    {
+      "id": "trip_hop",
+      "title": "Trip Hop",
+      "path": "knowledge_base/genres/electronic/trip_hop.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "trip hop",
+        "bristol sound",
+        "downtempo",
+        "sample-based",
+        "noir",
+        "breakbeat",
+        "dub-influenced",
+        "atmospheric"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Trip Hop",
+      "parent_genre": "Electronic",
+      "subgenre_of": "Downtempo",
+      "tempo_range": "65-95 BPM",
+      "common_keys": [
+        "A minor",
+        "D minor",
+        "E minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Downtempo",
+        "IDM",
+        "Nu Jazz",
+        "Dub",
+        "Lo-fi Hip Hop",
+        "Vaporwave",
+        "Ambient"
+      ]
+    },
+    {
+      "id": "vaporwave",
+      "title": "Vaporwave",
+      "path": "knowledge_base/genres/electronic/vaporwave.md",
+      "category": "genres",
+      "subcategory": "electronic",
+      "tags": [
+        "sample-based",
+        "nostalgia",
+        "lo-fi",
+        "internet culture",
+        "plunderphonics",
+        "ironic/critical",
+        "ambient"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Vaporwave",
+      "parent_genre": "Electronic",
+      "tempo_range": "50-100 BPM (frequently a slowed-down version of a source track's original tempo)",
+      "common_keys": [
+        "Determined by sampled source material — commonly C major, F major, A minor",
+        "Pitched down from original, often landing in ambiguous/detuned territory"
+      ],
+      "related_genres": [
+        "Chillwave",
+        "Synthwave",
+        "Mallsoft",
+        "Future Funk",
+        "Plunderphonics",
+        "Lo-fi hip-hop"
+      ]
+    },
+    {
+      "id": "bebop",
+      "title": "Bebop",
+      "path": "knowledge_base/genres/jazz/bebop.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "virtuosic",
+        "small-combo",
+        "acoustic",
+        "chromatic harmony",
+        "up-tempo",
+        "improvisation-forward",
+        "chord-tone melody"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Bebop",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Swing",
+      "tempo_range": "160-320 BPM",
+      "common_keys": [
+        "Bb major",
+        "F major",
+        "Eb major",
+        "C major",
+        "Ab major"
+      ],
+      "related_genres": [
+        "Swing",
+        "Hard Bop",
+        "Cool Jazz",
+        "Modal Jazz",
+        "Free Jazz",
+        "Bossa Nova"
+      ]
+    },
+    {
+      "id": "bossa_nova",
+      "title": "Bossa Nova",
+      "path": "knowledge_base/genres/jazz/bossa_nova.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "acoustic",
+        "intimate",
+        "syncopated",
+        "brazilian",
+        "understated",
+        "nylon-string-guitar"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Bossa Nova",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Samba",
+      "tempo_range": "60-130 BPM",
+      "common_keys": [
+        "F major",
+        "D minor",
+        "A minor",
+        "Bb major",
+        "G major"
+      ],
+      "related_genres": [
+        "Latin Jazz",
+        "Samba",
+        "Cool Jazz",
+        "MPB (Musica Popular Brasileira)",
+        "Smooth Jazz"
+      ]
+    },
+    {
+      "id": "cool_jazz",
+      "title": "Cool Jazz",
+      "path": "knowledge_base/genres/jazz/cool_jazz.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "understated",
+        "lyrical",
+        "arranged",
+        "chamber-jazz",
+        "relaxed",
+        "acoustic",
+        "third-stream"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Cool Jazz",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Bebop",
+      "tempo_range": "60-160 BPM",
+      "common_keys": [
+        "Eb major",
+        "Bb major",
+        "C major",
+        "G major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Bebop",
+        "Hard Bop",
+        "Modal Jazz",
+        "Third Stream",
+        "West Coast Jazz",
+        "Bossa Nova"
+      ]
+    },
+    {
+      "id": "free_jazz",
+      "title": "Free Jazz",
+      "path": "knowledge_base/genres/jazz/free_jazz.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "avant-garde",
+        "atonal",
+        "improvisation-forward",
+        "unmetered",
+        "collective",
+        "acoustic",
+        "experimental"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Free Jazz",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Hard Bop",
+      "tempo_range": "Free/unmetered — variable",
+      "common_keys": [
+        "Atonal/non-key-centered",
+        "Modal/pedal-point centers"
+      ],
+      "related_genres": [
+        "Hard Bop",
+        "Modal Jazz",
+        "Bebop",
+        "Avant-garde Jazz",
+        "Spiritual Jazz",
+        "Jazz Fusion"
+      ]
+    },
+    {
+      "id": "hard_bop",
+      "title": "Hard Bop",
+      "path": "knowledge_base/genres/jazz/hard_bop.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "gospel-influenced",
+        "bluesy",
+        "groove-driven",
+        "acoustic",
+        "small-combo",
+        "backbeat",
+        "soulful"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Hard Bop",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Bebop",
+      "tempo_range": "80-260 BPM",
+      "common_keys": [
+        "F major",
+        "Bb major",
+        "C minor",
+        "Eb major",
+        "G minor"
+      ],
+      "related_genres": [
+        "Bebop",
+        "Cool Jazz",
+        "Soul Jazz",
+        "Modal Jazz",
+        "Blues",
+        "Free Jazz"
+      ]
+    },
+    {
+      "id": "jazz_fusion",
+      "title": "Jazz Fusion",
+      "path": "knowledge_base/genres/jazz/jazz_fusion.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "electric",
+        "odd-meter",
+        "virtuosic",
+        "funk-influenced",
+        "produced",
+        "cross-genre"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Jazz Fusion",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Modal Jazz",
+      "tempo_range": "90-160 BPM",
+      "common_keys": [
+        "E Dorian",
+        "D minor",
+        "B minor",
+        "G Mixolydian",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Modal Jazz",
+        "Smooth Jazz",
+        "Funk",
+        "Progressive Rock",
+        "Latin Jazz",
+        "Free Jazz"
+      ]
+    },
+    {
+      "id": "latin_jazz",
+      "title": "Latin Jazz",
+      "path": "knowledge_base/genres/jazz/latin_jazz.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "afro-cuban",
+        "clave-based",
+        "percussion-driven",
+        "montuno",
+        "danceable",
+        "bebop-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Latin Jazz",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Bebop",
+      "tempo_range": "90-220 BPM",
+      "common_keys": [
+        "D minor",
+        "G minor",
+        "C major",
+        "F major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Bossa Nova",
+        "Bebop",
+        "Afro-Cuban Jazz",
+        "Salsa",
+        "Samba",
+        "Mambo"
+      ]
+    },
+    {
+      "id": "modal_jazz",
+      "title": "Modal Jazz",
+      "path": "knowledge_base/genres/jazz/modal_jazz.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "acoustic",
+        "improvisational",
+        "modal",
+        "spacious",
+        "vintage",
+        "small-combo"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Modal Jazz",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Hard Bop",
+      "tempo_range": "60-140 BPM",
+      "common_keys": [
+        "D Dorian",
+        "E Phrygian",
+        "G Mixolydian",
+        "Eb major",
+        "C minor"
+      ],
+      "related_genres": [
+        "Bebop",
+        "Hard Bop",
+        "Cool Jazz",
+        "Free Jazz",
+        "Jazz Fusion",
+        "Post-Bop"
+      ]
+    },
+    {
+      "id": "smooth_jazz",
+      "title": "Smooth Jazz",
+      "path": "knowledge_base/genres/jazz/smooth_jazz.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "polished",
+        "radio-friendly",
+        "melody-forward",
+        "electric-piano",
+        "relaxed",
+        "commercial"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Smooth Jazz",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Jazz Fusion",
+      "tempo_range": "80-115 BPM",
+      "common_keys": [
+        "F major",
+        "Bb major",
+        "C minor",
+        "Eb major",
+        "G minor"
+      ],
+      "related_genres": [
+        "Jazz Fusion",
+        "Contemporary R&B",
+        "Quiet Storm",
+        "Adult Contemporary",
+        "Funk"
+      ]
+    },
+    {
+      "id": "swing",
+      "title": "Swing",
+      "path": "knowledge_base/genres/jazz/swing.md",
+      "category": "genres",
+      "subcategory": "jazz",
+      "tags": [
+        "big-band",
+        "danceable",
+        "riff-based",
+        "acoustic",
+        "call-and-response",
+        "vintage",
+        "ensemble-arranged"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Swing",
+      "parent_genre": "Jazz",
+      "subgenre_of": "Ragtime and Early/Hot Jazz",
+      "tempo_range": "100-220 BPM",
+      "common_keys": [
+        "Bb major",
+        "Eb major",
+        "F major",
+        "C major",
+        "G major"
+      ],
+      "related_genres": [
+        "Bebop",
+        "Ragtime",
+        "Blues",
+        "Big Band",
+        "Jump Blues",
+        "Hard Bop"
+      ]
+    },
+    {
+      "id": "acoustic_blues",
+      "title": "Acoustic Blues",
+      "path": "knowledge_base/genres/rock/acoustic_blues.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "solo-performer",
+        "fingerstyle",
+        "unamplified",
+        "rubato",
+        "intimate",
+        "roots"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Acoustic Blues",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues",
+      "tempo_range": "60-130 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "C major",
+        "G major"
+      ],
+      "related_genres": [
+        "Blues",
+        "Delta Blues",
+        "Piedmont Blues",
+        "Chicago Blues",
+        "Electric Blues"
+      ]
+    },
+    {
+      "id": "alt_country",
+      "title": "Alt-Country",
+      "path": "knowledge_base/genres/rock/alt_country.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "raw",
+        "twangy",
+        "punk-informed",
+        "narrative",
+        "roots",
+        "anti-Nashville"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Alt-Country",
+      "parent_genre": "Rock",
+      "subgenre_of": "Country Rock",
+      "tempo_range": "70-140 BPM",
+      "common_keys": [
+        "G major",
+        "D major",
+        "E major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Americana",
+        "Heartland Rock",
+        "Southern Rock",
+        "Indie Rock",
+        "Sadcore"
+      ]
+    },
+    {
+      "id": "alternative_rock",
+      "title": "Alternative Rock",
+      "path": "knowledge_base/genres/rock/alternative_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "90s",
+        "eclectic",
+        "melodic",
+        "guitar-driven",
+        "college-rock-lineage",
+        "radio-rock"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Alternative Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Post-Punk / College Rock",
+      "tempo_range": "90-150 BPM",
+      "common_keys": [
+        "E minor",
+        "G major",
+        "A minor",
+        "D major",
+        "C major"
+      ],
+      "related_genres": [
+        "Grunge",
+        "Indie Rock",
+        "Post-Punk",
+        "Britpop",
+        "Post-Grunge",
+        "Shoegaze"
+      ]
+    },
+    {
+      "id": "americana",
+      "title": "Americana",
+      "path": "knowledge_base/genres/rock/americana.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "roots",
+        "acoustic",
+        "storytelling",
+        "big-tent",
+        "organic",
+        "harmony-vocal"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Americana",
+      "parent_genre": "Rock",
+      "subgenre_of": "Roots Rock",
+      "tempo_range": "60-130 BPM",
+      "common_keys": [
+        "G major",
+        "D major",
+        "C major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Alt-Country",
+        "Heartland Rock",
+        "Southern Rock",
+        "Folk Rock",
+        "Blues Rock"
+      ]
+    },
+    {
+      "id": "anarcho_punk",
+      "title": "Anarcho-Punk",
+      "path": "knowledge_base/genres/rock/anarcho_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "political",
+        "diy",
+        "raw",
+        "collective",
+        "noise",
+        "confrontational",
+        "80s"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Anarcho-Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "130-200 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Hardcore Punk",
+        "Crust Punk",
+        "Folk Punk",
+        "Post-Punk"
+      ]
+    },
+    {
+      "id": "arena_rock",
+      "title": "Arena Rock",
+      "path": "knowledge_base/genres/rock/arena_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "anthemic",
+        "stadium",
+        "big-chorus",
+        "80s",
+        "guitar-solo",
+        "sing-along"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Arena Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Hard Rock",
+      "tempo_range": "100-130 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "D major"
+      ],
+      "related_genres": [
+        "Hard Rock",
+        "Glam Metal",
+        "Classic Rock",
+        "Pop Rock",
+        "Punk Rock"
+      ]
+    },
+    {
+      "id": "art_punk",
+      "title": "Art Punk",
+      "path": "knowledge_base/genres/rock/art_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "angular",
+        "experimental",
+        "dissonant",
+        "art-school",
+        "post-punk-adjacent",
+        "70s",
+        "80s"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Art Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "100-170 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Post-Punk",
+        "No Wave",
+        "Math Rock",
+        "Noise Rock"
+      ]
+    },
+    {
+      "id": "blues",
+      "title": "Blues",
+      "path": "knowledge_base/genres/rock/blues.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "roots",
+        "vocal-centered",
+        "call-and-response",
+        "12-bar",
+        "acoustic-to-electric",
+        "foundational"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Blues",
+      "parent_genre": "Rock",
+      "subgenre_of": "African American folk tradition",
+      "tempo_range": "60-140 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "C major",
+        "E minor"
+      ],
+      "related_genres": [
+        "Delta Blues",
+        "Chicago Blues",
+        "Electric Blues",
+        "Acoustic Blues",
+        "Piedmont Blues",
+        "Blues Rock",
+        "Jazz",
+        "Rhythm and Blues"
+      ]
+    },
+    {
+      "id": "blues_rock",
+      "title": "Blues Rock",
+      "path": "knowledge_base/genres/rock/blues_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "improvisational",
+        "shuffle",
+        "vintage",
+        "guitar-driven",
+        "call-and-response",
+        "analog"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Blues Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll",
+      "tempo_range": "70-130 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "D major",
+        "E minor"
+      ],
+      "related_genres": [
+        "Classic Rock",
+        "Hard Rock",
+        "Southern Rock",
+        "Psychedelic Rock",
+        "Jam Band"
+      ]
+    },
+    {
+      "id": "britpop",
+      "title": "Britpop",
+      "path": "knowledge_base/genres/rock/britpop.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "melodic",
+        "british",
+        "anthemic",
+        "90s",
+        "jangle",
+        "singalong"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Britpop",
+      "parent_genre": "Rock",
+      "subgenre_of": "Alternative Rock",
+      "tempo_range": "100-150 BPM",
+      "common_keys": [
+        "G major",
+        "C major",
+        "D major",
+        "E major"
+      ],
+      "related_genres": [
+        "Indie Rock",
+        "Mod Revival",
+        "Glam Rock",
+        "Alternative Rock",
+        "Post-Punk"
+      ]
+    },
+    {
+      "id": "chicago_blues",
+      "title": "Chicago Blues",
+      "path": "knowledge_base/genres/rock/chicago_blues.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "electrified",
+        "ensemble",
+        "shuffle",
+        "club-band",
+        "harmonica",
+        "urban-blues"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Chicago Blues",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues",
+      "tempo_range": "70-140 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "C major"
+      ],
+      "related_genres": [
+        "Blues",
+        "Delta Blues",
+        "Electric Blues",
+        "Blues Rock",
+        "Rhythm and Blues"
+      ]
+    },
+    {
+      "id": "christian_rock",
+      "title": "Christian Rock",
+      "path": "knowledge_base/genres/rock/christian_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "faith-based",
+        "anthemic",
+        "message-driven",
+        "cross-style",
+        "radio-ready",
+        "congregational"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Christian Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll",
+      "tempo_range": "70-150 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "D major",
+        "A major"
+      ],
+      "related_genres": [
+        "Heartland Rock",
+        "Alternative Rock",
+        "Pop Rock",
+        "Worship Music",
+        "Nu Metal"
+      ]
+    },
+    {
+      "id": "classic_rock",
+      "title": "Classic Rock",
+      "path": "knowledge_base/genres/rock/classic_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "vintage",
+        "guitar-driven",
+        "band",
+        "analog",
+        "arena",
+        "riff-based"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Classic Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll",
+      "tempo_range": "90-140 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "D major",
+        "G major",
+        "E minor"
+      ],
+      "related_genres": [
+        "Blues Rock",
+        "Hard Rock",
+        "Psychedelic Rock",
+        "Southern Rock",
+        "Progressive Rock",
+        "Arena Rock"
+      ]
+    },
+    {
+      "id": "college_rock",
+      "title": "College Rock",
+      "path": "knowledge_base/genres/rock/college_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "college-radio",
+        "80s",
+        "independent",
+        "umbrella-genre",
+        "guitar-driven",
+        "alternative-precursor",
+        "diy"
+      ],
+      "schema_type": "genre",
+      "genre_name": "College Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Jangle Pop / Power Pop",
+      "tempo_range": "100-150 BPM",
+      "common_keys": [
+        "D major",
+        "A major",
+        "E minor",
+        "G major"
+      ],
+      "related_genres": [
+        "Jangle Pop",
+        "Indie Rock",
+        "Power Pop",
+        "Post-Punk",
+        "Alternative Rock",
+        "Punk Rock"
+      ]
+    },
+    {
+      "id": "country_rock",
+      "title": "Country Rock",
+      "path": "knowledge_base/genres/rock/country_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "pedal-steel",
+        "twangy",
+        "vocal-harmony",
+        "laurel-canyon",
+        "70s",
+        "americana",
+        "storytelling"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Country Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Roots Rock",
+      "tempo_range": "80-130 BPM",
+      "common_keys": [
+        "G major",
+        "D major",
+        "A major",
+        "C major"
+      ],
+      "related_genres": [
+        "Roots Rock",
+        "Folk Rock",
+        "Southern Rock",
+        "Yacht Rock",
+        "Country",
+        "Americana"
+      ]
+    },
+    {
+      "id": "death_rock",
+      "title": "Death Rock",
+      "path": "knowledge_base/genres/rock/death_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "aggressive",
+        "horror-theatrical",
+        "punk-derived",
+        "fast-tempo",
+        "gothic-adjacent",
+        "raw"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Death Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Gothic Rock",
+      "tempo_range": "120-170 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor",
+        "B minor"
+      ],
+      "related_genres": [
+        "Gothic Rock",
+        "Punk Rock",
+        "Horror Punk",
+        "Industrial Rock",
+        "Post-Punk"
+      ]
+    },
+    {
+      "id": "delta_blues",
+      "title": "Delta Blues",
+      "path": "knowledge_base/genres/rock/delta_blues.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "raw",
+        "solo-performer",
+        "slide-guitar",
+        "open-tuning",
+        "rubato",
+        "foundational"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Delta Blues",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues",
+      "tempo_range": "60-110 BPM",
+      "common_keys": [
+        "E major (open D/E tuning)",
+        "A major (open A/G tuning)",
+        "G major"
+      ],
+      "related_genres": [
+        "Blues",
+        "Chicago Blues",
+        "Acoustic Blues",
+        "Piedmont Blues",
+        "Blues Rock"
+      ]
+    },
+    {
+      "id": "desert_rock",
+      "title": "Desert Rock",
+      "path": "knowledge_base/genres/rock/desert_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "groove-driven",
+        "dry-tone",
+        "palm-desert-scene",
+        "rhythmic-interplay",
+        "fuzz",
+        "generator-party",
+        "stoner-adjacent"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Desert Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Stoner Rock",
+      "tempo_range": "70-120 BPM",
+      "common_keys": [
+        "D minor",
+        "E minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "Stoner Rock",
+        "Psychedelic Rock",
+        "Blues Rock",
+        "Hard Rock",
+        "Space Rock",
+        "Grunge"
+      ]
+    },
+    {
+      "id": "dream_pop",
+      "title": "Dream Pop",
+      "path": "knowledge_base/genres/rock/dream_pop.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "atmospheric",
+        "ethereal",
+        "reverb-drenched",
+        "hazy",
+        "dreamy",
+        "textural"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Dream Pop",
+      "parent_genre": "Rock",
+      "subgenre_of": "Post-Punk",
+      "tempo_range": "60-110 BPM",
+      "common_keys": [
+        "C major",
+        "D major",
+        "A minor",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Shoegaze",
+        "Post-Punk",
+        "Ambient",
+        "Indie Rock",
+        "Noise Rock"
+      ]
+    },
+    {
+      "id": "electric_blues",
+      "title": "Electric Blues",
+      "path": "knowledge_base/genres/rock/electric_blues.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "amplified",
+        "guitar-driven",
+        "regional-styles",
+        "shuffle",
+        "improvisational",
+        "vintage-amp-tone"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Electric Blues",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues",
+      "tempo_range": "65-140 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "B minor"
+      ],
+      "related_genres": [
+        "Blues",
+        "Chicago Blues",
+        "Blues Rock",
+        "Rhythm and Blues",
+        "Southern Rock"
+      ]
+    },
+    {
+      "id": "emo",
+      "title": "Emo",
+      "path": "knowledge_base/genres/rock/emo.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "emotional",
+        "confessional",
+        "quiet-loud-dynamic",
+        "introspective",
+        "90s",
+        "cathartic"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Emo",
+      "parent_genre": "Rock",
+      "subgenre_of": "Hardcore Punk",
+      "tempo_range": "90-160 BPM",
+      "common_keys": [
+        "E minor",
+        "C major",
+        "G major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Hardcore Punk",
+        "Post-Hardcore",
+        "Midwest Emo",
+        "Screamo",
+        "Pop Punk"
+      ]
+    },
+    {
+      "id": "folk_punk",
+      "title": "Folk Punk",
+      "path": "knowledge_base/genres/rock/folk_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "acoustic",
+        "diy",
+        "storytelling",
+        "communal",
+        "anarchic",
+        "raw"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Folk Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "120-190 BPM",
+      "common_keys": [
+        "D major",
+        "G major",
+        "A minor",
+        "E minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Anarcho-Punk",
+        "Celtic Punk",
+        "Americana",
+        "Acoustic Punk"
+      ]
+    },
+    {
+      "id": "folk_rock",
+      "title": "Folk Rock",
+      "path": "knowledge_base/genres/rock/folk_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "jangle",
+        "12-string-guitar",
+        "vocal-harmony",
+        "60s",
+        "storytelling",
+        "acoustic-electric-hybrid",
+        "byrds-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Folk Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Roots Rock",
+      "tempo_range": "80-125 BPM",
+      "common_keys": [
+        "D major",
+        "G major",
+        "C major",
+        "A major"
+      ],
+      "related_genres": [
+        "Roots Rock",
+        "Country Rock",
+        "Psychedelic Rock",
+        "Classic Rock",
+        "Indie Rock",
+        "Americana"
+      ]
+    },
+    {
+      "id": "garage_rock",
+      "title": "Garage Rock",
+      "path": "knowledge_base/genres/rock/garage_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "raw",
+        "fuzz",
+        "60s",
+        "lo-fi",
+        "amateur-energy",
+        "riff-driven"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Garage Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll / Rhythm and Blues (raw amateur-band lineage)",
+      "tempo_range": "120-170 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "D major",
+        "E minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Blues Rock",
+        "Indie Rock",
+        "Proto-Punk",
+        "Garage Punk",
+        "Rock and Roll"
+      ]
+    },
+    {
+      "id": "glam_rock",
+      "title": "Glam Rock",
+      "path": "knowledge_base/genres/rock/glam_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "theatrical",
+        "stomp-groove",
+        "anthemic",
+        "glam",
+        "flamboyant",
+        "hook-driven"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Glam Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Hard Rock",
+      "tempo_range": "110-150 BPM",
+      "common_keys": [
+        "A major",
+        "E major",
+        "D major",
+        "G major"
+      ],
+      "related_genres": [
+        "Hard Rock",
+        "Punk Rock",
+        "Glam Metal",
+        "Art Rock",
+        "New Wave"
+      ]
+    },
+    {
+      "id": "gothic_rock",
+      "title": "Gothic Rock",
+      "path": "knowledge_base/genres/rock/gothic_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "atmospheric",
+        "melancholic",
+        "reverb-drenched",
+        "melodic-bass",
+        "post-punk-derived",
+        "ethereal"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Gothic Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Post-Punk",
+      "tempo_range": "80-130 BPM",
+      "common_keys": [
+        "D minor",
+        "E minor",
+        "A minor",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Death Rock",
+        "Post-Punk",
+        "Darkwave",
+        "Industrial Rock",
+        "Punk Rock",
+        "Shoegaze"
+      ]
+    },
+    {
+      "id": "grunge",
+      "title": "Grunge",
+      "path": "knowledge_base/genres/rock/grunge.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "distorted",
+        "raw",
+        "quiet-loud-dynamic",
+        "seattle",
+        "downtuned",
+        "angsty",
+        "90s"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Grunge",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock / Hard Rock (Seattle fusion)",
+      "tempo_range": "80-140 BPM",
+      "common_keys": [
+        "E minor",
+        "D minor",
+        "A minor",
+        "G major",
+        "C major"
+      ],
+      "related_genres": [
+        "Alternative Rock",
+        "Post-Punk",
+        "Punk Rock",
+        "Hard Rock",
+        "Sludge Metal",
+        "Indie Rock"
+      ]
+    },
+    {
+      "id": "hard_rock",
+      "title": "Hard Rock",
+      "path": "knowledge_base/genres/rock/hard_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "riff-driven",
+        "power-chords",
+        "high-gain",
+        "arena",
+        "aggressive",
+        "guitar-driven"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Hard Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues Rock",
+      "tempo_range": "100-150 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor",
+        "E major",
+        "G major"
+      ],
+      "related_genres": [
+        "Classic Rock",
+        "Heavy Metal",
+        "Glam Rock",
+        "Southern Rock",
+        "Arena Rock",
+        "Grunge"
+      ]
+    },
+    {
+      "id": "hardcore_punk",
+      "title": "Hardcore Punk",
+      "path": "knowledge_base/genres/rock/hardcore_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "fast",
+        "aggressive",
+        "raw",
+        "diy",
+        "shouted-vocals",
+        "breakdown",
+        "80s"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Hardcore Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "160-220 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Post-Hardcore",
+        "Emo",
+        "Thrash Metal",
+        "Straight Edge",
+        "D-beat"
+      ]
+    },
+    {
+      "id": "heartland_rock",
+      "title": "Heartland Rock",
+      "path": "knowledge_base/genres/rock/heartland_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "anthemic",
+        "working-class",
+        "narrative",
+        "arena-ready",
+        "classic-rock-rooted",
+        "Americana-adjacent"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Heartland Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Roots Rock",
+      "tempo_range": "90-140 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "D major",
+        "G major"
+      ],
+      "related_genres": [
+        "Americana",
+        "Alt-Country",
+        "Southern Rock",
+        "Classic Rock",
+        "Roots Rock"
+      ]
+    },
+    {
+      "id": "indie_rock",
+      "title": "Indie Rock",
+      "path": "knowledge_base/genres/rock/indie_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "diy",
+        "lo-fi",
+        "jangly",
+        "understated",
+        "independent-label",
+        "college-rock-lineage"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Indie Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Alternative Rock / College Rock",
+      "tempo_range": "85-150 BPM",
+      "common_keys": [
+        "G major",
+        "C major",
+        "D major",
+        "E minor",
+        "A major"
+      ],
+      "related_genres": [
+        "Alternative Rock",
+        "Garage Rock",
+        "Lo-fi",
+        "Post-Punk",
+        "Shoegaze",
+        "Dream Pop"
+      ]
+    },
+    {
+      "id": "industrial_rock",
+      "title": "Industrial Rock",
+      "path": "knowledge_base/genres/rock/industrial_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "mechanical",
+        "aggressive",
+        "programmed-and-live-hybrid",
+        "distorted",
+        "dense",
+        "dark"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Industrial Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Industrial Music",
+      "tempo_range": "90-140 BPM",
+      "common_keys": [
+        "E minor",
+        "D minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Gothic Rock",
+        "Nu Metal",
+        "Alternative Rock",
+        "Grunge",
+        "EBM"
+      ]
+    },
+    {
+      "id": "jangle_pop",
+      "title": "Jangle Pop",
+      "path": "knowledge_base/genres/rock/jangle_pop.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "chiming-guitar",
+        "atmospheric",
+        "80s",
+        "college-radio",
+        "byrds-influenced",
+        "understated-vocals",
+        "arpeggiated"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Jangle Pop",
+      "parent_genre": "Rock",
+      "subgenre_of": "Power Pop / Folk Rock",
+      "tempo_range": "100-140 BPM",
+      "common_keys": [
+        "D major",
+        "G major",
+        "A major",
+        "C major"
+      ],
+      "related_genres": [
+        "Power Pop",
+        "College Rock",
+        "Folk Rock",
+        "Indie Rock",
+        "Post-Punk"
+      ]
+    },
+    {
+      "id": "math_rock",
+      "title": "Math Rock",
+      "path": "knowledge_base/genres/rock/math_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "technical",
+        "odd-time",
+        "instrumental",
+        "intricate",
+        "polyrhythmic",
+        "precise"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Math Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Post-Hardcore",
+      "tempo_range": "100-180 BPM",
+      "common_keys": [
+        "E major",
+        "E minor",
+        "D major",
+        "D minor"
+      ],
+      "related_genres": [
+        "Post-Hardcore",
+        "Midwest Emo",
+        "Progressive Rock",
+        "Post-Rock",
+        "Art Punk"
+      ]
+    },
+    {
+      "id": "midwest_emo",
+      "title": "Midwest Emo",
+      "path": "knowledge_base/genres/rock/midwest_emo.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "twinkly",
+        "intricate",
+        "guitar-interplay",
+        "earnest",
+        "90s",
+        "math-rock-adjacent"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Midwest Emo",
+      "parent_genre": "Rock",
+      "subgenre_of": "Emo",
+      "tempo_range": "90-150 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "D major",
+        "E minor"
+      ],
+      "related_genres": [
+        "Emo",
+        "Math Rock",
+        "Indie Rock",
+        "Post-Hardcore",
+        "Screamo"
+      ]
+    },
+    {
+      "id": "noise_rock",
+      "title": "Noise Rock",
+      "path": "knowledge_base/genres/rock/noise_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "abrasive",
+        "dissonant",
+        "experimental",
+        "no-wave",
+        "raw",
+        "underground",
+        "80s"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Noise Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "80-160 BPM",
+      "common_keys": [
+        "E minor",
+        "D minor"
+      ],
+      "related_genres": [
+        "Post-Punk",
+        "Art Punk",
+        "Grunge",
+        "Post-Hardcore",
+        "Math Rock"
+      ]
+    },
+    {
+      "id": "piedmont_blues",
+      "title": "Piedmont Blues",
+      "path": "knowledge_base/genres/rock/piedmont_blues.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "fingerstyle",
+        "ragtime-influenced",
+        "syncopated",
+        "solo-performer",
+        "unamplified",
+        "regional"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Piedmont Blues",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues",
+      "tempo_range": "90-150 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "D major",
+        "E major"
+      ],
+      "related_genres": [
+        "Blues",
+        "Acoustic Blues",
+        "Delta Blues",
+        "Americana",
+        "Folk"
+      ]
+    },
+    {
+      "id": "pop_punk",
+      "title": "Pop Punk",
+      "path": "knowledge_base/genres/rock/pop_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "melodic",
+        "hooky",
+        "fast",
+        "anthemic",
+        "gang-vocals",
+        "90s",
+        "2000s"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Pop Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "150-180 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "D major"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Emo",
+        "Skate Punk",
+        "Power Pop",
+        "Pop Rock"
+      ]
+    },
+    {
+      "id": "pop_rock",
+      "title": "Pop Rock",
+      "path": "knowledge_base/genres/rock/pop_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "hook-driven",
+        "radio-friendly",
+        "chorus-focused",
+        "mainstream",
+        "accessible",
+        "vocal-forward",
+        "evolving-format"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Pop Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll",
+      "tempo_range": "100-140 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "D major",
+        "A major"
+      ],
+      "related_genres": [
+        "Power Pop",
+        "Soft Rock",
+        "Yacht Rock",
+        "Classic Rock",
+        "Indie Rock",
+        "Pop"
+      ]
+    },
+    {
+      "id": "post_hardcore",
+      "title": "Post-Hardcore",
+      "path": "knowledge_base/genres/rock/post_hardcore.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "dynamic",
+        "angular",
+        "structurally-adventurous",
+        "90s",
+        "intense",
+        "melodic-and-aggressive"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Post-Hardcore",
+      "parent_genre": "Rock",
+      "subgenre_of": "Hardcore Punk",
+      "tempo_range": "90-180 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor",
+        "G major"
+      ],
+      "related_genres": [
+        "Hardcore Punk",
+        "Emo",
+        "Math Rock",
+        "Screamo",
+        "Noise Rock"
+      ]
+    },
+    {
+      "id": "post_punk",
+      "title": "Post-Punk",
+      "path": "knowledge_base/genres/rock/post_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "angular",
+        "bass-led",
+        "atmospheric",
+        "cold",
+        "sparse",
+        "dub-influenced"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Post-Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "100-140 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "New Wave",
+        "Gothic Rock",
+        "Industrial",
+        "Art Rock",
+        "Alternative Rock"
+      ]
+    },
+    {
+      "id": "post_rock",
+      "title": "Post-Rock",
+      "path": "knowledge_base/genres/rock/post_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "instrumental",
+        "crescendo",
+        "cinematic",
+        "long-form",
+        "dynamic-build",
+        "atmospheric"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Post-Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Krautrock / Post-Punk (instrumental, structure-focused lineage)",
+      "tempo_range": "60-140 BPM (often shifts within a piece)",
+      "common_keys": [
+        "C major",
+        "D major",
+        "E minor",
+        "G major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Shoegaze",
+        "Ambient",
+        "Math Rock",
+        "Progressive Rock",
+        "Dream Pop",
+        "Alternative Rock"
+      ]
+    },
+    {
+      "id": "power_pop",
+      "title": "Power Pop",
+      "path": "knowledge_base/genres/rock/power_pop.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "hook-dense",
+        "vocal-harmony",
+        "power-chords",
+        "70s",
+        "concise-songwriting",
+        "beatles-influenced",
+        "bright-energy"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Power Pop",
+      "parent_genre": "Rock",
+      "subgenre_of": "Pop Rock",
+      "tempo_range": "120-160 BPM",
+      "common_keys": [
+        "G major",
+        "D major",
+        "A major",
+        "C major"
+      ],
+      "related_genres": [
+        "Pop Rock",
+        "Jangle Pop",
+        "College Rock",
+        "Punk Rock",
+        "Indie Rock",
+        "Folk Rock"
+      ]
+    },
+    {
+      "id": "progressive_rock",
+      "title": "Progressive Rock",
+      "path": "knowledge_base/genres/rock/progressive_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "long-form",
+        "odd-meter",
+        "virtuosic",
+        "concept-album",
+        "keyboard-driven",
+        "symphonic"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Progressive Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Psychedelic Rock",
+      "tempo_range": "60-160 BPM (highly variable within a single piece)",
+      "common_keys": [
+        "D minor",
+        "E minor",
+        "A minor",
+        "C major"
+      ],
+      "related_genres": [
+        "Psychedelic Rock",
+        "Art Rock",
+        "Jazz Fusion",
+        "Symphonic Metal",
+        "Post-Rock"
+      ]
+    },
+    {
+      "id": "psychedelic_rock",
+      "title": "Psychedelic Rock",
+      "path": "knowledge_base/genres/rock/psychedelic_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "trippy",
+        "studio-as-instrument",
+        "drone",
+        "modal",
+        "immersive",
+        "experimental"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Psychedelic Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues Rock",
+      "tempo_range": "60-130 BPM",
+      "common_keys": [
+        "E major",
+        "D major",
+        "A major"
+      ],
+      "related_genres": [
+        "Progressive Rock",
+        "Classic Rock",
+        "Space Rock",
+        "Neo-Psychedelia",
+        "Stoner Rock"
+      ]
+    },
+    {
+      "id": "pub_rock",
+      "title": "Pub Rock",
+      "path": "knowledge_base/genres/rock/pub_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "back-to-basics",
+        "live-energy",
+        "london-scene",
+        "70s",
+        "unpretentious",
+        "r&b-influenced",
+        "punk-precursor"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Pub Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll / Roots Rock",
+      "tempo_range": "110-160 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "G major",
+        "D major"
+      ],
+      "related_genres": [
+        "Garage Rock",
+        "Punk Rock",
+        "Roots Rock",
+        "Blues Rock",
+        "Classic Rock"
+      ]
+    },
+    {
+      "id": "punk_rock",
+      "title": "Punk Rock",
+      "path": "knowledge_base/genres/rock/punk_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "raw",
+        "fast",
+        "stripped-down",
+        "anti-establishment",
+        "diy",
+        "aggressive"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Punk Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Garage Rock",
+      "tempo_range": "150-190 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "D major",
+        "G major"
+      ],
+      "related_genres": [
+        "Post-Punk",
+        "Hardcore Punk",
+        "Glam Rock",
+        "New Wave",
+        "Pop Punk",
+        "Grunge"
+      ]
+    },
+    {
+      "id": "rap_rock",
+      "title": "Rap Rock",
+      "path": "knowledge_base/genres/rock/rap_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "crossover",
+        "riff-driven",
+        "syncopated",
+        "rap-vocal",
+        "turntablism",
+        "high-energy"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Rap Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Alternative Rock",
+      "tempo_range": "85-140 BPM",
+      "common_keys": [
+        "E minor",
+        "D minor",
+        "A minor",
+        "C minor"
+      ],
+      "related_genres": [
+        "Nu Metal",
+        "Funk Metal",
+        "Industrial Rock",
+        "Alternative Rock",
+        "Hip Hop"
+      ]
+    },
+    {
+      "id": "rockabilly",
+      "title": "Rockabilly",
+      "path": "knowledge_base/genres/rock/rockabilly.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "slapback-echo",
+        "upright-bass-slap",
+        "sun-records",
+        "50s",
+        "twangy-guitar",
+        "danceable",
+        "roots"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Rockabilly",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll / Country",
+      "tempo_range": "150-190 BPM (fast, driving up-tempo dance tempos)",
+      "common_keys": [
+        "E major",
+        "A major",
+        "C major",
+        "G major"
+      ],
+      "related_genres": [
+        "Rock and Roll",
+        "Country Rock",
+        "Roots Rock",
+        "Surf Rock",
+        "Psychobilly",
+        "Country"
+      ]
+    },
+    {
+      "id": "roots_rock",
+      "title": "Roots Rock",
+      "path": "knowledge_base/genres/rock/roots_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "americana",
+        "songwriting-first",
+        "warm",
+        "storytelling",
+        "ensemble",
+        "70s",
+        "authentic"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Roots Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll / Americana",
+      "tempo_range": "80-130 BPM",
+      "common_keys": [
+        "G major",
+        "D major",
+        "A major",
+        "C major"
+      ],
+      "related_genres": [
+        "Folk Rock",
+        "Country Rock",
+        "Americana",
+        "Southern Rock",
+        "Classic Rock",
+        "Blues Rock"
+      ]
+    },
+    {
+      "id": "sadcore",
+      "title": "Sadcore",
+      "path": "knowledge_base/genres/rock/sadcore.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "melancholic",
+        "minimal",
+        "spacious",
+        "slow-tempo",
+        "intimate",
+        "dynamic-range-dependent"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Sadcore",
+      "parent_genre": "Rock",
+      "subgenre_of": "Slowcore",
+      "tempo_range": "50-85 BPM",
+      "common_keys": [
+        "D minor",
+        "A minor",
+        "E minor",
+        "C major"
+      ],
+      "related_genres": [
+        "Slowcore",
+        "Shoegaze",
+        "Indie Rock",
+        "Post-Rock",
+        "Alt-Country"
+      ]
+    },
+    {
+      "id": "screamo",
+      "title": "Screamo",
+      "path": "knowledge_base/genres/rock/screamo.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "chaotic",
+        "screamed-vocals",
+        "dynamic-extremes",
+        "raw",
+        "emotional",
+        "90s",
+        "unpredictable"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Screamo",
+      "parent_genre": "Rock",
+      "subgenre_of": "Emo",
+      "tempo_range": "100-220 BPM",
+      "common_keys": [
+        "E minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "Emo",
+        "Post-Hardcore",
+        "Hardcore Punk",
+        "Metalcore",
+        "Midwest Emo"
+      ]
+    },
+    {
+      "id": "shoegaze",
+      "title": "Shoegaze",
+      "path": "knowledge_base/genres/rock/shoegaze.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "wall-of-sound",
+        "reverb-heavy",
+        "fuzz",
+        "textural",
+        "dreamy",
+        "immersive",
+        "guitar-wash"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Shoegaze",
+      "parent_genre": "Rock",
+      "subgenre_of": "Dream Pop / Post-Punk (noise-guitar lineage)",
+      "tempo_range": "90-130 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "D major",
+        "C major",
+        "F# minor"
+      ],
+      "related_genres": [
+        "Dream Pop",
+        "Post-Rock",
+        "Alternative Rock",
+        "Indie Rock",
+        "Post-Punk",
+        "Noise Rock"
+      ]
+    },
+    {
+      "id": "ska_punk",
+      "title": "Ska Punk",
+      "path": "knowledge_base/genres/rock/ska_punk.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "horns",
+        "upstroke",
+        "energetic",
+        "hybrid",
+        "90s",
+        "brass"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Ska Punk",
+      "parent_genre": "Rock",
+      "subgenre_of": "Punk Rock",
+      "tempo_range": "150-190 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "F major",
+        "A minor"
+      ],
+      "related_genres": [
+        "Punk Rock",
+        "Third Wave Ska",
+        "Reggae",
+        "Two-Tone",
+        "Pop Punk"
+      ]
+    },
+    {
+      "id": "soft_rock",
+      "title": "Soft Rock",
+      "path": "knowledge_base/genres/rock/soft_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "ballad",
+        "vocal-forward",
+        "radio-friendly",
+        "70s-80s",
+        "emotional",
+        "string-arrangement",
+        "adult-contemporary"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Soft Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Pop Rock",
+      "tempo_range": "60-105 BPM",
+      "common_keys": [
+        "C major",
+        "G major",
+        "D major",
+        "F major"
+      ],
+      "related_genres": [
+        "Yacht Rock",
+        "Pop Rock",
+        "Folk Rock",
+        "Country Rock",
+        "Adult Contemporary"
+      ]
+    },
+    {
+      "id": "southern_rock",
+      "title": "Southern Rock",
+      "path": "knowledge_base/genres/rock/southern_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "twin-guitar-harmony",
+        "blues-rock",
+        "jam-band-adjacent",
+        "southern-us",
+        "slide-guitar",
+        "70s",
+        "extended-solos"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Southern Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues Rock / Country Rock",
+      "tempo_range": "80-140 BPM",
+      "common_keys": [
+        "E major",
+        "A major",
+        "D major",
+        "G major",
+        "C major"
+      ],
+      "related_genres": [
+        "Blues Rock",
+        "Country Rock",
+        "Hard Rock",
+        "Classic Rock",
+        "Garage Rock",
+        "Jam Band"
+      ]
+    },
+    {
+      "id": "space_rock",
+      "title": "Space Rock",
+      "path": "knowledge_base/genres/rock/space_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "psychedelic",
+        "drone",
+        "atmospheric",
+        "motorik",
+        "extended-jam",
+        "analog-synth",
+        "hypnotic"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Space Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Psychedelic Rock",
+      "tempo_range": "60-120 BPM (often slow-building, with faster hypnotic driving sections)",
+      "common_keys": [
+        "E minor",
+        "D minor",
+        "A minor",
+        "E major"
+      ],
+      "related_genres": [
+        "Psychedelic Rock",
+        "Progressive Rock",
+        "Post-Rock",
+        "Krautrock",
+        "Shoegaze",
+        "Stoner Rock"
+      ]
+    },
+    {
+      "id": "stoner_rock",
+      "title": "Stoner Rock",
+      "path": "knowledge_base/genres/rock/stoner_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "fuzz",
+        "down-tuned",
+        "riff-based",
+        "heavy-groove",
+        "desert-scene",
+        "sabbath-influenced",
+        "psychedelic-heavy"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Stoner Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Blues Rock / Psychedelic Rock",
+      "tempo_range": "60-110 BPM (slow, heavy grooves dominate; occasional faster punk-informed sections)",
+      "common_keys": [
+        "D minor",
+        "C minor",
+        "E minor",
+        "A minor"
+      ],
+      "related_genres": [
+        "Desert Rock",
+        "Doom Metal",
+        "Sludge Metal",
+        "Psychedelic Rock",
+        "Hard Rock",
+        "Blues Rock"
+      ]
+    },
+    {
+      "id": "surf_rock",
+      "title": "Surf Rock",
+      "path": "knowledge_base/genres/rock/surf_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "instrumental",
+        "spring-reverb",
+        "tremolo-picking",
+        "california",
+        "60s",
+        "guitar-melody",
+        "beach-culture"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Surf Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Rock and Roll",
+      "tempo_range": "140-180 BPM (fast, driving instrumental tempos)",
+      "common_keys": [
+        "E minor",
+        "A minor",
+        "D minor",
+        "E major"
+      ],
+      "related_genres": [
+        "Garage Rock",
+        "Rockabilly",
+        "Psychedelic Rock",
+        "Classic Rock",
+        "Instrumental Rock"
+      ]
+    },
+    {
+      "id": "yacht_rock",
+      "title": "Yacht Rock",
+      "path": "knowledge_base/genres/rock/yacht_rock.md",
+      "category": "genres",
+      "subcategory": "rock",
+      "tags": [
+        "smooth",
+        "studio-polish",
+        "session-musicians",
+        "jazz-informed",
+        "70s-80s",
+        "la-studio-sound",
+        "sophisticated-harmony"
+      ],
+      "schema_type": "genre",
+      "genre_name": "Yacht Rock",
+      "parent_genre": "Rock",
+      "subgenre_of": "Soft Rock",
+      "tempo_range": "70-115 BPM",
+      "common_keys": [
+        "C major",
+        "F major",
+        "G major",
+        "D major"
+      ],
+      "related_genres": [
+        "Soft Rock",
+        "Pop Rock",
+        "Country Rock",
+        "Blue-Eyed Soul",
+        "Smooth Jazz"
+      ]
+    },
+    {
+      "id": "akai_apc_key_25",
+      "title": "Akai APC Key 25 Controller Profile",
+      "path": "knowledge_base/midi/controllers/akai_apc_key_25.md",
+      "category": "midi",
+      "subcategory": "controllers",
+      "tags": [
+        "akai",
+        "apc-key-25",
+        "apc-25",
+        "ableton",
+        "clip-launching",
+        "midi-controller",
+        "keyboard-controller",
+        "controller-profile"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "akai_mpk_mini_plus",
+      "title": "Akai MPK Mini Plus 37-Key Controller Profile",
+      "path": "knowledge_base/midi/controllers/akai_mpk_mini_plus.md",
+      "category": "midi",
+      "subcategory": "controllers",
+      "tags": [
+        "akai",
+        "mpk-mini-plus",
+        "mpk-mini-plus-37",
+        "37-key",
+        "midi-controller",
+        "pads",
+        "knobs",
+        "ableton",
+        "controller-profile"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "roland_mc_303",
+      "title": "Roland MC-303 Groovebox Profile",
+      "path": "knowledge_base/midi/controllers/roland_mc_303.md",
+      "category": "midi",
+      "subcategory": "controllers",
+      "tags": [
+        "roland",
+        "mc-303",
+        "groovebox",
+        "midi",
+        "hardware",
+        "ableton",
+        "controller-profile"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "breakdown_design",
+      "title": "Breakdown Design",
+      "path": "knowledge_base/production/arrangement/breakdown_design.md",
+      "category": "production",
+      "subcategory": "arrangement",
+      "tags": [
+        "arrangement",
+        "breakdown",
+        "tension-and-release",
+        "energy-management",
+        "edm",
+        "song-structure"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "build_and_drop_structure",
+      "title": "Build and Drop Structure",
+      "path": "knowledge_base/production/arrangement/build_and_drop_structure.md",
+      "category": "production",
+      "subcategory": "arrangement",
+      "tags": [
+        "arrangement",
+        "build",
+        "breakdown",
+        "drop",
+        "tension-and-release",
+        "energy-management",
+        "edm",
+        "song-structure"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "starting_an_edm_track",
+      "title": "Starting an EDM Track From a Blank Project",
+      "path": "knowledge_base/production/workflow/starting_an_edm_track.md",
+      "category": "production",
+      "subcategory": "workflow",
+      "tags": [
+        "workflow",
+        "edm",
+        "pre-production",
+        "arrangement",
+        "reference-track",
+        "loop-based-writing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Starting an EDM Track From a Blank Project",
+      "daw": "generic"
+    },
+    {
+      "id": "sidechain_and_ducking",
+      "title": "Sidechain Compression and Gated Ducking as a Sound-Design Tool",
+      "path": "knowledge_base/sound_design/effects/sidechain_and_ducking.md",
+      "category": "sound_design",
+      "subcategory": "effects",
+      "tags": [
+        "sidechain",
+        "ducking",
+        "pumping",
+        "gate",
+        "envelope-follower",
+        "pad-design",
+        "bass-design",
+        "rhythmic-modulation",
+        "house",
+        "techno",
+        "dubstep",
+        "riddim"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "edm_bass_design",
+      "title": "EDM Bass Design — Archetypes and Patch Recipes",
+      "path": "knowledge_base/sound_design/presets/edm_bass_design.md",
+      "category": "sound_design",
+      "subcategory": "presets",
+      "tags": [
+        "bass",
+        "wobble",
+        "growl",
+        "reese",
+        "sub-bass",
+        "acid",
+        "303",
+        "preset-recipe",
+        "dubstep",
+        "drum-and-bass",
+        "techno",
+        "future-bass"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": [
+        "Subtractive",
+        "FM",
+        "Wavetable",
+        "Sample-based"
+      ]
+    },
+    {
+      "id": "kick_drum_design",
+      "title": "Kick Drum Design for EDM",
+      "path": "knowledge_base/sound_design/presets/kick_drum_design.md",
+      "category": "sound_design",
+      "subcategory": "presets",
+      "tags": [
+        "kick",
+        "drums",
+        "edm",
+        "techno",
+        "house",
+        "hardstyle",
+        "drum-and-bass",
+        "sample-layering",
+        "distortion",
+        "sound-design"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": [
+        "subtractive",
+        "sample-layering",
+        "FM (transient/click layer, optional)"
+      ]
+    },
+    {
+      "id": "supersaw_lead_design",
+      "title": "Supersaw, Pluck, and Lead Design — Archetypes and Patch Recipes",
+      "path": "knowledge_base/sound_design/presets/supersaw_lead_design.md",
+      "category": "sound_design",
+      "subcategory": "presets",
+      "tags": [
+        "lead",
+        "pluck",
+        "supersaw",
+        "arp",
+        "chord-stab",
+        "unison",
+        "detune",
+        "preset-recipe",
+        "trance",
+        "big-room-house",
+        "electro-house",
+        "melodic-techno",
+        "future-bass",
+        "psytrance"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": [
+        "Subtractive",
+        "Wavetable",
+        "FM"
+      ]
+    },
+    {
+      "id": "sampling_and_resampling",
+      "title": "Sampling and Resampling for EDM Sound Design",
+      "path": "knowledge_base/sound_design/sampling/sampling_and_resampling.md",
+      "category": "sound_design",
+      "subcategory": "sampling",
+      "tags": [
+        "sampling",
+        "resampling",
+        "vocal-chops",
+        "breakbeats",
+        "time-stretch",
+        "pitch-shift",
+        "layering",
+        "future-bass",
+        "dubstep",
+        "drum-and-bass",
+        "jungle",
+        "moombahton",
+        "baile-funk",
+        "disco-house",
+        "nu-disco"
+      ],
+      "schema_type": "plain_frontmatter"
+    },
+    {
+      "id": "fm_synthesis",
+      "title": "FM Synthesis",
+      "path": "knowledge_base/sound_design/synthesis/fm_synthesis.md",
+      "category": "sound_design",
+      "subcategory": "synthesis",
+      "tags": [
+        "fm",
+        "frequency-modulation",
+        "operators",
+        "carrier-modulator",
+        "algorithms",
+        "metallic-bass",
+        "bell-design",
+        "pluck-design",
+        "edm",
+        "growl-bass"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": "fm"
+    },
+    {
+      "id": "granular_synthesis",
+      "title": "Granular Synthesis",
+      "path": "knowledge_base/sound_design/synthesis/granular_synthesis.md",
+      "category": "sound_design",
+      "subcategory": "synthesis",
+      "tags": [
+        "granular",
+        "grains",
+        "time-stretching",
+        "pitch-shifting",
+        "texture-design",
+        "atmosphere",
+        "glitch",
+        "stutter",
+        "pad-design",
+        "sampling",
+        "edm"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": "granular"
+    },
+    {
+      "id": "subtractive_synthesis",
+      "title": "Subtractive Synthesis",
+      "path": "knowledge_base/sound_design/synthesis/subtractive_synthesis.md",
+      "category": "sound_design",
+      "subcategory": "synthesis",
+      "tags": [
+        "subtractive",
+        "oscillators",
+        "filters",
+        "envelopes",
+        "lfo",
+        "bass-design",
+        "lead-design",
+        "edm",
+        "analog",
+        "virtual-analog"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": "subtractive"
+    },
+    {
+      "id": "wavetable_synthesis",
+      "title": "Wavetable Synthesis",
+      "path": "knowledge_base/sound_design/synthesis/wavetable_synthesis.md",
+      "category": "sound_design",
+      "subcategory": "synthesis",
+      "tags": [
+        "wavetable",
+        "unison",
+        "supersaw",
+        "wobble-bass",
+        "growl-bass",
+        "chord-stabs",
+        "fm",
+        "edm",
+        "bass-design",
+        "lead-design"
+      ],
+      "schema_type": "plain_frontmatter",
+      "synthesis_method": "wavetable"
+    }
+  ]
+}

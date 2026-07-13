@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-music-producer-encyclopedia/schemas/mixing_schema.json",
+  "title": "Mixing/Mastering Technique Entry",
+  "description": "Frontmatter contract for a technique entry under knowledge_base/mixing/** or knowledge_base/mastering/**.",
+  "type": "object",
+  "required": ["technique_name", "category", "problem_solved"],
+  "properties": {
+    "technique_name": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": ["eq", "compression", "reverb", "delay", "stereo", "dynamics", "loudness", "saturation", "other"]
+    },
+    "problem_solved": { "type": "string", "description": "The symptom this technique fixes, e.g. \"200-400Hz muddiness buildup\"" },
+    "parameters": {
+      "type": "object",
+      "description": "Freeform key/value parameter guidance, e.g. { \"ratio\": \"3:1\", \"attack\": \"10-20ms\" }",
+      "additionalProperties": true
+    },
+    "signal_chain_position": { "type": "string", "description": "e.g. \"pre-compressor\", \"on the master bus\", \"parallel send\"" },
+    "genre_applicability": { "type": "array", "items": { "type": "string" } },
+    "common_mistakes": { "type": "array", "items": { "type": "string" } },
+    "related_techniques": { "type": "array", "items": { "type": "string" } },
+    "tags": { "type": "array", "items": { "type": "string" } }
+  }
+}

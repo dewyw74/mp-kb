@@ -67,3 +67,8 @@ The MC-303 can provide gritty, period-specific electronic material that software
 Do not keep MC-303 parts unprinted until the end of the project. Hardware state, pattern selection, levels, and sync can drift from the arrangement. Print audio and commit useful performances.
 
 Do not force it to sound like a modern soft synth. Its value is the hardware character, limitations, and hands-on pattern feel.
+
+## Cross-References
+
+- `knowledge_base/daw/ableton/external_hardware_sync_and_recording.md` — the MIDI/audio routing and latency workflow this groovebox profile is built around
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — 5-pin DIN In/Out/Thru port roles and daisy-chain timing considerations for a hardware groovebox like this one

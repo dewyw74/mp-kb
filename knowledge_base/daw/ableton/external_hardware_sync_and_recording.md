@@ -74,3 +74,7 @@ For a Roland MC-303, treat the box as a source of patterns, tones, and hands-on 
 Do not leave important hardware parts as live external playback until the final export unless there is a strong reason. Printing audio makes the project portable and protects the arrangement from hardware state changes.
 
 Do not ignore latency. A groovebox pattern can feel wrong simply because the recorded audio is late by a few milliseconds.
+
+## Cross-References
+
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — 5-pin DIN In/Out/Thru port roles, daisy-chaining, and the Bluetooth/Wi-Fi alternatives underlying the MIDI connection this workflow routes over

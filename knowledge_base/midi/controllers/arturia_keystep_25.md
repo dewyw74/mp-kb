@@ -53,3 +53,4 @@ Not syncing the hardware sequencer's clock to the DAW when running both simultan
 - `knowledge_base/daw/ableton/external_hardware_sync_and_recording.md`, `knowledge_base/daw/fl_studio/external_hardware_sync_and_recording.md` — the clock-sync and recording workflow relevant to using the KeyStep 25's CV/Gate output alongside a DAW
 - `knowledge_base/midi/patterns/bass_and_808_pattern_programming.md` — bass pattern programming the hardware step sequencer is well suited to sketching
 - `knowledge_base/midi/patterns/melody_and_arpeggio_pattern_programming.md` — arpeggio pattern design relevant to the onboard arpeggiator
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — 5-pin DIN In/Out/Thru port roles and daisy-chaining relevant to this controller's CV/Gate and MIDI hardware connections

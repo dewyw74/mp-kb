@@ -58,3 +58,7 @@ Forgetting to compensate for round-trip latency and then fighting a "loose" feel
 ## Alternatives
 
 For hardware with no MIDI clock input at all (some analog drum machines, certain modular sequencers), skip clock sync entirely and instead record the hardware's output as a free-tempo audio take, then time-stretch or edit the FL Studio project's tempo/markers to match the hardware's recorded performance rather than the other way around.
+
+## Cross-References
+
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — 5-pin DIN In/Out/Thru port roles, daisy-chaining, and the Bluetooth/Wi-Fi alternatives underlying the MIDI connection this workflow routes over

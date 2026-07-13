@@ -44,3 +44,4 @@ Expecting pad-triggering or deep macro-mapping capability the MK-425C's basic fe
 - `knowledge_base/midi/programming/pitch_bend_and_expressive_controller_automation.md` — the pitch-bend/mod-wheel expressive techniques directly relevant to this controller's basic control set
 - `knowledge_base/daw/ableton/midi_controller_mapping_workflow.md`, `knowledge_base/daw/fl_studio/midi_controller_mapping_workflow.md` — the generic MIDI mapping workflow this controller relies on, having no dedicated integration script
 - `knowledge_base/midi/controllers/akai_mpk_mini_plus.md` — a more full-featured compact controller for comparison, with pad triggering and macro-mapping this device lacks
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — general MIDI connectivity reference, relevant if this USB controller is ever chained with DIN-equipped hardware

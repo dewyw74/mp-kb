@@ -84,3 +84,8 @@ For more expressive playing, record simple parts first, then edit velocity, note
 Do not treat the APC Key 25 like a full piano controller. Its power is Ableton control: clip launching, scene testing, device control, and quick MIDI entry.
 
 Do not stay in Session View forever. Once a scene performance works, record it into Arrangement View and finish the structure there.
+
+## Cross-References
+
+- `knowledge_base/daw/ableton/session_to_arrangement_workflow.md` — the Session View to Arrangement View workflow this controller is built around
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — general MIDI connectivity reference for USB/DIN hardware setups

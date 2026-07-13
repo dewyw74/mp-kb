@@ -79,3 +79,8 @@ For finger drumming, record unquantized, then use partial quantization and veloc
 Do not map knobs differently in every project. The controller becomes much more useful when each knob has a consistent musical purpose.
 
 Do not use the pads only as clip launch buttons if the session needs drum feel. The MPK Mini Plus 37 is especially useful when the pads actually perform rhythms into Drum Rack while the keys handle bass, chords, or hooks.
+
+## Cross-References
+
+- `knowledge_base/daw/ableton/drum_rack_pad_controller_workflow.md` — the Drum Rack pad-triggering workflow this controller's pad bank is built around
+- `knowledge_base/midi/programming/midi_connectivity_wifi_bluetooth_and_din.md` — general MIDI connectivity reference for USB/DIN hardware setups

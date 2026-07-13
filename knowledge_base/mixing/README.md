@@ -1,6 +1,6 @@
 # mixing/
 
-Mix-stage technique entries, one concern per subfolder — `eq/`, `compression/`, `reverb/`, `delay/`, `stereo/`. Each entry's frontmatter conforms to `schemas/mixing_schema.json` (`category` matching its subfolder).
+Mix-stage technique entries, one concern per subfolder — `eq/`, `compression/`, `reverb/`, `delay/`, `stereo/`, `saturation/`. Each entry's frontmatter conforms to `schemas/mixing_schema.json` (`category` matching its subfolder).
 
 Consumed primarily by `mixing_agent`.
 

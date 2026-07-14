@@ -3,7 +3,7 @@ plugin_name: "Electric"
 developer: "Ableton"
 category: "synth"
 type: "electric piano modeling instrument (stock Ableton Live, physical-modeled Rhodes/Wurlitzer-style tone)"
-cpu_usage: "low-medium"
+cpu_usage: "medium"
 best_genres:
   - lo_fi_hip_hop
   - liquid_dnb

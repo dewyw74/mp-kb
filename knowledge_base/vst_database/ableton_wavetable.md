@@ -3,7 +3,7 @@ plugin_name: "Wavetable"
 developer: "Ableton"
 category: "synth"
 type: "wavetable synth (stock Ableton Live instrument)"
-cpu_usage: "low-medium"
+cpu_usage: "medium"
 best_genres:
   - house
   - techno

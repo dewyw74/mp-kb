@@ -1,4 +1,5 @@
 ---
+title: "Velocity Editing And Dynamics"
 technique_name: Velocity Editing and Dynamics
 category: programming
 problem_solved: "Deciding how much velocity variation a part should carry — from near-uniform hits to wide expressive swings — and which elements in a track are the intended carriers of dynamic contrast"

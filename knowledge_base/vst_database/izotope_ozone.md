@@ -3,7 +3,7 @@ plugin_name: "Ozone"
 developer: "iZotope"
 category: "other"
 type: "mastering suite (multi-module: EQ, dynamics, imaging, loudness/limiting, tonal-balance assistant)"
-cpu_usage: "medium-high"
+cpu_usage: "high"
 best_genres:
   - pop
   - hip_hop

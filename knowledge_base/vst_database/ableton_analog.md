@@ -3,7 +3,7 @@ plugin_name: "Analog"
 developer: "Ableton"
 category: "synth"
 type: "virtual analog subtractive synth (stock Ableton Live instrument, modeled dual-oscillator architecture)"
-cpu_usage: "low-medium"
+cpu_usage: "medium"
 best_genres:
   - house
   - techno

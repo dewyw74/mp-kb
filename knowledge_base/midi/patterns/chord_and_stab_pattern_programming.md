@@ -1,4 +1,5 @@
 ---
+title: "Chord And Stab Pattern Programming"
 technique_name: "Chord and Stab Pattern Programming"
 category: "patterns"
 problem_solved: "Choosing whether harmonic material is sustained and continuous versus rhythmically triggered and percussive, and how that choice interacts with the bass and drum patterns already occupying the track's rhythmic space"

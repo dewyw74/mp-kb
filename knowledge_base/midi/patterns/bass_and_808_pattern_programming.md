@@ -1,4 +1,5 @@
 ---
+title: "Bass And 808 Pattern Programming"
 technique_name: Bass and 808 Pattern Programming
 category: patterns
 problem_solved: "Choosing whether a bassline sits as a fixed harmonic anchor or a melodically/rhythmically active lead element, and how tightly it should lock to the kick's placement"

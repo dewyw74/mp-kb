@@ -1,4 +1,5 @@
 ---
+title: "Midi Connectivity Wifi Bluetooth And Din"
 technique_name: "MIDI Connectivity: Wi-Fi, Bluetooth, and 5-Pin DIN In/Out/Thru"
 category: "connectivity"
 problem_solved: "Confusion about how MIDI data physically or wirelessly travels between controllers, computers, and hardware synths — which port or protocol to use, how daisy-chaining actually works, and the latency/reliability tradeoffs of DIN, Bluetooth, and Wi-Fi connections"

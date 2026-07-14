@@ -80,7 +80,7 @@ production_notes:
   professional_tips:
     - "Write every instrument as a genuine conversational equal — chamber music's core identity is the absence of a fixed melody-and-accompaniment hierarchy."
     - "Preserve intimacy in mixing and mastering; this is the genre where restraint and dynamic range matter more than almost any other classical subgenre."
-    and "Program ensemble-interplay timing carefully in virtual mockups — the sense of musicians breathing and cueing each other is central to the style's realism."
+    - "Program ensemble-interplay timing carefully in virtual mockups — the sense of musicians breathing and cueing each other is central to the style's realism."
   common_mistakes:
     - "Treating one instrument as a fixed lead voice throughout, flattening the conversational equality that defines the genre."
     - "Over-processing (heavy reverb, compression) small-ensemble recordings, working against the genre's essential intimacy."

@@ -3,7 +3,7 @@ plugin_name: "Simpler and Sampler"
 developer: "Ableton"
 category: "synth"
 type: "sample playback instrument (stock Ableton Live, two tiers: Simpler and the more advanced Sampler)"
-cpu_usage: "low (Simpler) to medium (Sampler, with multi-zone/multi-sample patches)"
+cpu_usage: "medium"
 best_genres:
   - hip_hop
   - boom_bap

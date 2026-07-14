@@ -1,4 +1,5 @@
 ---
+title: "Humanization And Groove Timing"
 technique_name: Humanization and Groove Timing (Piano-Roll Implementation)
 category: programming
 problem_solved: "Translating a genre's swing/groove requirement into concrete piano-roll settings — swing percentage, millisecond timing offsets, and which parts stay quantized versus which get micro-timing looseness"

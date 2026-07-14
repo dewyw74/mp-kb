@@ -3,7 +3,7 @@ plugin_name: "Reverb and Echo"
 developer: "Ableton"
 category: "reverb"
 type: "Algorithmic reverb and tempo-syncable delay, two devices (stock Ableton Live)"
-cpu_usage: "low-medium"
+cpu_usage: "medium"
 best_genres:
   - house
   - trance

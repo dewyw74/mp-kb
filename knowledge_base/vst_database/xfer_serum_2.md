@@ -3,7 +3,7 @@ plugin_name: "Serum 2"
 developer: "Xfer Records"
 category: "synth"
 type: "wavetable synth (hybrid semi-modular architecture)"
-cpu_usage: "medium-high"
+cpu_usage: "high"
 best_genres:
   - dubstep
   - brostep

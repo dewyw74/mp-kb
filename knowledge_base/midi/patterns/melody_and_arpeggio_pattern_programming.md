@@ -1,4 +1,5 @@
 ---
+title: "Melody And Arpeggio Pattern Programming"
 technique_name: Melody and Arpeggio Pattern Programming
 category: patterns
 problem_solved: "Choosing melodic density and development style — short repeated loops vs. developing phrases vs. block-harmonized ensemble writing — to match a genre's function for the melodic part"

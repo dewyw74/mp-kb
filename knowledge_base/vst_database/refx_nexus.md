@@ -3,7 +3,7 @@ plugin_name: "Nexus"
 developer: "reFX"
 category: "synth"
 type: "rompler / preset-based synth (sample-and-synthesis hybrid workstation)"
-cpu_usage: "low-medium"
+cpu_usage: "medium"
 best_genres:
   - trap
   - edm_trap

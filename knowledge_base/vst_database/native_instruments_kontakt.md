@@ -3,7 +3,7 @@ plugin_name: "Kontakt"
 developer: "Native Instruments"
 category: "synth"
 type: "sample-based instrument workstation (scriptable, multi-zone)"
-cpu_usage: "medium-high"
+cpu_usage: "high"
 best_genres:
   - vaporwave
   - lo_fi_hip_hop

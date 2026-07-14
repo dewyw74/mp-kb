@@ -1,4 +1,5 @@
 ---
+title: "Drum Pattern Programming"
 technique_name: Drum Pattern Programming
 category: patterns
 problem_solved: "Deciding which drum elements carry a genre's rhythmic signature (hi-hats, ghost notes, breakbeat chops, polyrhythmic percussion) versus which stay as simple timekeeping"

@@ -1,4 +1,5 @@
 ---
+title: "Pitch Bend And Expressive Controller Automation"
 technique_name: "Pitch-Bend and Expressive Controller Automation"
 category: "programming"
 problem_solved: "Static, unmodulated MIDI notes reading as flat and inexpressive in genres where pitch glide, vibrato, or continuous controller movement is a defining part of the instrument's or genre's expressive vocabulary"

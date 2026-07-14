@@ -17,6 +17,7 @@ knowledge_base/
   midi/{patterns,controllers,programming}/
   daw/{ableton,fl_studio,workflow}/
   vst_database/
+  reference/           # external resource pointers (not deep technique docs, no schema)
 schemas/            # JSON Schema contracts for each entry type's frontmatter
 automation/          # future prompts/, workflows/, pipelines/ for MCP/RAG integration
 .claude/agents/       # Claude Code specialist subagents
@@ -44,6 +45,8 @@ Four schemas currently defined:
 | `schemas/workflow_schema.json` | `knowledge_base/daw/**`, `knowledge_base/production/workflow/` |
 
 Categories without a dedicated schema yet (`music_theory/`, `sound_design/`, `midi/`, `production/{arrangement,songwriting,templates}/`) use plain frontmatter (`title`, `tags` minimum) until a schema is added in a later phase — see each category's own README.
+
+`reference/` is a special case: plain frontmatter (`title`, `tags`, `source_url`), but deliberately outside the citation-grounding rule the rest of the knowledge base follows, since its entries point to external resources rather than documenting this project's own researched or genre-grounded technique — see `knowledge_base/reference/README.md`.
 
 ## Tooling
 

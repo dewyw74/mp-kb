@@ -67,3 +67,7 @@ Music Encoding Initiative (community-driven open-source effort to define a machi
 Treating this snapshot as complete or current — it's a partial capture from one fetch, and several full categories (Synthesizers, Sample Providers, Articles, Research, among others) aren't represented here at all. Refetch the live URL rather than assuming this doc has grown stale gaps filled in.
 
 Citing this doc's contents as if they were vetted, KB-grounded technique recommendations — they're an external community list, not this project's own researched or genre-grounded content.
+
+## Cross-References
+
+- `knowledge_base/reference/awesome_music_external_directory_noteflakes.md` — a sibling reference entry for a second, more developer/DSP-tooling-leaning awesome-list; note its "Related lists" section points to an `adius/awesome-music-production` repo that is a *different* org than this file's `ad-si` source, not confirmed identical

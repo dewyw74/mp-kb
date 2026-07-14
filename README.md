@@ -61,6 +61,13 @@ python tools\generate_index.py
 
 `generate_index.py` writes `knowledge_base/index.json`, a machine-readable catalog of the knowledge base for search, RAG, and future automation.
 
+```powershell
+$env:GROQ_API_KEY = "..."
+python tools\draft_genre_with_groq.py "Genre Name" --parent-genre Rock
+```
+
+`draft_genre_with_groq.py` uses a Groq API key (free tier; set `GROQ_API_KEY` in the environment, never commit it) to generate a first-pass genre entry matching `schemas/genre_schema.json` and an existing entry's structure/depth. Output lands in `drafts/genres/` (gitignored), marked unreviewed — fact-check and edit it, then manually move it into `knowledge_base/genres/<family>/` and run `validate_kb.py` before it counts as real KB content.
+
 ## Specialist subagents
 
 Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` for Codex. Each searches its corresponding `knowledge_base/` subfolder before answering:

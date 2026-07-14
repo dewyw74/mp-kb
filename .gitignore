@@ -1,0 +1,6 @@
+# AI-drafted, unreviewed content staged by tools/draft_genre_with_groq.py
+drafts/
+
+# Python
+__pycache__/
+*.pyc

@@ -60,3 +60,4 @@ Confusing the `adius/awesome-music-production` related-list entry with the `ad-s
 ## Cross-References
 
 - `knowledge_base/reference/awesome_music_production_external_directory.md` — the sibling reference entry for the broader software/hardware/services awesome-list, better suited to DAW/VST/sample-provider/hardware lookups than this more developer/DSP-tooling-leaning list
+- `knowledge_base/reference/awesome_audio_external_directory_dolbyio.md` — a third sibling entry, even more developer/API-oriented (how-to-problem-organized, includes Dolby.io's own commercial audio APIs)

@@ -71,3 +71,4 @@ Citing this doc's contents as if they were vetted, KB-grounded technique recomme
 ## Cross-References
 
 - `knowledge_base/reference/awesome_music_external_directory_noteflakes.md` — a sibling reference entry for a second, more developer/DSP-tooling-leaning awesome-list; note its "Related lists" section points to an `adius/awesome-music-production` repo that is a *different* org than this file's `ad-si` source, not confirmed identical
+- `knowledge_base/reference/awesome_audio_external_directory_dolbyio.md` — a third sibling entry, the most developer/API-oriented of the three (how-to-problem-organized, Dolby.io's own audio APIs)

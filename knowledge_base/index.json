@@ -1,7 +1,25 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 827,
+  "entry_count": 844,
   "entries": [
+    {
+      "id": "clip_envelope_and_automation_workflow",
+      "title": "Ableton Clip Envelope and Automation Workflow",
+      "path": "knowledge_base/daw/ableton/clip_envelope_and_automation_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "automation",
+        "clip-envelopes",
+        "modulation",
+        "arrangement-view",
+        "curves"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Clip Envelope and Automation Workflow",
+      "daw": "ableton"
+    },
     {
       "id": "drum_rack_pad_controller_workflow",
       "title": "Ableton Drum Rack Pad Controller Workflow",
@@ -40,6 +58,63 @@
       "daw": "ableton"
     },
     {
+      "id": "groove_pool_and_timing_workflow",
+      "title": "Ableton Groove Pool and Timing Workflow",
+      "path": "knowledge_base/daw/ableton/groove_pool_and_timing_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "groove-pool",
+        "timing",
+        "humanization",
+        "swing",
+        "quantization",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Groove Pool and Timing Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "launchpad_and_grid_controller_performance_workflow",
+      "title": "Launchpad and Grid Controller Performance Workflow",
+      "path": "knowledge_base/daw/ableton/launchpad_and_grid_controller_performance_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "launchpad",
+        "grid-controller",
+        "session-view",
+        "performance",
+        "clip-launching",
+        "macros"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Launchpad and Grid Controller Performance Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "live_performance_set_design",
+      "title": "Ableton Live Performance Set Design",
+      "path": "knowledge_base/daw/ableton/live_performance_set_design.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "live-performance",
+        "locators",
+        "ableton-link",
+        "crash-safety",
+        "gigging",
+        "backing-track"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Live Performance Set Design",
+      "daw": "ableton"
+    },
+    {
       "id": "max_for_live_custom_device_workflow",
       "title": "Max for Live Custom Device Workflow",
       "path": "knowledge_base/daw/ableton/max_for_live_custom_device_workflow.md",
@@ -73,6 +148,64 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton MIDI Controller Mapping Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "modulation_and_lfo_device_workflow",
+      "title": "Ableton Modulation and LFO Device Workflow",
+      "path": "knowledge_base/daw/ableton/modulation_and_lfo_device_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "modulation",
+        "lfo",
+        "shaper",
+        "envelope-follower",
+        "max-for-live",
+        "wavetable",
+        "drift"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Modulation and LFO Device Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "multitrack_recording_and_take_comping_workflow",
+      "title": "Ableton Multitrack Recording and Take Comping Workflow",
+      "path": "knowledge_base/daw/ableton/multitrack_recording_and_take_comping_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "recording",
+        "take-lanes",
+        "comping",
+        "punch-recording",
+        "arrangement-view",
+        "live-11"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Multitrack Recording and Take Comping Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "project_templates_and_track_bus_conventions",
+      "title": "Ableton Project Templates and Track Bus Conventions",
+      "path": "knowledge_base/daw/ableton/project_templates_and_track_bus_conventions.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "templates",
+        "default-set",
+        "track-color",
+        "group-tracks",
+        "workflow",
+        "organization"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Project Templates and Track Bus Conventions",
       "daw": "ableton"
     },
     {
@@ -133,6 +266,25 @@
       "daw": "ableton"
     },
     {
+      "id": "session_view_clip_launching_and_follow_actions",
+      "title": "Ableton Session View Clip Launching and Follow Actions",
+      "path": "knowledge_base/daw/ableton/session_view_clip_launching_and_follow_actions.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "session-view",
+        "follow-actions",
+        "clip-launching",
+        "quantization",
+        "legato",
+        "performance"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Session View Clip Launching and Follow Actions",
+      "daw": "ableton"
+    },
+    {
       "id": "warping_and_audio_to_midi_conversion",
       "title": "Ableton Warping and Audio-to-MIDI Conversion Workflow",
       "path": "knowledge_base/daw/ableton/warping_and_audio_to_midi_conversion.md",
@@ -184,6 +336,42 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio External Hardware Sync and Recording",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "groove_and_humanization_workflow",
+      "title": "FL Studio Groove and Humanization Workflow",
+      "path": "knowledge_base/daw/fl_studio/groove_and_humanization_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "groove",
+        "swing",
+        "humanization",
+        "piano-roll",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Groove and Humanization Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "live_performance_controller_workflow",
+      "title": "FL Studio Live Performance Controller Workflow",
+      "path": "knowledge_base/daw/fl_studio/live_performance_controller_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "live-performance",
+        "controller-mapping",
+        "patcher",
+        "performance-mode",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Live Performance Controller Workflow",
       "daw": "fl_studio"
     },
     {
@@ -257,6 +445,136 @@
       "schema_type": "workflow",
       "workflow_name": "FL Studio Pattern to Playlist Workflow",
       "daw": "fl_studio"
+    },
+    {
+      "id": "performance_mode_and_playlist_launch_workflow",
+      "title": "FL Studio Performance Mode and Playlist Launch Workflow",
+      "path": "knowledge_base/daw/fl_studio/performance_mode_and_playlist_launch_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "performance-mode",
+        "playlist",
+        "live-performance",
+        "clip-launching",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Performance Mode and Playlist Launch Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "playlist_automation_clips_and_modulation_controllers",
+      "title": "FL Studio Playlist Automation Clips and Modulation Controllers",
+      "path": "knowledge_base/daw/fl_studio/playlist_automation_clips_and_modulation_controllers.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "automation",
+        "modulation",
+        "peak-controller",
+        "envelope-controller",
+        "formula-controller",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Playlist Automation Clips and Modulation Controllers",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "project_templates_and_mixer_conventions",
+      "title": "FL Studio Project Templates and Mixer Conventions",
+      "path": "knowledge_base/daw/fl_studio/project_templates_and_mixer_conventions.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "templates",
+        "mixer",
+        "routing",
+        "project-setup",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Project Templates and Mixer Conventions",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "recording_and_audio_editing_workflow",
+      "title": "FL Studio Recording and Audio Editing Workflow",
+      "path": "knowledge_base/daw/fl_studio/recording_and_audio_editing_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "recording",
+        "audio-editing",
+        "edison",
+        "comping",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Recording and Audio Editing Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "automation_curve_shape_and_musicality",
+      "title": "Automation Curve Shape and Musicality",
+      "path": "knowledge_base/daw/workflow/automation_curve_shape_and_musicality.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "automation",
+        "curves",
+        "modulation",
+        "mixing",
+        "sound-design",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Automation Curve Shape and Musicality",
+      "daw": "generic"
+    },
+    {
+      "id": "comping_best_take_selection_philosophy",
+      "title": "Comping and Best-Take Selection Philosophy",
+      "path": "knowledge_base/daw/workflow/comping_best_take_selection_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "comping",
+        "take-selection",
+        "recording",
+        "editing",
+        "performance",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Comping and Best-Take Selection Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "live_performance_safety_and_backup_practices",
+      "title": "Live Performance Safety and Backup Practices",
+      "path": "knowledge_base/daw/workflow/live_performance_safety_and_backup_practices.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "live-performance",
+        "gigging",
+        "backup",
+        "redundancy",
+        "reliability",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Live Performance Safety and Backup Practices",
+      "daw": "generic"
     },
     {
       "id": "adventure_score",

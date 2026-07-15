@@ -87,10 +87,10 @@ Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` f
 ## Roadmap
 
 - [x] **Phase 1** — Folder structure, schemas, root docs, and the 7 specialist subagents.
-- [~] **Phase 2** — Build 500 core genre profiles. Significant EDM, electronic, rock, and jazz coverage exists; other families still need expansion.
+- [x] **Phase 2** — Build 500 core genre profiles. Complete: 500/500 WebSearch-verified entries across all families.
 - [x] **Phase 2 tooling baseline** — Add frontmatter validation and generated knowledge-base index.
 - [ ] **Phase 3** — Expand to 6,000+ genres/subgenres.
-- [ ] **Phase 4** — Add production techniques (mixing/mastering/sound-design entries at scale).
-- [ ] **Phase 5** — Add the VST/plugin database.
+- [x] **Phase 4** — Add production techniques (mixing/mastering/sound-design entries at scale). Substantially complete: 196 entries across mixing (70), mastering (40), and sound_design (86).
+- [~] **Phase 5** — Add the VST/plugin database. In progress: 29 entries so far, expanding toward broader plugin/category coverage.
 - [ ] **Phase 6** — Add Ableton and FL Studio workflow entries at scale.
 - [ ] **Phase 7** — MCP server integration, vector DB / RAG retrieval, automated stem/mix analysis.

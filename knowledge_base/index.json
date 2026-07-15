@@ -1,7 +1,27 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 890,
+  "entry_count": 904,
   "entries": [
+    {
+      "id": "bass_di_and_amp_blend_workflow",
+      "title": "Ableton Bass DI and Amp Blend Recording Workflow",
+      "path": "knowledge_base/daw/ableton/bass_di_and_amp_blend_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "recording",
+        "bass",
+        "di",
+        "amp-blend",
+        "reamping",
+        "gain-staging",
+        "tracking"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Bass DI and Amp Blend Recording Workflow",
+      "daw": "ableton"
+    },
     {
       "id": "clip_envelope_and_automation_workflow",
       "title": "Ableton Clip Envelope and Automation Workflow",
@@ -197,6 +217,26 @@
       "daw": "ableton"
     },
     {
+      "id": "guitar_di_and_reamping_workflow",
+      "title": "Ableton Guitar DI Recording and Reamping Workflow",
+      "path": "knowledge_base/daw/ableton/guitar_di_and_reamping_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "recording",
+        "guitar",
+        "di",
+        "reamping",
+        "amp-sim",
+        "tracking",
+        "flexibility"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Guitar DI Recording and Reamping Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "house_and_techno_arrangement_workflow",
       "title": "Ableton House and Techno Loop-Based Arrangement Workflow",
       "path": "knowledge_base/daw/ableton/house_and_techno_arrangement_workflow.md",
@@ -294,6 +334,26 @@
       "daw": "ableton"
     },
     {
+      "id": "mastering_export_prep_for_vinyl_workflow",
+      "title": "Ableton Mastering Export Prep for Vinyl Workflow",
+      "path": "knowledge_base/daw/ableton/mastering_export_prep_for_vinyl_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "mastering",
+        "vinyl",
+        "bass-mono",
+        "export",
+        "riaa",
+        "dynamic-range",
+        "cutting"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Mastering Export Prep for Vinyl Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "max_for_live_custom_device_workflow",
       "title": "Max for Live Custom Device Workflow",
       "path": "knowledge_base/daw/ableton/max_for_live_custom_device_workflow.md",
@@ -309,6 +369,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Max for Live Custom Device Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "midi_chord_and_arpeggiator_tools_workflow",
+      "title": "Ableton Chord, Arpeggiator, and Scale MIDI Tools Workflow",
+      "path": "knowledge_base/daw/ableton/midi_chord_and_arpeggiator_tools_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "midi",
+        "chord-device",
+        "arpeggiator",
+        "scale-device",
+        "harmony",
+        "printing-midi",
+        "midi-effects"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Chord, Arpeggiator, and Scale MIDI Tools Workflow",
       "daw": "ableton"
     },
     {
@@ -601,6 +681,27 @@
       "daw": "ableton"
     },
     {
+      "id": "trance_and_ambient_longform_arrangement_workflow",
+      "title": "Ableton Trance and Ambient/Downtempo Long-Form Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/trance_and_ambient_longform_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "trance",
+        "ambient",
+        "downtempo",
+        "long-form",
+        "automation",
+        "breakdown",
+        "supersaw"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Trance and Ambient/Downtempo Long-Form Arrangement Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "trap_and_hiphop_arrangement_workflow",
       "title": "Ableton Trap and Hip-Hop Loop-Based Arrangement Workflow",
       "path": "knowledge_base/daw/ableton/trap_and_hiphop_arrangement_workflow.md",
@@ -678,6 +779,25 @@
       "schema_type": "workflow",
       "workflow_name": "Ableton Warping and Audio-to-MIDI Conversion Workflow",
       "daw": "ableton"
+    },
+    {
+      "id": "bass_di_and_amp_blend_workflow",
+      "title": "FL Studio Bass DI and Amp Blend Workflow",
+      "path": "knowledge_base/daw/fl_studio/bass_di_and_amp_blend_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "recording",
+        "bass",
+        "di",
+        "amp-blend",
+        "reamping",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Bass DI and Amp Blend Workflow",
+      "daw": "fl_studio"
     },
     {
       "id": "channel_rack_step_sequencer_workflow",
@@ -852,6 +972,25 @@
       "daw": "fl_studio"
     },
     {
+      "id": "guitar_di_and_reamping_workflow",
+      "title": "FL Studio Guitar DI Recording and Reamping Workflow",
+      "path": "knowledge_base/daw/fl_studio/guitar_di_and_reamping_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "recording",
+        "guitar",
+        "di",
+        "reamping",
+        "amp-sim",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Guitar DI Recording and Reamping Workflow",
+      "daw": "fl_studio"
+    },
+    {
       "id": "house_and_techno_arrangement_workflow",
       "title": "FL Studio House and Techno Loop-Based Arrangement Workflow",
       "path": "knowledge_base/daw/fl_studio/house_and_techno_arrangement_workflow.md",
@@ -927,6 +1066,43 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Master Bus Chain and Export Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "mastering_export_prep_for_vinyl_workflow",
+      "title": "FL Studio Mastering Export Prep for Vinyl",
+      "path": "knowledge_base/daw/fl_studio/mastering_export_prep_for_vinyl_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "mastering",
+        "vinyl",
+        "mono-bass",
+        "export",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Mastering Export Prep for Vinyl",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "midi_chord_and_arpeggiator_tools_workflow",
+      "title": "FL Studio Chord, Arpeggiator, and Scale Helper Tools",
+      "path": "knowledge_base/daw/fl_studio/midi_chord_and_arpeggiator_tools_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "midi",
+        "chords",
+        "arpeggiator",
+        "scale-helper",
+        "piano-roll",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Chord, Arpeggiator, and Scale Helper Tools",
       "daw": "fl_studio"
     },
     {
@@ -1211,6 +1387,27 @@
       "daw": "fl_studio"
     },
     {
+      "id": "trance_and_ambient_longform_arrangement_workflow",
+      "title": "FL Studio Trance and Ambient/Downtempo Long-Form Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/trance_and_ambient_longform_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "trance",
+        "ambient",
+        "downtempo",
+        "arrangement",
+        "long-form",
+        "playlist",
+        "automation",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Trance and Ambient/Downtempo Long-Form Arrangement Workflow",
+      "daw": "fl_studio"
+    },
+    {
       "id": "trap_and_hiphop_arrangement_workflow",
       "title": "FL Studio Trap and Hip-Hop Loop-Based Arrangement Workflow",
       "path": "knowledge_base/daw/fl_studio/trap_and_hiphop_arrangement_workflow.md",
@@ -1386,6 +1583,44 @@
       "daw": "generic"
     },
     {
+      "id": "longform_arrangement_pacing_philosophy",
+      "title": "Long-Form Arrangement Pacing Philosophy",
+      "path": "knowledge_base/daw/workflow/longform_arrangement_pacing_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "arrangement",
+        "longform",
+        "trance",
+        "ambient",
+        "downtempo",
+        "pacing",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Long-Form Arrangement Pacing Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "midi_chord_and_scale_constraint_philosophy",
+      "title": "MIDI Chord and Scale Constraint Tool Philosophy",
+      "path": "knowledge_base/daw/workflow/midi_chord_and_scale_constraint_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "midi",
+        "chord-generator",
+        "scale-lock",
+        "harmony",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "MIDI Chord and Scale Constraint Tool Philosophy",
+      "daw": "generic"
+    },
+    {
       "id": "mix_translation_and_multi_system_checking_philosophy",
       "title": "Mix Translation and Multi-System Checking Philosophy",
       "path": "knowledge_base/daw/workflow/mix_translation_and_multi_system_checking_philosophy.md",
@@ -1402,6 +1637,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Mix Translation and Multi-System Checking Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "reamping_and_di_signal_chain_philosophy",
+      "title": "Reamping and DI Signal Chain Philosophy",
+      "path": "knowledge_base/daw/workflow/reamping_and_di_signal_chain_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "recording",
+        "di",
+        "reamping",
+        "guitar",
+        "bass",
+        "signal-chain",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reamping and DI Signal Chain Philosophy",
       "daw": "generic"
     },
     {
@@ -1460,6 +1715,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Stem Export and Session Versioning Conventions Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "vinyl_mastering_constraints_philosophy",
+      "title": "Vinyl Mastering Constraints Philosophy",
+      "path": "knowledge_base/daw/workflow/vinyl_mastering_constraints_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "mastering",
+        "vinyl",
+        "riaa",
+        "bass-mono",
+        "cutting",
+        "format",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Vinyl Mastering Constraints Philosophy",
       "daw": "generic"
     },
     {

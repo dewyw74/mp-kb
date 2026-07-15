@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 934,
+  "entry_count": 954,
   "entries": [
     {
       "id": "bass_di_and_amp_blend_workflow",
@@ -898,6 +898,44 @@
       "daw": "cubase"
     },
     {
+      "id": "control_room_monitoring_setup_workflow",
+      "title": "Cubase Control Room Monitoring Setup Workflow",
+      "path": "knowledge_base/daw/cubase/control_room_monitoring_setup_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "control-room",
+        "monitoring",
+        "cue-mix",
+        "talkback",
+        "tracking",
+        "routing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase Control Room Monitoring Setup Workflow",
+      "daw": "cubase"
+    },
+    {
+      "id": "midi_remote_controller_mapping_workflow",
+      "title": "Cubase MIDI Remote Controller Mapping Workflow",
+      "path": "knowledge_base/daw/cubase/midi_remote_controller_mapping_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "midi-remote",
+        "controller-mapping",
+        "quick-controls",
+        "generic-remote",
+        "hardware-integration",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase MIDI Remote Controller Mapping Workflow",
+      "daw": "cubase"
+    },
+    {
       "id": "project_setup_and_mixconsole_routing_workflow",
       "title": "Cubase Project Setup and MixConsole Routing Workflow",
       "path": "knowledge_base/daw/cubase/project_setup_and_mixconsole_routing_workflow.md",
@@ -915,6 +953,44 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Cubase Project Setup and MixConsole Routing Workflow",
+      "daw": "cubase"
+    },
+    {
+      "id": "sampler_track_slicing_and_audio_to_midi_workflow",
+      "title": "Cubase Sampler Track Slicing and Audio-to-MIDI Workflow",
+      "path": "knowledge_base/daw/cubase/sampler_track_slicing_and_audio_to_midi_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "sampler-track",
+        "slicing",
+        "audio-to-midi",
+        "sample-chopping",
+        "beat-slicing",
+        "sampling"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase Sampler Track Slicing and Audio-to-MIDI Workflow",
+      "daw": "cubase"
+    },
+    {
+      "id": "variaudio_vocal_tuning_and_chain_workflow",
+      "title": "Cubase VariAudio Pitch Correction and Vocal Chain Workflow",
+      "path": "knowledge_base/daw/cubase/variaudio_vocal_tuning_and_chain_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "variaudio",
+        "vocal-tuning",
+        "pitch-correction",
+        "formant",
+        "vocal-chain",
+        "editing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase VariAudio Pitch Correction and Vocal Chain Workflow",
       "daw": "cubase"
     },
     {
@@ -1715,6 +1791,25 @@
       "daw": "logic_pro"
     },
     {
+      "id": "groove_templates_and_humanization_workflow",
+      "title": "Logic Pro Groove Templates and Humanization Workflow",
+      "path": "knowledge_base/daw/logic_pro/groove_templates_and_humanization_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "groove-templates",
+        "quantize",
+        "humanization",
+        "q-strength",
+        "q-range",
+        "midi"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Groove Templates and Humanization Workflow",
+      "daw": "logic_pro"
+    },
+    {
       "id": "mixing_automation_and_channel_eq_workflow",
       "title": "Logic Pro Mixing Automation and Channel EQ Workflow",
       "path": "knowledge_base/daw/logic_pro/mixing_automation_and_channel_eq_workflow.md",
@@ -1754,6 +1849,25 @@
       "daw": "logic_pro"
     },
     {
+      "id": "sidechain_ducking_and_filtered_side_chain_workflow",
+      "title": "Logic Pro Sidechain Ducking and Filtered Side-Chain Routing Workflow",
+      "path": "knowledge_base/daw/logic_pro/sidechain_ducking_and_filtered_side_chain_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "sidechain",
+        "ducking",
+        "compressor",
+        "routing",
+        "side-chain-filter",
+        "mixing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Sidechain Ducking and Filtered Side-Chain Routing Workflow",
+      "daw": "logic_pro"
+    },
+    {
       "id": "smart_controls_and_drummer_workflow",
       "title": "Logic Pro Smart Controls and Drummer Workflow",
       "path": "knowledge_base/daw/logic_pro/smart_controls_and_drummer_workflow.md",
@@ -1773,6 +1887,44 @@
       "daw": "logic_pro"
     },
     {
+      "id": "stem_export_and_bounce_in_place_workflow",
+      "title": "Logic Pro Stem Export and Bounce-in-Place Workflow",
+      "path": "knowledge_base/daw/logic_pro/stem_export_and_bounce_in_place_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "stem-export",
+        "bounce-in-place",
+        "collaboration",
+        "export",
+        "track-stacks",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Stem Export and Bounce-in-Place Workflow",
+      "daw": "logic_pro"
+    },
+    {
+      "id": "vocal_chain_and_pitch_correction_pipeline_workflow",
+      "title": "Logic Pro Vocal Chain and Pitch Correction Pipeline Workflow",
+      "path": "knowledge_base/daw/logic_pro/vocal_chain_and_pitch_correction_pipeline_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "vocal-chain",
+        "pitch-correction",
+        "compression",
+        "de-essing",
+        "signal-order",
+        "mixing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Vocal Chain and Pitch Correction Pipeline Workflow",
+      "daw": "logic_pro"
+    },
+    {
       "id": "clip_gain_and_elastic_audio_workflow",
       "title": "Pro Tools Clip Gain and Elastic Audio Workflow",
       "path": "knowledge_base/daw/pro_tools/clip_gain_and_elastic_audio_workflow.md",
@@ -1789,6 +1941,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Pro Tools Clip Gain and Elastic Audio Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "heat_saturation_and_analog_emulation_workflow",
+      "title": "Pro Tools HEAT Saturation and Analog Emulation Workflow",
+      "path": "knowledge_base/daw/pro_tools/heat_saturation_and_analog_emulation_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "heat",
+        "saturation",
+        "analog-emulation",
+        "harmonic-distortion",
+        "mixing",
+        "tone-shaping"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools HEAT Saturation and Analog Emulation Workflow",
       "daw": "pro_tools"
     },
     {
@@ -1849,6 +2020,65 @@
       "daw": "pro_tools"
     },
     {
+      "id": "sidechain_ducking_routing_setup_workflow",
+      "title": "Pro Tools Sidechain Ducking Routing Setup Workflow",
+      "path": "knowledge_base/daw/pro_tools/sidechain_ducking_routing_setup_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "sidechain",
+        "ducking",
+        "routing",
+        "key-input",
+        "dyn3",
+        "compression"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Sidechain Ducking Routing Setup Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "stem_export_and_session_interchange_workflow",
+      "title": "Pro Tools Stem Export and Session Interchange Workflow",
+      "path": "knowledge_base/daw/pro_tools/stem_export_and_session_interchange_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "stem-export",
+        "aaf",
+        "omf",
+        "session-interchange",
+        "collaboration",
+        "post-production",
+        "bounce"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Stem Export and Session Interchange Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "vocal_tuning_melodyne_ara_and_comping_pipeline_workflow",
+      "title": "Pro Tools Vocal Tuning (Melodyne ARA) and Comping Pipeline Workflow",
+      "path": "knowledge_base/daw/pro_tools/vocal_tuning_melodyne_ara_and_comping_pipeline_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "vocal-tuning",
+        "melodyne",
+        "ara2",
+        "auto-tune",
+        "comping",
+        "vocal-chain",
+        "editing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Vocal Tuning (Melodyne ARA) and Comping Pipeline Workflow",
+      "daw": "pro_tools"
+    },
+    {
       "id": "customization_and_reascript_workflow",
       "title": "Reaper Customization and ReaScript Workflow",
       "path": "knowledge_base/daw/reaper/customization_and_reascript_workflow.md",
@@ -1883,6 +2113,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Reaper FX Chains and Track Templates Workflow",
+      "daw": "reaper"
+    },
+    {
+      "id": "jsfx_custom_effect_scripting_workflow",
+      "title": "Reaper JSFX Custom Effect Scripting Workflow",
+      "path": "knowledge_base/daw/reaper/jsfx_custom_effect_scripting_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "jsfx",
+        "scripting",
+        "eel2",
+        "custom-effects",
+        "sound-design",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper JSFX Custom Effect Scripting Workflow",
       "daw": "reaper"
     },
     {
@@ -1924,6 +2173,62 @@
       "daw": "reaper"
     },
     {
+      "id": "render_matrix_and_batch_stem_export_workflow",
+      "title": "Reaper Region Render Matrix and Batch Stem Export Workflow",
+      "path": "knowledge_base/daw/reaper/render_matrix_and_batch_stem_export_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "export",
+        "rendering",
+        "stems",
+        "batch-render",
+        "region-render-matrix",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper Region Render Matrix and Batch Stem Export Workflow",
+      "daw": "reaper"
+    },
+    {
+      "id": "sample_chopping_slicing_and_audio_to_midi_workflow",
+      "title": "Reaper Sample Chopping, Slicing, and Audio-to-MIDI Workflow",
+      "path": "knowledge_base/daw/reaper/sample_chopping_slicing_and_audio_to_midi_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "sampling",
+        "sample-chopping",
+        "dynamic-split",
+        "audio-to-midi",
+        "reasamplomatic5000",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper Sample Chopping, Slicing, and Audio-to-MIDI Workflow",
+      "daw": "reaper"
+    },
+    {
+      "id": "sidechain_ducking_routing_setup_workflow",
+      "title": "Reaper Sidechain Ducking: Auxiliary-Channel Routing Setup",
+      "path": "knowledge_base/daw/reaper/sidechain_ducking_routing_setup_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "routing",
+        "sidechain",
+        "ducking",
+        "compression",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper Sidechain Ducking: Auxiliary-Channel Routing Setup",
+      "daw": "reaper"
+    },
+    {
       "id": "chord_track_and_ara_melodyne_integration_workflow",
       "title": "Studio One Chord Track and ARA Melodyne Integration",
       "path": "knowledge_base/daw/studio_one/chord_track_and_ara_melodyne_integration_workflow.md",
@@ -1940,6 +2245,43 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Studio One Chord Track and ARA Melodyne Integration",
+      "daw": "studio_one"
+    },
+    {
+      "id": "impact_xt_drum_and_pattern_programming_workflow",
+      "title": "Studio One Impact XT Drum and Pattern Programming",
+      "path": "knowledge_base/daw/studio_one/impact_xt_drum_and_pattern_programming_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "impact-xt",
+        "drum-programming",
+        "pattern-editor",
+        "sampler",
+        "step-sequencer",
+        "velocity-layers"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Impact XT Drum and Pattern Programming",
+      "daw": "studio_one"
+    },
+    {
+      "id": "macro_toolbar_custom_macros_workflow",
+      "title": "Studio One Macro Toolbar Custom Macros",
+      "path": "knowledge_base/daw/studio_one/macro_toolbar_custom_macros_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "macros",
+        "macro-toolbar",
+        "productivity",
+        "workflow-automation",
+        "custom-commands"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Macro Toolbar Custom Macros",
       "daw": "studio_one"
     },
     {
@@ -1962,6 +2304,25 @@
       "daw": "studio_one"
     },
     {
+      "id": "project_page_mastering_and_export_handoff_workflow",
+      "title": "Studio One Project Page Mastering and Export Handoff",
+      "path": "knowledge_base/daw/studio_one/project_page_mastering_and_export_handoff_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "project-page",
+        "mastering",
+        "export",
+        "ddp",
+        "loudness",
+        "album-sequencing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Project Page Mastering and Export Handoff",
+      "daw": "studio_one"
+    },
+    {
       "id": "scratch_pads_alternate_arrangement_workflow",
       "title": "Studio One Scratch Pads for Alternate Arrangement Ideas",
       "path": "knowledge_base/daw/studio_one/scratch_pads_alternate_arrangement_workflow.md",
@@ -1977,6 +2338,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Studio One Scratch Pads for Alternate Arrangement Ideas",
+      "daw": "studio_one"
+    },
+    {
+      "id": "sidechain_ducking_routing_workflow",
+      "title": "Studio One Sidechain and Ducking Routing",
+      "path": "knowledge_base/daw/studio_one/sidechain_ducking_routing_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "sidechain",
+        "ducking",
+        "compression",
+        "dynamic-eq",
+        "routing",
+        "dynamics"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Sidechain and Ducking Routing",
       "daw": "studio_one"
     },
     {

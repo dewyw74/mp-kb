@@ -9,7 +9,7 @@
     "technique_name": { "type": "string" },
     "category": {
       "type": "string",
-      "enum": ["eq", "compression", "reverb", "delay", "stereo", "dynamics", "loudness", "saturation", "other"]
+      "enum": ["eq", "compression", "reverb", "delay", "stereo", "dynamics", "loudness", "saturation", "automation", "vocal_processing", "sequencing", "format", "streaming", "other"]
     },
     "problem_solved": { "type": "string", "description": "The symptom this technique fixes, e.g. \"200-400Hz muddiness buildup\"" },
     "parameters": {

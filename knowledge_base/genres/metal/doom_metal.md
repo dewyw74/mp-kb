@@ -65,7 +65,7 @@ mixing:
   automation: "Risers on filter cutoff for synth pads during builds; volume rides on guitars to emphasize climactic peaks; reverb tails automated to fade into outros."
 mastering:
   target_loudness: "-10 to -8 LUFS integrated"
-  dynamics: "Preserve wide dynamic range (0.8–1.2 dB RMS crest factor) to retain the genre's crushing impact and atmospheric depth."
+  dynamics: "Preserve wide dynamic range (8–14 dB RMS crest factor) to retain the genre's crushing impact and atmospheric depth."
   frequency_balance: "Emphasize sub‑bass (30–60 Hz) for weight, full midrange presence (500 Hz–2 kHz) for guitar heft, and controlled high‑end (8–12 kHz) for cymbal shimmer without harshness."
 reference_artists:
   important_artists:

@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 874,
+  "entry_count": 890,
   "entries": [
     {
       "id": "clip_envelope_and_automation_workflow",
@@ -18,6 +18,45 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Clip Envelope and Automation Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "dnb_and_jungle_arrangement_workflow",
+      "title": "Ableton Drum and Bass / Jungle Rolling-Breakbeat Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/dnb_and_jungle_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "drum-and-bass",
+        "jungle",
+        "breakbeat",
+        "slicing",
+        "half-time",
+        "reese-bass"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Drum and Bass / Jungle Rolling-Breakbeat Arrangement Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "drum_bus_glue_and_parallel_compression_chain_workflow",
+      "title": "Ableton Drum Bus Glue and Parallel Compression Chain",
+      "path": "knowledge_base/daw/ableton/drum_bus_glue_and_parallel_compression_chain_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "mixer",
+        "drum-bus",
+        "glue-compression",
+        "parallel-compression",
+        "new-york-compression",
+        "saturation"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Drum Bus Glue and Parallel Compression Chain",
       "daw": "ableton"
     },
     {
@@ -119,6 +158,26 @@
       "daw": "ableton"
     },
     {
+      "id": "granular_and_resampling_sound_design_workflow",
+      "title": "Ableton Granular Synthesis and Resampling for Sound Design",
+      "path": "knowledge_base/daw/ableton/granular_and_resampling_sound_design_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "sampling",
+        "granular-synthesis",
+        "resampling",
+        "max-for-live",
+        "field-recording",
+        "texture-design",
+        "pad-design"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Granular Synthesis and Resampling for Sound Design",
+      "daw": "ableton"
+    },
+    {
       "id": "groove_pool_and_timing_workflow",
       "title": "Ableton Groove Pool and Timing Workflow",
       "path": "knowledge_base/daw/ableton/groove_pool_and_timing_workflow.md",
@@ -193,6 +252,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Live Performance Set Design",
+      "daw": "ableton"
+    },
+    {
+      "id": "lofi_and_chillhop_arrangement_workflow",
+      "title": "Ableton Lo-Fi and Chillhop Loop-and-Vibe Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/lofi_and_chillhop_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "lofi",
+        "chillhop",
+        "hip-hop",
+        "loop-based",
+        "texture-automation",
+        "groove"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Lo-Fi and Chillhop Loop-and-Vibe Arrangement Workflow",
       "daw": "ableton"
     },
     {
@@ -484,6 +563,44 @@
       "daw": "ableton"
     },
     {
+      "id": "sidechain_ducking_routing_setup_workflow",
+      "title": "Ableton Sidechain Ducking: Mechanical Routing Setup",
+      "path": "knowledge_base/daw/ableton/sidechain_ducking_routing_setup_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "routing",
+        "sidechain",
+        "ducking",
+        "compressor",
+        "audio-from",
+        "sidechain-eq"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Sidechain Ducking: Mechanical Routing Setup",
+      "daw": "ableton"
+    },
+    {
+      "id": "stem_export_and_collaboration_handoff_workflow",
+      "title": "Ableton Stem Export and Collaboration Handoff",
+      "path": "knowledge_base/daw/ableton/stem_export_and_collaboration_handoff_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "templates",
+        "stem-export",
+        "collaboration",
+        "multitrack",
+        "file-naming",
+        "handoff"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Stem Export and Collaboration Handoff",
+      "daw": "ableton"
+    },
+    {
       "id": "trap_and_hiphop_arrangement_workflow",
       "title": "Ableton Trap and Hip-Hop Loop-Based Arrangement Workflow",
       "path": "knowledge_base/daw/ableton/trap_and_hiphop_arrangement_workflow.md",
@@ -501,6 +618,27 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "vocal_chain_signal_order_workflow",
+      "title": "Ableton Lead Vocal Mixing Chain: Signal Order After Tuning",
+      "path": "knowledge_base/daw/ableton/vocal_chain_signal_order_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "mixer",
+        "vocal-chain",
+        "signal-order",
+        "eq",
+        "compression",
+        "de-essing",
+        "saturation",
+        "reverb-send"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Lead Vocal Mixing Chain: Signal Order After Tuning",
       "daw": "ableton"
     },
     {
@@ -557,6 +695,45 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Channel Rack Step Sequencer and FPC Drum Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "dnb_and_jungle_arrangement_workflow",
+      "title": "FL Studio Drum and Bass / Jungle Rolling Breakbeat Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/dnb_and_jungle_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "drum-and-bass",
+        "jungle",
+        "arrangement",
+        "breakbeat",
+        "reese-bass",
+        "playlist",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Drum and Bass / Jungle Rolling Breakbeat Arrangement Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "drum_bus_glue_and_parallel_compression_chain_workflow",
+      "title": "FL Studio Drum Bus Glue and Parallel Compression Chain",
+      "path": "knowledge_base/daw/fl_studio/drum_bus_glue_and_parallel_compression_chain_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "drum-bus",
+        "glue-compression",
+        "parallel-compression",
+        "new-york-compression",
+        "mixer",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Drum Bus Glue and Parallel Compression Chain",
       "daw": "fl_studio"
     },
     {
@@ -637,6 +814,26 @@
       "daw": "fl_studio"
     },
     {
+      "id": "granular_and_resampling_sound_design_workflow",
+      "title": "FL Studio Granular Processing and Resampling for Sound Design",
+      "path": "knowledge_base/daw/fl_studio/granular_and_resampling_sound_design_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "granular",
+        "resampling",
+        "sound-design",
+        "texture",
+        "field-recording",
+        "sampling",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Granular Processing and Resampling for Sound Design",
+      "daw": "fl_studio"
+    },
+    {
       "id": "groove_and_humanization_workflow",
       "title": "FL Studio Groove and Humanization Workflow",
       "path": "knowledge_base/daw/fl_studio/groove_and_humanization_workflow.md",
@@ -690,6 +887,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Live Performance Controller Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "lofi_and_chillhop_arrangement_workflow",
+      "title": "FL Studio Lo-Fi and Chillhop Loop-and-Vibe Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/lofi_and_chillhop_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "lofi",
+        "chillhop",
+        "arrangement",
+        "loop-based",
+        "vinyl-texture",
+        "playlist",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Lo-Fi and Chillhop Loop-and-Vibe Arrangement Workflow",
       "daw": "fl_studio"
     },
     {
@@ -955,6 +1172,45 @@
       "daw": "fl_studio"
     },
     {
+      "id": "sidechain_ducking_routing_setup_workflow",
+      "title": "FL Studio Sidechain Ducking Routing Setup",
+      "path": "knowledge_base/daw/fl_studio/sidechain_ducking_routing_setup_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "sidechain",
+        "routing",
+        "ducking",
+        "peak-controller",
+        "mixer",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Sidechain Ducking Routing Setup",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "stem_export_and_collaboration_handoff_workflow",
+      "title": "FL Studio Stem Export and Collaboration Handoff",
+      "path": "knowledge_base/daw/fl_studio/stem_export_and_collaboration_handoff_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "stems",
+        "export",
+        "collaboration",
+        "multitrack",
+        "split-mixer-tracks",
+        "templates",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Stem Export and Collaboration Handoff",
+      "daw": "fl_studio"
+    },
+    {
       "id": "trap_and_hiphop_arrangement_workflow",
       "title": "FL Studio Trap and Hip-Hop Loop-Based Arrangement Workflow",
       "path": "knowledge_base/daw/fl_studio/trap_and_hiphop_arrangement_workflow.md",
@@ -971,6 +1227,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "vocal_chain_signal_order_workflow",
+      "title": "FL Studio Lead Vocal Mixing Chain Signal Order",
+      "path": "knowledge_base/daw/fl_studio/vocal_chain_signal_order_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "vocal-chain",
+        "mixing",
+        "signal-order",
+        "compression",
+        "de-essing",
+        "mixer",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Lead Vocal Mixing Chain Signal Order",
       "daw": "fl_studio"
     },
     {
@@ -1071,6 +1347,26 @@
       "daw": "generic"
     },
     {
+      "id": "granular_and_resampling_musicality_philosophy",
+      "title": "Granular and Resampling Musicality Philosophy",
+      "path": "knowledge_base/daw/workflow/granular_and_resampling_musicality_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "granular-synthesis",
+        "resampling",
+        "sound-design",
+        "arrangement",
+        "musicality",
+        "texture",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Granular and Resampling Musicality Philosophy",
+      "daw": "generic"
+    },
+    {
       "id": "live_performance_safety_and_backup_practices",
       "title": "Live Performance Safety and Backup Practices",
       "path": "knowledge_base/daw/workflow/live_performance_safety_and_backup_practices.md",
@@ -1145,6 +1441,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Sample Chop Selection and Musicality Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "stem_export_and_session_versioning_conventions_philosophy",
+      "title": "Stem Export and Session Versioning Conventions Philosophy",
+      "path": "knowledge_base/daw/workflow/stem_export_and_session_versioning_conventions_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "stem-export",
+        "file-naming",
+        "versioning",
+        "collaboration",
+        "session-management",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Stem Export and Session Versioning Conventions Philosophy",
       "daw": "generic"
     },
     {

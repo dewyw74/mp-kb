@@ -19,10 +19,11 @@ knowledge_base/
   vst_database/
   reference/           # external resource pointers (not deep technique docs, no schema)
 schemas/            # JSON Schema contracts for each entry type's frontmatter
-automation/          # future prompts/, workflows/, pipelines/ for MCP/RAG integration
+mcp_server/          # local MCP server exposing semantic search over the KB (Phase 6)
+automation/          # future prompts/, workflows/, pipelines/ (e.g. stem/mix analysis)
 .claude/agents/       # Claude Code specialist subagents
 .codex/agents/        # Codex specialist subagents
-tools/                # validation and index-generation utilities
+tools/                # validation, index-generation, and embeddings-build utilities
 ```
 
 Each `knowledge_base/` category has its own `README.md` explaining what belongs there and which schema its entries conform to.
@@ -68,6 +69,19 @@ python tools\draft_genre_with_groq.py "Genre Name" --parent-genre Rock
 
 `draft_genre_with_groq.py` uses a Groq API key (free tier; set `GROQ_API_KEY` in the environment, never commit it) to generate a first-pass genre entry matching `schemas/genre_schema.json` and an existing entry's structure/depth. Output lands in `drafts/genres/` (gitignored), marked unreviewed — fact-check and edit it, then manually move it into `knowledge_base/genres/<family>/` and run `validate_kb.py` before it counts as real KB content.
 
+## MCP Server
+
+`mcp_server/server.py` is a local MCP server exposing semantic search over the knowledge base, registered project-wide via `.mcp.json`. Install dependencies with `pip install -r requirements.txt` (pulls in `mcp[cli]` and `sentence-transformers`; the embedding model is fully local/offline — no API key, no per-query cost).
+
+```powershell
+pip install -r requirements.txt
+python tools\build_embeddings_index.py
+```
+
+`build_embeddings_index.py` embeds every KB entry's title + body with a local `sentence-transformers` model (`all-MiniLM-L6-v2`) and writes `knowledge_base/embeddings.json`. Re-run it whenever KB content changes — it's committed to git and regenerated the same way as `index.json`.
+
+The server exposes two tools: `search_kb(query, category?, limit?)` for cosine-similarity semantic search (ranked results with a snippet), and `get_kb_entry(path)` to fetch a full file's content. All 7 specialist subagents are wired to prefer `search_kb` over Grep/Glob when the MCP tool is available, falling back to Grep/Glob otherwise.
+
 ## Specialist subagents
 
 Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` for Codex. Each searches its corresponding `knowledge_base/` subfolder before answering:
@@ -91,7 +105,7 @@ Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` f
 - [x] **Phase 2 tooling baseline** — Add frontmatter validation and generated knowledge-base index.
 - [x] **Phase 3** — Add production techniques (mixing/mastering/sound-design entries at scale). Substantially complete: 196 entries across mixing (70), mastering (40), and sound_design (86).
 - [x] **Phase 4** — Add the VST/plugin database. Complete: 64 entries (up from 29), covering synths/samplers, EQ/compression/dynamics, reverb/delay/saturation, vocal/pitch/mastering-limiters, multiband compression, metering/analysis, and drum romplers.
-- [~] **Phase 5** — Add Ableton and FL Studio workflow entries at scale. In progress: 101 entries (up from 14) — 44 Ableton, 40 FL Studio, and a cross-DAW `daw/workflow/` folder (17 entries) covering session/live-performance, live looping, automation/modulation, templates, recording/comping, mixing, mastering, sampling, mix troubleshooting, vocal chain (tuning through full signal chain), drum-bus compression, orchestral MIDI programming, keyboard/pad performance setup, sound-design automation, granular/resampling, sidechain routing, stem-export/collaboration handoff, DI/reamping, MIDI chord/arpeggiator tools, vinyl mastering export prep, and genre-specific arrangement (EDM/trap/house-techno/dubstep/lofi/DnB/trance/ambient) workflows.
-- [ ] **Phase 6** — MCP server integration, vector DB / RAG retrieval, automated stem/mix analysis.
+- [x] **Phase 5** — Add Ableton and FL Studio workflow entries at scale. Complete: 101 entries (up from 14) — 44 Ableton, 40 FL Studio, and a cross-DAW `daw/workflow/` folder (17 entries) covering session/live-performance, live looping, automation/modulation, templates, recording/comping, mixing, mastering, sampling, mix troubleshooting, vocal chain (tuning through full signal chain), drum-bus compression, orchestral MIDI programming, keyboard/pad performance setup, sound-design automation, granular/resampling, sidechain routing, stem-export/collaboration handoff, DI/reamping, MIDI chord/arpeggiator tools, vinyl mastering export prep, and genre-specific arrangement (EDM/trap/house-techno/dubstep/lofi/DnB/trance/ambient) workflows.
+- [~] **Phase 6** — MCP server integration, vector DB / RAG retrieval, automated stem/mix analysis. In progress: MCP server (`mcp_server/server.py`) with local-embedding semantic search (`sentence-transformers`, no API key/cost) shipped and wired into all 7 subagents. Automated audio stem/mix analysis (analyzing the user's actual audio files) deferred to its own future phase — it needs entirely new audio-processing infrastructure unrelated to text retrieval.
 - [ ] **Optional** — Expand genre coverage from the 500-genre essential baseline toward 6,000+ genres/subgenres (long-tail micro-genres, regional scenes, fusion styles). A stretch goal, not a blocker for Phases 5-6.
 - [ ] **Optional** — Extend DAW coverage beyond Ableton (primary) and FL Studio (secondary) to alternative DAWs (e.g. Logic Pro, Pro Tools, Cubase, Studio One). Requires extending `workflow_schema.json`'s `daw` enum and adding new `knowledge_base/daw/` subfolders — a structural change, not a blocker for Phase 6.

@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 914,
+  "entry_count": 934,
   "entries": [
     {
       "id": "bass_di_and_amp_blend_workflow",
@@ -857,6 +857,87 @@
       "daw": "ableton"
     },
     {
+      "id": "automation_and_logical_editor_workflow",
+      "title": "Cubase Automation Modes and Logical Editor Workflow",
+      "path": "knowledge_base/daw/cubase/automation_and_logical_editor_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "automation",
+        "logical-editor",
+        "project-logical-editor",
+        "midi-editing",
+        "touch-fader",
+        "autolatch",
+        "cross-over",
+        "trim"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase Automation Modes and Logical Editor Workflow",
+      "daw": "cubase"
+    },
+    {
+      "id": "chord_track_and_chord_assistant_workflow",
+      "title": "Cubase Chord Track and Chord Assistant Workflow",
+      "path": "knowledge_base/daw/cubase/chord_track_and_chord_assistant_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "harmony",
+        "chord-track",
+        "chord-pads",
+        "chord-assistant",
+        "voicing",
+        "composition",
+        "reharmonization"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase Chord Track and Chord Assistant Workflow",
+      "daw": "cubase"
+    },
+    {
+      "id": "project_setup_and_mixconsole_routing_workflow",
+      "title": "Cubase Project Setup and MixConsole Routing Workflow",
+      "path": "knowledge_base/daw/cubase/project_setup_and_mixconsole_routing_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "routing",
+        "mixconsole",
+        "group-channel",
+        "channel-strip",
+        "inserts",
+        "vca",
+        "templates"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase Project Setup and MixConsole Routing Workflow",
+      "daw": "cubase"
+    },
+    {
+      "id": "vst_expression_and_expression_maps_workflow",
+      "title": "Cubase VST Expression and Expression Maps Workflow",
+      "path": "knowledge_base/daw/cubase/vst_expression_and_expression_maps_workflow.md",
+      "category": "daw",
+      "subcategory": "cubase",
+      "tags": [
+        "cubase",
+        "midi",
+        "expression-maps",
+        "vst-expression",
+        "note-expression",
+        "articulations",
+        "keyswitch",
+        "orchestral"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Cubase VST Expression and Expression Maps Workflow",
+      "daw": "cubase"
+    },
+    {
       "id": "bass_di_and_amp_blend_workflow",
       "title": "FL Studio Bass DI and Amp Blend Workflow",
       "path": "knowledge_base/daw/fl_studio/bass_di_and_amp_blend_workflow.md",
@@ -1613,6 +1694,309 @@
       "schema_type": "workflow",
       "workflow_name": "FL Studio Vocal Tuning and Comping Pipeline",
       "daw": "fl_studio"
+    },
+    {
+      "id": "flex_time_and_flex_pitch_editing_workflow",
+      "title": "Logic Pro Flex Time and Flex Pitch Editing Workflow",
+      "path": "knowledge_base/daw/logic_pro/flex_time_and_flex_pitch_editing_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "flex-time",
+        "flex-pitch",
+        "editing",
+        "vocal-tuning",
+        "time-stretching",
+        "quantize"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Flex Time and Flex Pitch Editing Workflow",
+      "daw": "logic_pro"
+    },
+    {
+      "id": "mixing_automation_and_channel_eq_workflow",
+      "title": "Logic Pro Mixing Automation and Channel EQ Workflow",
+      "path": "knowledge_base/daw/logic_pro/mixing_automation_and_channel_eq_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "automation",
+        "channel-eq",
+        "mixing",
+        "touch-latch-write",
+        "trim-automation",
+        "eq"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Mixing Automation and Channel EQ Workflow",
+      "daw": "logic_pro"
+    },
+    {
+      "id": "project_setup_and_mixer_routing_workflow",
+      "title": "Logic Pro Project Setup and Mixer Routing Workflow",
+      "path": "knowledge_base/daw/logic_pro/project_setup_and_mixer_routing_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "routing",
+        "mixer",
+        "track-stacks",
+        "summing-stack",
+        "folder-stack",
+        "bus-routing",
+        "gain-staging"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Project Setup and Mixer Routing Workflow",
+      "daw": "logic_pro"
+    },
+    {
+      "id": "smart_controls_and_drummer_workflow",
+      "title": "Logic Pro Smart Controls and Drummer Workflow",
+      "path": "knowledge_base/daw/logic_pro/smart_controls_and_drummer_workflow.md",
+      "category": "daw",
+      "subcategory": "logic_pro",
+      "tags": [
+        "logic_pro",
+        "smart-controls",
+        "drummer",
+        "drum-machine-designer",
+        "macros",
+        "drum-programming",
+        "templates"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Logic Pro Smart Controls and Drummer Workflow",
+      "daw": "logic_pro"
+    },
+    {
+      "id": "clip_gain_and_elastic_audio_workflow",
+      "title": "Pro Tools Clip Gain and Elastic Audio Workflow",
+      "path": "knowledge_base/daw/pro_tools/clip_gain_and_elastic_audio_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "clip-gain",
+        "elastic-audio",
+        "editing",
+        "time-stretching",
+        "pitch-shifting",
+        "gain-riding"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Clip Gain and Elastic Audio Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "mixing_automation_modes_and_vca_grouping_workflow",
+      "title": "Pro Tools Mixing Automation Modes and VCA Grouping Workflow",
+      "path": "knowledge_base/daw/pro_tools/mixing_automation_modes_and_vca_grouping_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "automation",
+        "vca",
+        "mixing",
+        "touch-latch",
+        "film-scoring",
+        "large-format-mixing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Mixing Automation Modes and VCA Grouping Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "playlist_based_comping_workflow",
+      "title": "Pro Tools Playlist-Based Comping Workflow",
+      "path": "knowledge_base/daw/pro_tools/playlist_based_comping_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "comping",
+        "playlists",
+        "loop-record",
+        "take-selection",
+        "editing",
+        "vocal-comping"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Playlist-Based Comping Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "session_setup_and_routing_workflow",
+      "title": "Pro Tools Session Setup and Routing Workflow",
+      "path": "knowledge_base/daw/pro_tools/session_setup_and_routing_workflow.md",
+      "category": "daw",
+      "subcategory": "pro_tools",
+      "tags": [
+        "pro-tools",
+        "routing",
+        "vca",
+        "aux-tracks",
+        "mix-groups",
+        "session-setup",
+        "bus-structure"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Pro Tools Session Setup and Routing Workflow",
+      "daw": "pro_tools"
+    },
+    {
+      "id": "customization_and_reascript_workflow",
+      "title": "Reaper Customization and ReaScript Workflow",
+      "path": "knowledge_base/daw/reaper/customization_and_reascript_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "reascript",
+        "customization",
+        "actions-list",
+        "scripting",
+        "automation",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper Customization and ReaScript Workflow",
+      "daw": "reaper"
+    },
+    {
+      "id": "fx_chains_and_track_templates_workflow",
+      "title": "Reaper FX Chains and Track Templates Workflow",
+      "path": "knowledge_base/daw/reaper/fx_chains_and_track_templates_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "fx-chains",
+        "track-templates",
+        "templates",
+        "presets",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper FX Chains and Track Templates Workflow",
+      "daw": "reaper"
+    },
+    {
+      "id": "mixing_automation_and_item_based_editing_workflow",
+      "title": "Reaper Mixing Automation and Item-Based Editing Workflow",
+      "path": "knowledge_base/daw/reaper/mixing_automation_and_item_based_editing_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "automation",
+        "envelopes",
+        "item-based-editing",
+        "takes",
+        "comping",
+        "mixing",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper Mixing Automation and Item-Based Editing Workflow",
+      "daw": "reaper"
+    },
+    {
+      "id": "project_setup_and_flexible_routing_workflow",
+      "title": "Reaper Project Setup and Flexible Routing",
+      "path": "knowledge_base/daw/reaper/project_setup_and_flexible_routing_workflow.md",
+      "category": "daw",
+      "subcategory": "reaper",
+      "tags": [
+        "reaper",
+        "routing",
+        "sends-and-receives",
+        "folder-tracks",
+        "project-setup",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reaper Project Setup and Flexible Routing",
+      "daw": "reaper"
+    },
+    {
+      "id": "chord_track_and_ara_melodyne_integration_workflow",
+      "title": "Studio One Chord Track and ARA Melodyne Integration",
+      "path": "knowledge_base/daw/studio_one/chord_track_and_ara_melodyne_integration_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "chord-track",
+        "ara",
+        "melodyne",
+        "harmony",
+        "pitch-editing",
+        "composition"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Chord Track and ARA Melodyne Integration",
+      "daw": "studio_one"
+    },
+    {
+      "id": "mixing_automation_and_channel_strip_workflow",
+      "title": "Studio One Mixing Automation and Native Channel Strip",
+      "path": "knowledge_base/daw/studio_one/mixing_automation_and_channel_strip_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "automation",
+        "channel-strip",
+        "mixing",
+        "dynamics",
+        "eq",
+        "console"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Mixing Automation and Native Channel Strip",
+      "daw": "studio_one"
+    },
+    {
+      "id": "scratch_pads_alternate_arrangement_workflow",
+      "title": "Studio One Scratch Pads for Alternate Arrangement Ideas",
+      "path": "knowledge_base/daw/studio_one/scratch_pads_alternate_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "scratch-pad",
+        "arrangement",
+        "arranger-track",
+        "song-structure",
+        "composition-workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Scratch Pads for Alternate Arrangement Ideas",
+      "daw": "studio_one"
+    },
+    {
+      "id": "song_setup_and_console_routing_workflow",
+      "title": "Studio One Song Setup and Console Routing",
+      "path": "knowledge_base/daw/studio_one/song_setup_and_console_routing_workflow.md",
+      "category": "daw",
+      "subcategory": "studio_one",
+      "tags": [
+        "studio_one",
+        "console",
+        "routing",
+        "bus-channel",
+        "fx-channel",
+        "drag-and-drop",
+        "mixing"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Studio One Song Setup and Console Routing",
+      "daw": "studio_one"
     },
     {
       "id": "arrangement_energy_curve_and_build_drop_design",

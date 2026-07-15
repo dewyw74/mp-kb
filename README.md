@@ -15,7 +15,7 @@ knowledge_base/
   mixing/{eq,compression,reverb,delay,stereo}/
   mastering/{loudness,dynamics,streaming}/
   midi/{patterns,controllers,programming}/
-  daw/{ableton,fl_studio,workflow}/
+  daw/{ableton,fl_studio,logic_pro,pro_tools,cubase,studio_one,reaper,workflow}/
   vst_database/
   reference/           # external resource pointers (not deep technique docs, no schema)
 schemas/            # JSON Schema contracts for each entry type's frontmatter
@@ -94,7 +94,7 @@ Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` f
 | `mixing_agent` | Frequency/dynamics/stereo diagnosis, EQ/compression settings | `mixing/` |
 | `mastering_agent` | Loudness, dynamics, tonal balance, streaming targets | `mastering/` |
 | `midi_agent` | Piano roll programming, controller mapping, groove/velocity | `midi/` |
-| `daw_agent` | Ableton Live (primary) and FL Studio (secondary) workflows | `daw/` |
+| `daw_agent` | Ableton Live (primary) and FL Studio (secondary), plus Logic Pro, Pro Tools, Cubase, Studio One, Reaper (alternative DAWs) | `daw/` |
 
 `CLAUDE.md` defines the behavior rules Claude Code follows for any music production question asked directly (without going through a subagent).
 
@@ -108,4 +108,4 @@ Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` f
 - [x] **Phase 5** — Add Ableton and FL Studio workflow entries at scale. Complete: 101 entries (up from 14) — 44 Ableton, 40 FL Studio, and a cross-DAW `daw/workflow/` folder (17 entries) covering session/live-performance, live looping, automation/modulation, templates, recording/comping, mixing, mastering, sampling, mix troubleshooting, vocal chain (tuning through full signal chain), drum-bus compression, orchestral MIDI programming, keyboard/pad performance setup, sound-design automation, granular/resampling, sidechain routing, stem-export/collaboration handoff, DI/reamping, MIDI chord/arpeggiator tools, vinyl mastering export prep, and genre-specific arrangement (EDM/trap/house-techno/dubstep/lofi/DnB/trance/ambient) workflows.
 - [x] **Phase 6** — MCP server integration, vector DB / RAG retrieval, automated stem/mix analysis. Complete: MCP server (`mcp_server/server.py`) with local-embedding semantic search (`sentence-transformers`, no API key/cost) shipped and wired into all 7 subagents. Mix/master analysis shipped: `analyze_mix` computes LUFS/true-peak/crest-factor (compared against this KB's documented genre targets) plus stereo-correlation and spectral-band diagnostics (general audio-engineering readings, no KB-documented target exists for either); `analyze_mix_batch` compares multiple files side by side (stems, or a mix vs. a reference track). Both support WAV/AIFF natively and MP3/M4A/FLAC/OGG/WMA/AAC via ffmpeg. Wired into `mastering_agent`/`mixing_agent` and available as a standalone CLI (`tools/analyze_mix.py`). Still deferred as a future extension: analyzing individual tracks *within* a multitrack session file rather than pre-bounced stems.
 - [ ] **Optional** — Expand genre coverage from the 500-genre essential baseline toward 6,000+ genres/subgenres (long-tail micro-genres, regional scenes, fusion styles). A stretch goal, not a blocker for Phases 5-6.
-- [ ] **Optional** — Extend DAW coverage beyond Ableton (primary) and FL Studio (secondary) to alternative DAWs (e.g. Logic Pro, Pro Tools, Cubase, Studio One). Requires extending `workflow_schema.json`'s `daw` enum and adding new `knowledge_base/daw/` subfolders — a structural change, not a blocker for Phase 6.
+- [~] **Optional** — Extend DAW coverage beyond Ableton (primary) and FL Studio (secondary) to alternative DAWs: Logic Pro, Pro Tools, Cubase, Studio One, Reaper (picked per 2026 usage-survey data — Pro Tools leads professional studios, Logic/Studio One/Reaper/Cubase form the next tier). In progress: schema (`workflow_schema.json`'s `daw` enum extended to 8 values) and `knowledge_base/daw/{logic_pro,pro_tools,cubase,studio_one,reaper}/` folders built; `daw_agent` (Claude Code and Codex) updated to cover all five with Ableton/FL Studio still primary/secondary. First content round complete: 20 entries (4 per DAW) covering project setup/routing, each DAW's signature differentiator feature (Logic's Smart Controls/Drummer and Flex Time/Pitch, Pro Tools' Playlist comping and clip gain/Elastic Audio, Cubase's VST Expression/Expression Maps and Chord Track, Studio One's ARA/Melodyne integration and Scratch Pads, Reaper's flexible routing and ReaScript), and mixing/automation basics — core coverage, not yet at Ableton/FL Studio depth.

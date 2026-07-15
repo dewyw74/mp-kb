@@ -7,7 +7,19 @@
   "required": ["workflow_name", "daw", "category", "goal"],
   "properties": {
     "workflow_name": { "type": "string" },
-    "daw": { "type": "string", "enum": ["ableton", "fl_studio", "generic"] },
+    "daw": {
+      "type": "string",
+      "enum": [
+        "ableton",
+        "fl_studio",
+        "logic_pro",
+        "pro_tools",
+        "cubase",
+        "studio_one",
+        "reaper",
+        "generic"
+      ]
+    },
     "category": {
       "type": "string",
       "description": "e.g. \"routing\", \"automation\", \"templates\", \"effects_chain\", \"max_for_live\", \"patcher\", \"playlist\", \"mixer\""

@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 844,
+  "entry_count": 858,
   "entries": [
     {
       "id": "clip_envelope_and_automation_workflow",
@@ -36,6 +36,27 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Drum Rack Pad Controller Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "edm_build_and_drop_arrangement_workflow",
+      "title": "Ableton EDM Build-and-Drop Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/edm_build_and_drop_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "edm",
+        "build-and-drop",
+        "riser-automation",
+        "filter-sweep",
+        "house",
+        "trance",
+        "drum-and-bass"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton EDM Build-and-Drop Arrangement Workflow",
       "daw": "ableton"
     },
     {
@@ -115,6 +136,25 @@
       "daw": "ableton"
     },
     {
+      "id": "master_bus_chain_and_export_workflow",
+      "title": "Ableton Master-Bus Chain and Export Workflow",
+      "path": "knowledge_base/daw/ableton/master_bus_chain_and_export_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "mastering",
+        "master-bus",
+        "limiter",
+        "export",
+        "loudness",
+        "true-peak"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Master-Bus Chain and Export Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "max_for_live_custom_device_workflow",
       "title": "Max for Live Custom Device Workflow",
       "path": "knowledge_base/daw/ableton/max_for_live_custom_device_workflow.md",
@@ -148,6 +188,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton MIDI Controller Mapping Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "mixing_bus_routing_and_gain_staging_workflow",
+      "title": "Ableton Mix-Bus Routing and Gain-Staging Workflow",
+      "path": "knowledge_base/daw/ableton/mixing_bus_routing_and_gain_staging_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "mixing",
+        "bus-routing",
+        "gain-staging",
+        "group-tracks",
+        "reference-track",
+        "mixer"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Mix-Bus Routing and Gain-Staging Workflow",
       "daw": "ableton"
     },
     {
@@ -247,6 +306,25 @@
       "daw": "ableton"
     },
     {
+      "id": "sample_chopping_and_slicing_workflow",
+      "title": "Ableton Sample Chopping and Slicing to Pads Workflow",
+      "path": "knowledge_base/daw/ableton/sample_chopping_and_slicing_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "sampling",
+        "slicing",
+        "chopping",
+        "simpler",
+        "drum-rack",
+        "transient-detection"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Sample Chopping and Slicing to Pads Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "session_to_arrangement_workflow",
       "title": "Ableton Session View to Arrangement Workflow",
       "path": "knowledge_base/daw/ableton/session_to_arrangement_workflow.md",
@@ -285,6 +363,26 @@
       "daw": "ableton"
     },
     {
+      "id": "trap_and_hiphop_arrangement_workflow",
+      "title": "Ableton Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/trap_and_hiphop_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "trap",
+        "hip-hop",
+        "hi-hat-rolls",
+        "loop-based",
+        "ad-libs",
+        "vocal-chops"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "warping_and_audio_to_midi_conversion",
       "title": "Ableton Warping and Audio-to-MIDI Conversion Workflow",
       "path": "knowledge_base/daw/ableton/warping_and_audio_to_midi_conversion.md",
@@ -318,6 +416,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Channel Rack Step Sequencer and FPC Drum Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "edm_build_and_drop_arrangement_workflow",
+      "title": "FL Studio EDM Build-and-Drop Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/edm_build_and_drop_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "edm",
+        "arrangement",
+        "build-and-drop",
+        "automation",
+        "playlist",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio EDM Build-and-Drop Arrangement Workflow",
       "daw": "fl_studio"
     },
     {
@@ -375,6 +492,26 @@
       "daw": "fl_studio"
     },
     {
+      "id": "master_bus_chain_and_export_workflow",
+      "title": "FL Studio Master Bus Chain and Export Workflow",
+      "path": "knowledge_base/daw/fl_studio/master_bus_chain_and_export_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "mastering",
+        "master-bus",
+        "loudness",
+        "true-peak",
+        "export",
+        "render",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Master Bus Chain and Export Workflow",
+      "daw": "fl_studio"
+    },
+    {
       "id": "midi_controller_mapping_workflow",
       "title": "FL Studio MIDI Controller Mapping Workflow",
       "path": "knowledge_base/daw/fl_studio/midi_controller_mapping_workflow.md",
@@ -408,6 +545,24 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Mixer Routing, Resampling, and Freezing",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "mixing_bus_routing_and_gain_staging_workflow",
+      "title": "FL Studio Mixing-Session Bus Structure and Gain Staging",
+      "path": "knowledge_base/daw/fl_studio/mixing_bus_routing_and_gain_staging_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "mixer",
+        "gain-staging",
+        "bus-routing",
+        "reference-track",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Mixing-Session Bus Structure and Gain Staging",
       "daw": "fl_studio"
     },
     {
@@ -520,6 +675,63 @@
       "daw": "fl_studio"
     },
     {
+      "id": "sample_chopping_and_slicing_workflow",
+      "title": "FL Studio Sample Chopping and Slicing Workflow",
+      "path": "knowledge_base/daw/fl_studio/sample_chopping_and_slicing_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "sample-chopping",
+        "slicing",
+        "slicex",
+        "edison",
+        "sampler",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Sample Chopping and Slicing Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "trap_and_hiphop_arrangement_workflow",
+      "title": "FL Studio Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/trap_and_hiphop_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "trap",
+        "hip-hop",
+        "arrangement",
+        "hi-hat-rolls",
+        "loop-based",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "arrangement_energy_curve_and_build_drop_design",
+      "title": "Arrangement Energy Curve and Build/Drop Design",
+      "path": "knowledge_base/daw/workflow/arrangement_energy_curve_and_build_drop_design.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "arrangement",
+        "energy-curve",
+        "build-drop",
+        "tension-release",
+        "song-structure",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Arrangement Energy Curve and Build/Drop Design",
+      "daw": "generic"
+    },
+    {
       "id": "automation_curve_shape_and_musicality",
       "title": "Automation Curve Shape and Musicality",
       "path": "knowledge_base/daw/workflow/automation_curve_shape_and_musicality.md",
@@ -558,6 +770,26 @@
       "daw": "generic"
     },
     {
+      "id": "export_and_bounce_settings_philosophy",
+      "title": "Export and Bounce Settings Philosophy",
+      "path": "knowledge_base/daw/workflow/export_and_bounce_settings_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "export",
+        "bounce",
+        "mastering",
+        "dither",
+        "headroom",
+        "file-format",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Export and Bounce Settings Philosophy",
+      "daw": "generic"
+    },
+    {
       "id": "live_performance_safety_and_backup_practices",
       "title": "Live Performance Safety and Backup Practices",
       "path": "knowledge_base/daw/workflow/live_performance_safety_and_backup_practices.md",
@@ -574,6 +806,45 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Live Performance Safety and Backup Practices",
+      "daw": "generic"
+    },
+    {
+      "id": "reference_track_ab_comparison_workflow",
+      "title": "Reference Track A/B Comparison Workflow",
+      "path": "knowledge_base/daw/workflow/reference_track_ab_comparison_workflow.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "reference-tracks",
+        "ab-comparison",
+        "loudness-matching",
+        "ear-fatigue",
+        "mixing",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Reference Track A/B Comparison Workflow",
+      "daw": "generic"
+    },
+    {
+      "id": "sample_chop_selection_and_musicality_philosophy",
+      "title": "Sample Chop Selection and Musicality Philosophy",
+      "path": "knowledge_base/daw/workflow/sample_chop_selection_and_musicality_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "sampling",
+        "chopping",
+        "slicing",
+        "looping",
+        "transients",
+        "groove",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Sample Chop Selection and Musicality Philosophy",
       "daw": "generic"
     },
     {

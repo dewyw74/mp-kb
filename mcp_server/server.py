@@ -125,5 +125,33 @@ def get_kb_entry(path: str) -> str:
     return target.read_text(encoding="utf-8")
 
 
+@mcp.tool()
+def analyze_mix(file_path: str, genre: str | None = None) -> dict[str, Any]:
+    """Analyze a WAV/AIFF mix or master file and report objective metrics.
+
+    Computes LUFS integrated loudness, true-peak (dBTP), and crest factor (dB) —
+    metrics this knowledge base documents genre-specific numeric targets for.
+    Also computes stereo correlation and relative spectral-band energy as
+    general audio-engineering diagnostics; the knowledge base has no numeric
+    targets for those two, so they are NOT compared against a KB-documented
+    value — interpret them using standard audio-engineering knowledge instead.
+
+    Args:
+        file_path: Path to a local WAV or AIFF file.
+        genre: Optional genre name (e.g. "trap", "ambient") — if given, also
+            returns relevant_kb_entries pointing at documented LUFS/dynamics
+            targets for that genre, for comparison against the measured values.
+    """
+    from audio_analysis import analyze_audio_file
+
+    result = analyze_audio_file(file_path)
+
+    if genre:
+        query = f"LUFS loudness dynamic range true peak target for {genre}"
+        result["relevant_kb_entries"] = _cosine_search(query, "mastering", 3)
+
+    return result
+
+
 if __name__ == "__main__":
     mcp.run()

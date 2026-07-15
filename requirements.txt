@@ -1,2 +1,4 @@
 mcp[cli]
 sentence-transformers
+soundfile
+pyloudnorm

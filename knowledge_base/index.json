@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 858,
+  "entry_count": 874,
   "entries": [
     {
       "id": "clip_envelope_and_automation_workflow",
@@ -36,6 +36,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Drum Rack Pad Controller Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "dubstep_and_halftime_arrangement_workflow",
+      "title": "Ableton Dubstep and Half-Time Drop Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/dubstep_and_halftime_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "dubstep",
+        "riddim",
+        "half-time",
+        "wobble-bass",
+        "filter-automation",
+        "sparse-to-dense"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Dubstep and Half-Time Drop Arrangement Workflow",
       "daw": "ableton"
     },
     {
@@ -79,6 +99,26 @@
       "daw": "ableton"
     },
     {
+      "id": "filter_sweep_and_patch_morph_automation_workflow",
+      "title": "Ableton Filter Sweep and Patch Morph Automation Workflow",
+      "path": "knowledge_base/daw/ableton/filter_sweep_and_patch_morph_automation_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "automation",
+        "sound-design",
+        "filter-sweep",
+        "patch-morph",
+        "wavetable",
+        "macros",
+        "riser"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Filter Sweep and Patch Morph Automation Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "groove_pool_and_timing_workflow",
       "title": "Ableton Groove Pool and Timing Workflow",
       "path": "knowledge_base/daw/ableton/groove_pool_and_timing_workflow.md",
@@ -95,6 +135,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Groove Pool and Timing Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "house_and_techno_arrangement_workflow",
+      "title": "Ableton House and Techno Loop-Based Arrangement Workflow",
+      "path": "knowledge_base/daw/ableton/house_and_techno_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "arrangement",
+        "house",
+        "techno",
+        "loop-based",
+        "dj-tool",
+        "filter-automation",
+        "four-on-the-floor"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton House and Techno Loop-Based Arrangement Workflow",
       "daw": "ableton"
     },
     {
@@ -210,6 +270,26 @@
       "daw": "ableton"
     },
     {
+      "id": "mixing_troubleshooting_workflow",
+      "title": "Ableton Mixing Troubleshooting Workflow",
+      "path": "knowledge_base/daw/ableton/mixing_troubleshooting_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "mixing",
+        "troubleshooting",
+        "frequency-masking",
+        "mono-compatibility",
+        "phase",
+        "harshness",
+        "mix-translation"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Mixing Troubleshooting Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "modulation_and_lfo_device_workflow",
       "title": "Ableton Modulation and LFO Device Workflow",
       "path": "knowledge_base/daw/ableton/modulation_and_lfo_device_workflow.md",
@@ -249,6 +329,27 @@
       "daw": "ableton"
     },
     {
+      "id": "orchestral_and_strings_midi_programming_workflow",
+      "title": "Ableton Orchestral and Strings MIDI Programming Workflow",
+      "path": "knowledge_base/daw/ableton/orchestral_and_strings_midi_programming_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "midi",
+        "orchestral",
+        "strings",
+        "keyswitch",
+        "legato",
+        "cc-automation",
+        "expression",
+        "velocity-layering"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Orchestral and Strings MIDI Programming Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "project_templates_and_track_bus_conventions",
       "title": "Ableton Project Templates and Track Bus Conventions",
       "path": "knowledge_base/daw/ableton/project_templates_and_track_bus_conventions.md",
@@ -284,6 +385,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Racks, Macros, and Performance Controls",
+      "daw": "ableton"
+    },
+    {
+      "id": "randomization_and_probability_workflow",
+      "title": "Ableton Randomization and Probability Workflow",
+      "path": "knowledge_base/daw/ableton/randomization_and_probability_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "midi",
+        "randomization",
+        "probability",
+        "generative",
+        "chance",
+        "velocity-range",
+        "live-11"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Randomization and Probability Workflow",
       "daw": "ableton"
     },
     {
@@ -383,6 +504,26 @@
       "daw": "ableton"
     },
     {
+      "id": "vocal_tuning_and_comping_pipeline_workflow",
+      "title": "Ableton Vocal Comping-Then-Tuning Pipeline Workflow",
+      "path": "knowledge_base/daw/ableton/vocal_tuning_and_comping_pipeline_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "recording",
+        "vocal-comping",
+        "pitch-correction",
+        "melodyne",
+        "auto-tune",
+        "automation",
+        "take-lanes"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Vocal Comping-Then-Tuning Pipeline Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "warping_and_audio_to_midi_conversion",
       "title": "Ableton Warping and Audio-to-MIDI Conversion Workflow",
       "path": "knowledge_base/daw/ableton/warping_and_audio_to_midi_conversion.md",
@@ -416,6 +557,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Channel Rack Step Sequencer and FPC Drum Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "dubstep_and_halftime_arrangement_workflow",
+      "title": "FL Studio Dubstep and Halftime Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/dubstep_and_halftime_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "dubstep",
+        "riddim",
+        "half-time",
+        "arrangement",
+        "wobble-bass",
+        "playlist",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Dubstep and Halftime Arrangement Workflow",
       "daw": "fl_studio"
     },
     {
@@ -456,6 +617,26 @@
       "daw": "fl_studio"
     },
     {
+      "id": "filter_sweep_and_patch_morph_automation_workflow",
+      "title": "FL Studio Filter Sweep and Patch-Morph Sound Design Automation",
+      "path": "knowledge_base/daw/fl_studio/filter_sweep_and_patch_morph_automation_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "automation",
+        "filter-sweep",
+        "patch-morph",
+        "sound-design",
+        "riser",
+        "patcher",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Filter Sweep and Patch-Morph Sound Design Automation",
+      "daw": "fl_studio"
+    },
+    {
       "id": "groove_and_humanization_workflow",
       "title": "FL Studio Groove and Humanization Workflow",
       "path": "knowledge_base/daw/fl_studio/groove_and_humanization_workflow.md",
@@ -471,6 +652,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Groove and Humanization Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "house_and_techno_arrangement_workflow",
+      "title": "FL Studio House and Techno Loop-Based Arrangement Workflow",
+      "path": "knowledge_base/daw/fl_studio/house_and_techno_arrangement_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "house",
+        "techno",
+        "arrangement",
+        "loop-based",
+        "dj-tool",
+        "playlist",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio House and Techno Loop-Based Arrangement Workflow",
       "daw": "fl_studio"
     },
     {
@@ -566,6 +767,46 @@
       "daw": "fl_studio"
     },
     {
+      "id": "mixing_troubleshooting_workflow",
+      "title": "FL Studio Mix Troubleshooting Workflow",
+      "path": "knowledge_base/daw/fl_studio/mixing_troubleshooting_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "mixer",
+        "troubleshooting",
+        "frequency-masking",
+        "mono-compatibility",
+        "phase",
+        "harshness",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Mix Troubleshooting Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "orchestral_and_strings_midi_programming_workflow",
+      "title": "FL Studio Orchestral and Strings MIDI Programming Workflow",
+      "path": "knowledge_base/daw/fl_studio/orchestral_and_strings_midi_programming_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "orchestral",
+        "strings",
+        "midi-programming",
+        "keyswitch",
+        "legato",
+        "cc-automation",
+        "velocity-layers"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Orchestral and Strings MIDI Programming Workflow",
+      "daw": "fl_studio"
+    },
+    {
       "id": "patcher_and_performance_macros",
       "title": "FL Studio Patcher and Mixer-Group Performance Macros",
       "path": "knowledge_base/daw/fl_studio/patcher_and_performance_macros.md",
@@ -657,6 +898,26 @@
       "daw": "fl_studio"
     },
     {
+      "id": "randomization_and_probability_workflow",
+      "title": "FL Studio Randomization for Generative Variation",
+      "path": "knowledge_base/daw/fl_studio/randomization_and_probability_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "randomization",
+        "generative",
+        "piano-roll",
+        "channel-rack",
+        "velocity",
+        "midi-programming",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Randomization for Generative Variation",
+      "daw": "fl_studio"
+    },
+    {
       "id": "recording_and_audio_editing_workflow",
       "title": "FL Studio Recording and Audio Editing Workflow",
       "path": "knowledge_base/daw/fl_studio/recording_and_audio_editing_workflow.md",
@@ -710,6 +971,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Trap and Hip-Hop Loop-Based Arrangement Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "vocal_tuning_and_comping_pipeline_workflow",
+      "title": "FL Studio Vocal Tuning and Comping Pipeline",
+      "path": "knowledge_base/daw/fl_studio/vocal_tuning_and_comping_pipeline_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "vocal-tuning",
+        "comping",
+        "pitch-correction",
+        "newtone",
+        "pitcher",
+        "recording",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Vocal Tuning and Comping Pipeline",
       "daw": "fl_studio"
     },
     {
@@ -809,6 +1090,25 @@
       "daw": "generic"
     },
     {
+      "id": "mix_translation_and_multi_system_checking_philosophy",
+      "title": "Mix Translation and Multi-System Checking Philosophy",
+      "path": "knowledge_base/daw/workflow/mix_translation_and_multi_system_checking_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "translation",
+        "mono-compatibility",
+        "reference-systems",
+        "mixing-workflow",
+        "monitoring",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Mix Translation and Multi-System Checking Philosophy",
+      "daw": "generic"
+    },
+    {
       "id": "reference_track_ab_comparison_workflow",
       "title": "Reference Track A/B Comparison Workflow",
       "path": "knowledge_base/daw/workflow/reference_track_ab_comparison_workflow.md",
@@ -845,6 +1145,26 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Sample Chop Selection and Musicality Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "vocal_tuning_naturalness_and_comping_order_philosophy",
+      "title": "Vocal Tuning Naturalness and Comping Order Philosophy",
+      "path": "knowledge_base/daw/workflow/vocal_tuning_naturalness_and_comping_order_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "pitch-correction",
+        "auto-tune",
+        "comping",
+        "vocal-tuning",
+        "retune-speed",
+        "recording",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Vocal Tuning Naturalness and Comping Order Philosophy",
       "daw": "generic"
     },
     {

@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import shutil
+import subprocess
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +18,57 @@ SPECTRAL_BANDS = [
     ("high_mid", 2000, 6000),
     ("high", 6000, 20000),
 ]
+
+NATIVE_EXTENSIONS = {".wav", ".aiff", ".aif"}
+FFMPEG_EXTENSIONS = {".mp3", ".m4a", ".flac", ".ogg", ".wma", ".aac"}
+SUPPORTED_EXTENSIONS = NATIVE_EXTENSIONS | FFMPEG_EXTENSIONS
+
+
+class UnsupportedAudioFormatError(ValueError):
+    pass
+
+
+def _read_samples(file_path: Path) -> tuple[np.ndarray, int]:
+    """Load an audio file's samples, transcoding via ffmpeg first if needed.
+
+    WAV/AIFF are read directly with soundfile. Compressed formats (MP3, M4A,
+    FLAC, OGG, WMA, AAC) are transcoded to a temporary WAV file via an ffmpeg
+    subprocess first, since soundfile/libsndfile can't decode them directly.
+    """
+    suffix = file_path.suffix.lower()
+    if suffix in NATIVE_EXTENSIONS:
+        samples, sample_rate = sf.read(str(file_path), always_2d=False)
+        return np.asarray(samples, dtype=np.float64), sample_rate
+
+    if suffix not in FFMPEG_EXTENSIONS:
+        raise UnsupportedAudioFormatError(
+            f"unsupported audio format {suffix!r} for {file_path}; "
+            f"supported: {sorted(SUPPORTED_EXTENSIONS)}"
+        )
+
+    if shutil.which("ffmpeg") is None:
+        raise RuntimeError(
+            f"ffmpeg not found on PATH, required to decode {suffix} files "
+            f"(WAV/AIFF work without it)."
+        )
+
+    with tempfile.TemporaryDirectory() as tmp_dir:
+        tmp_wav = Path(tmp_dir) / "transcoded.wav"
+        subprocess.run(
+            [
+                "ffmpeg",
+                "-y",
+                "-i",
+                str(file_path),
+                "-c:a",
+                "pcm_s24le",
+                str(tmp_wav),
+            ],
+            check=True,
+            capture_output=True,
+        )
+        samples, sample_rate = sf.read(str(tmp_wav), always_2d=False)
+        return np.asarray(samples, dtype=np.float64), sample_rate
 
 
 def _to_db(value: float, floor: float = 1e-10) -> float:
@@ -56,7 +110,10 @@ def _spectral_bands(samples: np.ndarray, sample_rate: int) -> dict[str, float]:
 
 
 def analyze_audio_file(path: str) -> dict[str, Any]:
-    """Compute objective mix/master metrics for a WAV/AIFF file.
+    """Compute objective mix/master metrics for an audio file.
+
+    Natively supports WAV/AIFF; MP3/M4A/FLAC/OGG/WMA/AAC are transcoded via
+    an ffmpeg subprocess first (ffmpeg must be on PATH for those formats).
 
     Returns LUFS integrated loudness, true-peak (dBTP), crest factor (dB),
     stereo correlation (None if mono), and relative spectral-band energy.
@@ -68,8 +125,7 @@ def analyze_audio_file(path: str) -> dict[str, Any]:
     if not file_path.is_file():
         raise FileNotFoundError(f"audio file not found: {path}")
 
-    samples, sample_rate = sf.read(str(file_path), always_2d=False)
-    samples = np.asarray(samples, dtype=np.float64)
+    samples, sample_rate = _read_samples(file_path)
 
     import pyloudnorm as pyln
 
@@ -92,3 +148,49 @@ def analyze_audio_file(path: str) -> dict[str, Any]:
         "stereo_correlation": round(correlation, 3) if correlation is not None else None,
         "spectral_bands_db": bands,
     }
+
+
+def resolve_batch_paths(paths: list[str]) -> list[str]:
+    """Expand a single directory argument into its supported audio files.
+
+    If `paths` is exactly one entry and it's a directory, returns every
+    supported audio file directly inside it (sorted, non-recursive).
+    Otherwise returns `paths` unchanged.
+    """
+    if len(paths) == 1:
+        candidate = Path(paths[0])
+        if candidate.is_dir():
+            return sorted(
+                str(p)
+                for p in candidate.iterdir()
+                if p.is_file() and p.suffix.lower() in SUPPORTED_EXTENSIONS
+            )
+    return paths
+
+
+def analyze_multiple(paths: list[str]) -> dict[str, Any]:
+    """Analyze multiple audio files (e.g. stems, or a mix vs. a reference) and
+    summarize them side by side. A file that fails to analyze gets an "error"
+    entry instead of aborting the whole batch.
+    """
+    expanded = resolve_batch_paths(paths)
+
+    results: list[dict[str, Any]] = []
+    for path in expanded:
+        try:
+            results.append(analyze_audio_file(path))
+        except Exception as exc:  # noqa: BLE001 - report per-file, don't abort the batch
+            results.append({"path": path, "error": str(exc)})
+
+    metrics = ["lufs_integrated", "true_peak_dbtp", "crest_factor_db"]
+    summary: dict[str, Any] = {}
+    for metric in metrics:
+        values = [r[metric] for r in results if metric in r]
+        if values:
+            summary[metric] = {
+                "min": round(min(values), 2),
+                "max": round(max(values), 2),
+                "range": round(max(values) - min(values), 2),
+            }
+
+    return {"files": results, "summary": summary}

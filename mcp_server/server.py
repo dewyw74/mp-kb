@@ -127,7 +127,11 @@ def get_kb_entry(path: str) -> str:
 
 @mcp.tool()
 def analyze_mix(file_path: str, genre: str | None = None) -> dict[str, Any]:
-    """Analyze a WAV/AIFF mix or master file and report objective metrics.
+    """Analyze a mix or master file and report objective metrics.
+
+    Natively supports WAV/AIFF; MP3/M4A/FLAC/OGG/WMA/AAC are transcoded via
+    an ffmpeg subprocess first (requires ffmpeg on PATH — WAV/AIFF work
+    without it).
 
     Computes LUFS integrated loudness, true-peak (dBTP), and crest factor (dB) —
     metrics this knowledge base documents genre-specific numeric targets for.
@@ -137,7 +141,8 @@ def analyze_mix(file_path: str, genre: str | None = None) -> dict[str, Any]:
     value — interpret them using standard audio-engineering knowledge instead.
 
     Args:
-        file_path: Path to a local WAV or AIFF file.
+        file_path: Path to a local audio file (WAV/AIFF native; MP3/M4A/FLAC/
+            OGG/WMA/AAC via ffmpeg).
         genre: Optional genre name (e.g. "trap", "ambient") — if given, also
             returns relevant_kb_entries pointing at documented LUFS/dynamics
             targets for that genre, for comparison against the measured values.
@@ -145,6 +150,36 @@ def analyze_mix(file_path: str, genre: str | None = None) -> dict[str, Any]:
     from audio_analysis import analyze_audio_file
 
     result = analyze_audio_file(file_path)
+
+    if genre:
+        query = f"LUFS loudness dynamic range true peak target for {genre}"
+        result["relevant_kb_entries"] = _cosine_search(query, "mastering", 3)
+
+    return result
+
+
+@mcp.tool()
+def analyze_mix_batch(file_paths: list[str], genre: str | None = None) -> dict[str, Any]:
+    """Analyze multiple audio files side by side (e.g. stems, or a mix vs. a
+    reference track) and summarize them.
+
+    Args:
+        file_paths: Either a list of individual file paths, or a single-item
+            list containing one folder path (all supported audio files
+            directly inside that folder are analyzed, non-recursive).
+        genre: Optional genre name — if given, also returns relevant_kb_entries
+            (shared across the whole batch) pointing at documented LUFS/
+            dynamics targets for that genre.
+
+    Returns a "files" list (one entry per input, with an "error" field instead
+    of metrics for any file that failed to analyze) and a "summary" with
+    min/max/range for lufs_integrated, true_peak_dbtp, and crest_factor_db
+    across the successfully analyzed files — useful for spotting inconsistent
+    gain-staging across stems, or comparing a mix against a reference track.
+    """
+    from audio_analysis import analyze_multiple
+
+    result = analyze_multiple(file_paths)
 
     if genre:
         query = f"LUFS loudness dynamic range true peak target for {genre}"

@@ -1,6 +1,6 @@
 {
   "generated_by": "tools/generate_index.py",
-  "entry_count": 904,
+  "entry_count": 914,
   "entries": [
     {
       "id": "bass_di_and_amp_blend_workflow",
@@ -257,6 +257,25 @@
       "daw": "ableton"
     },
     {
+      "id": "keyboard_split_and_layering_workflow",
+      "title": "Ableton Keyboard Split and Layering Workflow",
+      "path": "knowledge_base/daw/ableton/keyboard_split_and_layering_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "keyboard-split",
+        "layering",
+        "instrument-rack",
+        "key-zone",
+        "velocity-zone",
+        "midi"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Keyboard Split and Layering Workflow",
+      "daw": "ableton"
+    },
+    {
       "id": "launchpad_and_grid_controller_performance_workflow",
       "title": "Launchpad and Grid Controller Performance Workflow",
       "path": "knowledge_base/daw/ableton/launchpad_and_grid_controller_performance_workflow.md",
@@ -273,6 +292,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Launchpad and Grid Controller Performance Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "live_loop_building_performance_set_workflow",
+      "title": "Ableton Live Loop-Building Performance Set Workflow",
+      "path": "knowledge_base/daw/ableton/live_loop_building_performance_set_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "live-looping",
+        "performance",
+        "build",
+        "layering",
+        "session-view",
+        "audience-engagement"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Live Loop-Building Performance Set Workflow",
       "daw": "ableton"
     },
     {
@@ -312,6 +350,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Lo-Fi and Chillhop Loop-and-Vibe Arrangement Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "looper_device_and_live_overdub_workflow",
+      "title": "Ableton Looper Device and Live Overdub Workflow",
+      "path": "knowledge_base/daw/ableton/looper_device_and_live_overdub_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "looper",
+        "overdub",
+        "live-looping",
+        "performance",
+        "songwriting",
+        "undo"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Looper Device and Live Overdub Workflow",
       "daw": "ableton"
     },
     {
@@ -506,6 +563,25 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Ableton Orchestral and Strings MIDI Programming Workflow",
+      "daw": "ableton"
+    },
+    {
+      "id": "pad_velocity_curve_and_expressive_calibration_workflow",
+      "title": "Ableton Pad and Keyboard Velocity Curve and Expressive Calibration Workflow",
+      "path": "knowledge_base/daw/ableton/pad_velocity_curve_and_expressive_calibration_workflow.md",
+      "category": "daw",
+      "subcategory": "ableton",
+      "tags": [
+        "ableton",
+        "velocity-curve",
+        "expressive-performance",
+        "midi",
+        "aftertouch",
+        "dynamics",
+        "calibration"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Ableton Pad and Keyboard Velocity Curve and Expressive Calibration Workflow",
       "daw": "ableton"
     },
     {
@@ -1011,6 +1087,42 @@
       "daw": "fl_studio"
     },
     {
+      "id": "keyboard_split_and_layering_workflow",
+      "title": "FL Studio Keyboard Split and Layering Workflow",
+      "path": "knowledge_base/daw/fl_studio/keyboard_split_and_layering_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "keyboard-split",
+        "layering",
+        "patcher",
+        "midi",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Keyboard Split and Layering Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "live_loop_building_performance_set_workflow",
+      "title": "FL Studio Live Loop-Building Performance Set Workflow",
+      "path": "knowledge_base/daw/fl_studio/live_loop_building_performance_set_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "live-performance",
+        "loop-building",
+        "performance-mode",
+        "improvisation",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Live Loop-Building Performance Set Workflow",
+      "daw": "fl_studio"
+    },
+    {
       "id": "live_performance_controller_workflow",
       "title": "FL Studio Live Performance Controller Workflow",
       "path": "knowledge_base/daw/fl_studio/live_performance_controller_workflow.md",
@@ -1046,6 +1158,24 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Lo-Fi and Chillhop Loop-and-Vibe Arrangement Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "looper_and_live_overdub_workflow",
+      "title": "FL Studio Looper and Live Overdub Workflow",
+      "path": "knowledge_base/daw/fl_studio/looper_and_live_overdub_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "looper",
+        "overdub",
+        "live-performance",
+        "loop-recording",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Looper and Live Overdub Workflow",
       "daw": "fl_studio"
     },
     {
@@ -1197,6 +1327,24 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "FL Studio Orchestral and Strings MIDI Programming Workflow",
+      "daw": "fl_studio"
+    },
+    {
+      "id": "pad_velocity_curve_and_expressive_calibration_workflow",
+      "title": "FL Studio Pad and Velocity Curve Expressive Calibration Workflow",
+      "path": "knowledge_base/daw/fl_studio/pad_velocity_curve_and_expressive_calibration_workflow.md",
+      "category": "daw",
+      "subcategory": "fl_studio",
+      "tags": [
+        "fl-studio",
+        "velocity-curve",
+        "expressive-playing",
+        "calibration",
+        "midi",
+        "workflow"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "FL Studio Pad and Velocity Curve Expressive Calibration Workflow",
       "daw": "fl_studio"
     },
     {
@@ -1561,6 +1709,44 @@
       ],
       "schema_type": "workflow",
       "workflow_name": "Granular and Resampling Musicality Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "keyboard_expression_and_touch_response_philosophy",
+      "title": "Keyboard Expression and Touch Response Philosophy",
+      "path": "knowledge_base/daw/workflow/keyboard_expression_and_touch_response_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "midi",
+        "velocity-curve",
+        "aftertouch",
+        "expression",
+        "keyboard-technique",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Keyboard Expression and Touch Response Philosophy",
+      "daw": "generic"
+    },
+    {
+      "id": "live_looping_performance_philosophy",
+      "title": "Live Looping Performance Philosophy",
+      "path": "knowledge_base/daw/workflow/live_looping_performance_philosophy.md",
+      "category": "daw",
+      "subcategory": "workflow",
+      "tags": [
+        "live-looping",
+        "looper",
+        "improvisation",
+        "live-performance",
+        "tension-and-release",
+        "workflow",
+        "generic"
+      ],
+      "schema_type": "workflow",
+      "workflow_name": "Live Looping Performance Philosophy",
       "daw": "generic"
     },
     {

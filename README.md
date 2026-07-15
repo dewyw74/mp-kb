@@ -87,10 +87,10 @@ Seven subagents live in `.claude/agents/` for Claude Code and `.codex/agents/` f
 ## Roadmap
 
 - [x] **Phase 1** — Folder structure, schemas, root docs, and the 7 specialist subagents.
-- [x] **Phase 2** — Build 500 core genre profiles. Complete: 500/500 WebSearch-verified entries across all families.
+- [x] **Phase 2** — Build 500 core genre profiles. Complete: 500/500 WebSearch-verified entries across all families — the essential genre baseline.
 - [x] **Phase 2 tooling baseline** — Add frontmatter validation and generated knowledge-base index.
-- [ ] **Phase 3** — Expand to 6,000+ genres/subgenres.
-- [x] **Phase 4** — Add production techniques (mixing/mastering/sound-design entries at scale). Substantially complete: 196 entries across mixing (70), mastering (40), and sound_design (86).
-- [~] **Phase 5** — Add the VST/plugin database. In progress: 56 entries (up from 29), covering synths/samplers, EQ/compression/dynamics, reverb/delay/saturation, and vocal/pitch/mastering-limiters. Category gaps remain (e.g. multiband compression, metering/analysis, additional drum romplers).
-- [ ] **Phase 6** — Add Ableton and FL Studio workflow entries at scale.
-- [ ] **Phase 7** — MCP server integration, vector DB / RAG retrieval, automated stem/mix analysis.
+- [x] **Phase 3** — Add production techniques (mixing/mastering/sound-design entries at scale). Substantially complete: 196 entries across mixing (70), mastering (40), and sound_design (86).
+- [~] **Phase 4** — Add the VST/plugin database. In progress: 56 entries (up from 29), covering synths/samplers, EQ/compression/dynamics, reverb/delay/saturation, and vocal/pitch/mastering-limiters. Category gaps remain (e.g. multiband compression, metering/analysis, additional drum romplers).
+- [ ] **Phase 5** — Add Ableton and FL Studio workflow entries at scale.
+- [ ] **Phase 6** — MCP server integration, vector DB / RAG retrieval, automated stem/mix analysis.
+- [ ] **Optional** — Expand genre coverage from the 500-genre essential baseline toward 6,000+ genres/subgenres (long-tail micro-genres, regional scenes, fusion styles). A stretch goal, not a blocker for Phases 5-6.

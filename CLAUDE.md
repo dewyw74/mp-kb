@@ -26,4 +26,15 @@ For questions that sit squarely in one discipline, prefer dispatching the matchi
 
 The knowledge base now contains many genre and technique entries, but coverage is uneven by category. Before asserting a fact as "the way this genre/technique works," search the relevant `knowledge_base/` subfolder first. If nothing exists there yet, say so explicitly and reason from general music production knowledge instead of presenting an assumption as a documented fact. Do not fabricate a citation to a knowledge base entry that doesn't exist.
 
+The MCP server (`.mcp.json`) exposes `search_kb`, `get_kb_entry`, and `analyze_mix`. Prefer these over Grep/Glob for KB questions — including when answering directly, not just when dispatching a subagent — and fall back to Grep/Glob only when the MCP tools are unavailable.
+
 When authoring new knowledge_base entries, conform frontmatter to the matching file in `schemas/` and follow the format documented in that category's own `README.md`.
+
+## Commands
+
+```powershell
+python tools\validate_kb.py      # checks frontmatter against schemas/
+python tools\generate_index.py   # writes knowledge_base/index.json
+```
+
+Run both after adding or editing KB entries. See `README.md` for the full tool list (Groq drafting, embeddings index, etc.).

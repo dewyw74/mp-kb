@@ -26,7 +26,9 @@ For questions that sit squarely in one discipline, prefer dispatching the matchi
 
 The knowledge base now contains many genre and technique entries, but coverage is uneven by category. Before asserting a fact as "the way this genre/technique works," search the relevant `knowledge_base/` subfolder first. If nothing exists there yet, say so explicitly and reason from general music production knowledge instead of presenting an assumption as a documented fact. Do not fabricate a citation to a knowledge base entry that doesn't exist.
 
-The MCP server (`.mcp.json`) exposes `search_kb`, `get_kb_entry`, `analyze_mix`, and `analyze_mix_batch` (compares multiple stems/files side by side, e.g. a mix vs. a reference track). Prefer these over Grep/Glob for KB questions — including when answering directly, not just when dispatching a subagent — and fall back to Grep/Glob only when the MCP tools are unavailable.
+The MCP server (`.mcp.json`) exposes `search_kb`, `get_kb_entry`, `analyze_mix`, `analyze_mix_batch` (compares multiple stems/files side by side, e.g. a mix vs. a reference track), and `separate_stems` (splits a full mix into stems via a local Demucs model). Prefer these over Grep/Glob for KB questions — including when answering directly, not just when dispatching a subagent — and fall back to Grep/Glob only when the MCP tools are unavailable.
+
+`separate_stems` is different from the other tools: it writes new audio files to disk rather than just reporting metrics. Only call it when the user has actually asked for stems — not speculatively — and tell them where the output is landing (a `<input>_stems/` folder next to the source file by default, or wherever they specify).
 
 When authoring new knowledge_base entries, conform frontmatter to the matching file in `schemas/` and follow the format documented in that category's own `README.md`.
 

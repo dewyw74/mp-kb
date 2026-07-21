@@ -188,5 +188,43 @@ def analyze_mix_batch(file_paths: list[str], genre: str | None = None) -> dict[s
     return result
 
 
+@mcp.tool()
+def separate_stems(file_path: str, output_dir: str | None = None, model: str = "htdemucs") -> dict[str, Any]:
+    """Separate a full mix into stems (vocals/drums/bass/other) using a local
+    Demucs source-separation model. Writes one WAV file per stem to disk and
+    returns their paths - unlike this server's other tools, this one creates
+    new audio files rather than just reporting metrics. Only call this when
+    the user has actually asked for stems, not speculatively.
+
+    Requires torch/torchaudio/demucs (see requirements.txt - a much larger
+    install than this server's other dependencies, hundreds of MB). Runs
+    fully locally/offline once model weights are cached; the first call for
+    a given model downloads its weights (needs internet that one time only).
+    CPU-only, no GPU/CUDA required - separation is genuinely slow on CPU,
+    not an instant call.
+
+    Natively supports WAV/AIFF; MP3/M4A/FLAC/OGG/WMA/AAC are transcoded via
+    an ffmpeg subprocess first (requires ffmpeg on PATH), same as analyze_mix.
+    Output stems are written as WAV at the model's native sample rate
+    (44.1kHz), which may differ from the source file's original rate.
+
+    Args:
+        file_path: Path to a local audio file.
+        output_dir: Directory to write stem WAVs into. Defaults to a new
+            "<input_filename>_stems" folder next to the input file. Created
+            if missing; existing same-named stem files are overwritten.
+        model: "htdemucs" (default, 4 stems: vocals/drums/bass/other) or
+            "htdemucs_6s" (6 stems, adds guitar/piano split out of "other" -
+            slower, and Demucs' own docs note guitar/piano separation
+            quality is lower than the core 4 stems).
+
+    Returns source_path, model, output_dir, and a stems dict mapping each
+    stem name to its written WAV file path.
+    """
+    from stem_separation import separate_stems as _separate_stems
+
+    return _separate_stems(file_path, output_dir=output_dir, model=model)
+
+
 if __name__ == "__main__":
     mcp.run()

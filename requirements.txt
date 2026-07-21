@@ -2,3 +2,7 @@ mcp[cli]
 sentence-transformers
 soundfile
 pyloudnorm
+torch
+torchaudio
+demucs
+pytest

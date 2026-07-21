@@ -4,3 +4,6 @@ drafts/
 # Python
 __pycache__/
 *.pyc
+
+# separate_stems output (multi-hundred-MB WAVs, never meant to be committed)
+*_stems/
